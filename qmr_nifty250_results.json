@@ -1,0 +1,5156 @@
+{
+  "correlation_matrix": [
+    [
+      1.0,
+      0.08124751395391239,
+      0.31596896585844053,
+      -0.3648266268460868,
+      0.657226620018688,
+      0.22864823552569377,
+      -0.2703711222548414,
+      0.028498159015471647
+    ],
+    [
+      0.08124751395391239,
+      1.0,
+      0.6989050153480659,
+      0.09902165682333938,
+      0.5407502920201864,
+      0.46556533693507784,
+      0.5612094966706233,
+      -0.3359660316798505
+    ],
+    [
+      0.31596896585844053,
+      0.6989050153480659,
+      1.0,
+      -0.2631156882850254,
+      0.5670821642967397,
+      0.24197301233176388,
+      0.40963566584047517,
+      -0.24345900975071866
+    ],
+    [
+      -0.3648266268460868,
+      0.09902165682333938,
+      -0.2631156882850254,
+      1.0,
+      0.20087819709944857,
+      -0.043117262670136394,
+      0.6909799668389737,
+      0.16508565079845686
+    ],
+    [
+      0.657226620018688,
+      0.5407502920201864,
+      0.5670821642967397,
+      0.20087819709944857,
+      1.0,
+      0.352041908208321,
+      0.39806065068155194,
+      -0.00725280645539416
+    ],
+    [
+      0.22864823552569377,
+      0.46556533693507784,
+      0.24197301233176388,
+      -0.043117262670136394,
+      0.352041908208321,
+      1.0,
+      0.2310604574060682,
+      0.09329843016556774
+    ],
+    [
+      -0.2703711222548414,
+      0.5612094966706233,
+      0.40963566584047517,
+      0.6909799668389737,
+      0.39806065068155194,
+      0.2310604574060682,
+      1.0,
+      -0.00016763564213392382
+    ],
+    [
+      0.028498159015471647,
+      -0.3359660316798505,
+      -0.24345900975071866,
+      0.16508565079845686,
+      -0.00725280645539416,
+      0.09329843016556774,
+      -0.00016763564213392382,
+      1.0
+    ]
+  ],
+  "factor_names": [
+    "India_CPI",
+    "India_GDP",
+    "India_Repo_Rate",
+    "INR_USD",
+    "US_CPI",
+    "US_GDP",
+    "US_Fed_Rate",
+    "NIFTY250_Return"
+  ],
+  "risk_factors_data": [
+    {
+      "India_CPI": 4.8,
+      "India_GDP": 7.5,
+      "India_Repo_Rate": 6.25,
+      "INR_USD": 63.2,
+      "US_CPI": 2.1,
+      "US_GDP": 2.3,
+      "US_Fed_Rate": 0.75,
+      "NIFTY250_Return": 0.08
+    },
+    {
+      "India_CPI": 4.5,
+      "India_GDP": 7.2,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 64.8,
+      "US_CPI": 2.5,
+      "US_GDP": 2.9,
+      "US_Fed_Rate": 1.25,
+      "NIFTY250_Return": 0.15
+    },
+    {
+      "India_CPI": 4.2,
+      "India_GDP": 6.8,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 66.5,
+      "US_CPI": 2.9,
+      "US_GDP": 2.2,
+      "US_Fed_Rate": 1.75,
+      "NIFTY250_Return": -0.05
+    },
+    {
+      "India_CPI": 3.8,
+      "India_GDP": 6.5,
+      "India_Repo_Rate": 6.25,
+      "INR_USD": 68.1,
+      "US_CPI": 2.7,
+      "US_GDP": 2.8,
+      "US_Fed_Rate": 2.0,
+      "NIFTY250_Return": 0.12
+    },
+    {
+      "India_CPI": 3.2,
+      "India_GDP": 6.1,
+      "India_Repo_Rate": 6.0,
+      "INR_USD": 69.8,
+      "US_CPI": 2.3,
+      "US_GDP": 3.0,
+      "US_Fed_Rate": 2.25,
+      "NIFTY250_Return": 0.18
+    },
+    {
+      "India_CPI": 2.8,
+      "India_GDP": 5.8,
+      "India_Repo_Rate": 5.75,
+      "INR_USD": 71.5,
+      "US_CPI": 1.8,
+      "US_GDP": 2.2,
+      "US_Fed_Rate": 2.5,
+      "NIFTY250_Return": 0.02
+    },
+    {
+      "India_CPI": 2.5,
+      "India_GDP": 4.2,
+      "India_Repo_Rate": 5.15,
+      "INR_USD": 74.2,
+      "US_CPI": 1.3,
+      "US_GDP": 1.6,
+      "US_Fed_Rate": 1.75,
+      "NIFTY250_Return": -0.25
+    },
+    {
+      "India_CPI": 3.1,
+      "India_GDP": 3.1,
+      "India_Repo_Rate": 4.4,
+      "INR_USD": 76.8,
+      "US_CPI": 0.1,
+      "US_GDP": -3.4,
+      "US_Fed_Rate": 0.25,
+      "NIFTY250_Return": -0.18
+    },
+    {
+      "India_CPI": 3.6,
+      "India_GDP": -8.0,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 78.5,
+      "US_CPI": 0.6,
+      "US_GDP": -2.8,
+      "US_Fed_Rate": 0.25,
+      "NIFTY250_Return": 0.28
+    },
+    {
+      "India_CPI": 4.2,
+      "India_GDP": -7.3,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 79.2,
+      "US_CPI": 1.4,
+      "US_GDP": -0.6,
+      "US_Fed_Rate": 0.25,
+      "NIFTY250_Return": 0.35
+    },
+    {
+      "India_CPI": 5.8,
+      "India_GDP": -2.4,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 74.3,
+      "US_CPI": 2.6,
+      "US_GDP": 5.7,
+      "US_Fed_Rate": 0.25,
+      "NIFTY250_Return": 0.22
+    },
+    {
+      "India_CPI": 6.2,
+      "India_GDP": 6.5,
+      "India_Repo_Rate": 4.4,
+      "INR_USD": 75.8,
+      "US_CPI": 4.2,
+      "US_GDP": 6.2,
+      "US_Fed_Rate": 0.5,
+      "NIFTY250_Return": 0.15
+    },
+    {
+      "India_CPI": 7.1,
+      "India_GDP": 8.2,
+      "India_Repo_Rate": 5.4,
+      "INR_USD": 77.2,
+      "US_CPI": 5.4,
+      "US_GDP": 2.1,
+      "US_Fed_Rate": 1.25,
+      "NIFTY250_Return": 0.08
+    },
+    {
+      "India_CPI": 6.9,
+      "India_GDP": 8.7,
+      "India_Repo_Rate": 5.9,
+      "INR_USD": 78.9,
+      "US_CPI": 6.8,
+      "US_GDP": 2.6,
+      "US_Fed_Rate": 2.25,
+      "NIFTY250_Return": 0.12
+    },
+    {
+      "India_CPI": 6.4,
+      "India_GDP": 9.1,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 79.8,
+      "US_CPI": 8.5,
+      "US_GDP": 2.4,
+      "US_Fed_Rate": 3.25,
+      "NIFTY250_Return": -0.08
+    },
+    {
+      "India_CPI": 6.0,
+      "India_GDP": 8.8,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 81.2,
+      "US_CPI": 8.3,
+      "US_GDP": 2.1,
+      "US_Fed_Rate": 4.25,
+      "NIFTY250_Return": 0.18
+    },
+    {
+      "India_CPI": 5.6,
+      "India_GDP": 8.4,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 82.1,
+      "US_CPI": 7.1,
+      "US_GDP": 1.9,
+      "US_Fed_Rate": 4.75,
+      "NIFTY250_Return": 0.25
+    },
+    {
+      "India_CPI": 5.2,
+      "India_GDP": 8.0,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 83.4,
+      "US_CPI": 6.5,
+      "US_GDP": 2.5,
+      "US_Fed_Rate": 5.25,
+      "NIFTY250_Return": 0.05
+    },
+    {
+      "India_CPI": 4.8,
+      "India_GDP": 7.6,
+      "India_Repo_Rate": 6.25,
+      "INR_USD": 83.9,
+      "US_CPI": 4.9,
+      "US_GDP": 3.2,
+      "US_Fed_Rate": 5.5,
+      "NIFTY250_Return": -0.12
+    },
+    {
+      "India_CPI": 4.4,
+      "India_GDP": 7.2,
+      "India_Repo_Rate": 6.0,
+      "INR_USD": 82.8,
+      "US_CPI": 3.2,
+      "US_GDP": 2.8,
+      "US_Fed_Rate": 5.25,
+      "NIFTY250_Return": 0.15
+    },
+    {
+      "India_CPI": 4.0,
+      "India_GDP": 6.8,
+      "India_Repo_Rate": 5.75,
+      "INR_USD": 81.5,
+      "US_CPI": 3.0,
+      "US_GDP": 2.6,
+      "US_Fed_Rate": 5.0,
+      "NIFTY250_Return": 0.22
+    },
+    {
+      "India_CPI": 3.6,
+      "India_GDP": 6.5,
+      "India_Repo_Rate": 5.5,
+      "INR_USD": 82.9,
+      "US_CPI": 3.7,
+      "US_GDP": 2.3,
+      "US_Fed_Rate": 4.75,
+      "NIFTY250_Return": 0.08
+    },
+    {
+      "India_CPI": 3.2,
+      "India_GDP": 6.1,
+      "India_Repo_Rate": 5.25,
+      "INR_USD": 83.7,
+      "US_CPI": 3.2,
+      "US_GDP": 2.1,
+      "US_Fed_Rate": 4.5,
+      "NIFTY250_Return": 0.18
+    },
+    {
+      "India_CPI": 2.8,
+      "India_GDP": 5.8,
+      "India_Repo_Rate": 5.0,
+      "INR_USD": 84.2,
+      "US_CPI": 2.9,
+      "US_GDP": 2.4,
+      "US_Fed_Rate": 4.25,
+      "NIFTY250_Return": 0.12
+    },
+    {
+      "India_CPI": 2.4,
+      "India_GDP": 6.2,
+      "India_Repo_Rate": 4.75,
+      "INR_USD": 84.8,
+      "US_CPI": 3.1,
+      "US_GDP": 2.7,
+      "US_Fed_Rate": 4.0,
+      "NIFTY250_Return": 0.05
+    },
+    {
+      "India_CPI": 2.0,
+      "India_GDP": 6.5,
+      "India_Repo_Rate": 4.5,
+      "INR_USD": 85.3,
+      "US_CPI": 2.8,
+      "US_GDP": 2.5,
+      "US_Fed_Rate": 3.75,
+      "NIFTY250_Return": 0.15
+    },
+    {
+      "India_CPI": 1.8,
+      "India_GDP": 6.8,
+      "India_Repo_Rate": 4.75,
+      "INR_USD": 85.9,
+      "US_CPI": 2.6,
+      "US_GDP": 2.2,
+      "US_Fed_Rate": 3.5,
+      "NIFTY250_Return": 0.22
+    },
+    {
+      "India_CPI": 1.6,
+      "India_GDP": 7.0,
+      "India_Repo_Rate": 5.0,
+      "INR_USD": 86.4,
+      "US_CPI": 2.4,
+      "US_GDP": 2.0,
+      "US_Fed_Rate": 3.75,
+      "NIFTY250_Return": 0.18
+    },
+    {
+      "India_CPI": 1.8,
+      "India_GDP": 7.2,
+      "India_Repo_Rate": 5.25,
+      "INR_USD": 86.8,
+      "US_CPI": 2.7,
+      "US_GDP": 2.3,
+      "US_Fed_Rate": 4.0,
+      "NIFTY250_Return": 0.08
+    },
+    {
+      "India_CPI": 2.0,
+      "India_GDP": 6.9,
+      "India_Repo_Rate": 5.5,
+      "INR_USD": 87.0,
+      "US_CPI": 2.9,
+      "US_GDP": 2.6,
+      "US_Fed_Rate": 4.25,
+      "NIFTY250_Return": 0.12
+    },
+    {
+      "India_CPI": 1.7,
+      "India_GDP": 6.8,
+      "India_Repo_Rate": 5.5,
+      "INR_USD": 87.2,
+      "US_CPI": 2.8,
+      "US_GDP": 2.5,
+      "US_Fed_Rate": 4.5,
+      "NIFTY250_Return": 0.15
+    },
+    {
+      "India_CPI": 1.55,
+      "India_GDP": 6.7,
+      "India_Repo_Rate": 5.5,
+      "INR_USD": 87.27,
+      "US_CPI": 2.7,
+      "US_GDP": 2.4,
+      "US_Fed_Rate": 4.5,
+      "NIFTY250_Return": 0.1
+    }
+  ],
+  "company_qmr_results": {
+    "RELIANCE": {
+      "individual_betas": {
+        "India_CPI": 1.62558,
+        "US_CPI": 1.44496,
+        "INR_USD": 0.5,
+        "India_GDP": 1.7600000000000002,
+        "US_GDP": 1.32,
+        "India_Repo_Rate": -0.44551999999999997,
+        "US_Fed_Rate": -0.33413999999999994,
+        "NIFTY250_Return": 1.073
+      },
+      "resultant_beta": 4.225429306148593,
+      "company_factors": {
+        "pe_factor": 1.2845,
+        "size_factor": 2.5,
+        "roce_factor": 0.646
+      }
+    },
+    "HDFCBANK": {
+      "individual_betas": {
+        "India_GDP": 2.64,
+        "India_Repo_Rate": -0.8264,
+        "US_Fed_Rate": -0.6197999999999999,
+        "India_CPI": -0.36996000000000007,
+        "US_GDP": 0.66,
+        "INR_USD": 0.1,
+        "US_CPI": -0.18498000000000003,
+        "NIFTY250_Return": 0.7602533333333333
+      },
+      "resultant_beta": 2.1353588054916934,
+      "company_factors": {
+        "pe_factor": 1.0825,
+        "size_factor": 2.5,
+        "roce_factor": 0.5006666666666667
+      }
+    },
+    "BHARTIARTL": {
+      "individual_betas": {
+        "India_GDP": 1.7600000000000002,
+        "India_Repo_Rate": -0.6924,
+        "INR_USD": -0.3,
+        "US_GDP": 0.44000000000000006,
+        "India_CPI": -0.5191199999999999,
+        "US_CPI": -0.34608,
+        "US_Fed_Rate": -0.5539200000000001,
+        "NIFTY250_Return": 0.8155466666666666
+      },
+      "resultant_beta": 1.4644878819417613,
+      "company_factors": {
+        "pe_factor": 1.9620000000000002,
+        "size_factor": 2.5,
+        "roce_factor": 0.8986666666666667
+      }
+    },
+    "TCS": {
+      "individual_betas": {
+        "US_GDP": 3.3000000000000003,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.21112000000000003,
+        "India_GDP": 0.8800000000000001,
+        "India_CPI": 0.13399999999999998,
+        "India_Repo_Rate": -0.31668,
+        "US_CPI": -0.5359999999999999,
+        "NIFTY250_Return": 1.702
+      },
+      "resultant_beta": 3.974658583222379,
+      "company_factors": {
+        "pe_factor": 1.139,
+        "size_factor": 2.5,
+        "roce_factor": 2.2
+      }
+    },
+    "ICICIBANK": {
+      "individual_betas": {
+        "India_GDP": 2.64,
+        "India_Repo_Rate": -0.79232,
+        "US_Fed_Rate": -0.59424,
+        "India_CPI": -0.36852,
+        "US_GDP": 0.66,
+        "INR_USD": 0.1,
+        "US_CPI": -0.18426,
+        "NIFTY250_Return": 0.7693733333333334
+      },
+      "resultant_beta": 2.1535763298597113,
+      "company_factors": {
+        "pe_factor": 0.976,
+        "size_factor": 2.5,
+        "roce_factor": 0.5246666666666667
+      }
+    },
+    "SBIN": {
+      "individual_betas": {
+        "India_GDP": 2.64,
+        "India_Repo_Rate": -0.6334400000000001,
+        "US_Fed_Rate": -0.47508,
+        "India_CPI": -0.37412,
+        "US_GDP": 0.66,
+        "INR_USD": 0.1,
+        "US_CPI": -0.18706,
+        "NIFTY250_Return": 0.7339066666666666
+      },
+      "resultant_beta": 2.2468055121870822,
+      "company_factors": {
+        "pe_factor": 0.4795,
+        "size_factor": 2.5,
+        "roce_factor": 0.4313333333333333
+      }
+    },
+    "HINDUNILVR": {
+      "individual_betas": {
+        "India_GDP": 1.54,
+        "India_CPI": -0.8658,
+        "US_CPI": -0.5772,
+        "US_GDP": 0.66,
+        "India_Repo_Rate": -0.53106,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.35404,
+        "NIFTY250_Return": 1.0070000000000001
+      },
+      "resultant_beta": 1.7750257416088493,
+      "company_factors": {
+        "pe_factor": 2.9255,
+        "size_factor": 2.5,
+        "roce_factor": 1.8566666666666667
+      }
+    },
+    "INFY": {
+      "individual_betas": {
+        "US_GDP": 3.3000000000000003,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.21120000000000003,
+        "India_GDP": 0.8800000000000001,
+        "India_CPI": 0.13399999999999998,
+        "India_Repo_Rate": -0.3168,
+        "US_CPI": -0.5359999999999999,
+        "NIFTY250_Return": 1.702
+      },
+      "resultant_beta": 3.974639267731521,
+      "company_factors": {
+        "pe_factor": 1.1400000000000001,
+        "size_factor": 2.5,
+        "roce_factor": 2.2
+      }
+    },
+    "LICI": {
+      "individual_betas": {
+        "India_GDP": 2.64,
+        "India_Repo_Rate": -0.6659200000000001,
+        "US_Fed_Rate": -0.49944,
+        "India_CPI": -0.26799999999999996,
+        "US_GDP": 0.66,
+        "INR_USD": 0.1,
+        "US_CPI": -0.13399999999999998,
+        "NIFTY250_Return": 1.406
+      },
+      "resultant_beta": 2.3575950452199743,
+      "company_factors": {
+        "pe_factor": 0.581,
+        "size_factor": 2.5,
+        "roce_factor": 2.2
+      }
+    },
+    "BAJFINANCE": {
+      "individual_betas": {
+        "India_GDP": 2.64,
+        "India_Repo_Rate": -0.9910399999999999,
+        "US_Fed_Rate": -0.7432799999999999,
+        "India_CPI": -0.3546,
+        "US_GDP": 0.66,
+        "INR_USD": 0.1,
+        "US_CPI": -0.1773,
+        "NIFTY250_Return": 0.8575333333333333
+      },
+      "resultant_beta": 2.0761605869676143,
+      "company_factors": {
+        "pe_factor": 1.597,
+        "size_factor": 2.5,
+        "roce_factor": 0.7566666666666666
+      }
+    },
+    "BSE": {
+      "individual_betas": {
+        "India_GDP": 2.1753792,
+        "India_Repo_Rate": -1.4400000000000002,
+        "US_Fed_Rate": -1.08,
+        "India_CPI": -0.26799999999999996,
+        "US_GDP": 0.5438448,
+        "INR_USD": 0.1,
+        "US_CPI": -0.13399999999999998,
+        "NIFTY250_Return": 1.406
+      },
+      "resultant_beta": 2.0187964147995534,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 2.01602,
+        "roce_factor": 2.2
+      }
+    },
+    "GODFREYPHIL": {
+      "individual_betas": {
+        "India_GDP": 0.8376704,
+        "India_CPI": -0.7368,
+        "US_CPI": -0.44208,
+        "US_GDP": 0.3141264,
+        "India_Repo_Rate": -0.44136000000000003,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.29424,
+        "NIFTY250_Return": 1.0414933333333334
+      },
+      "resultant_beta": 1.4345130188488617,
+      "company_factors": {
+        "pe_factor": 2.178,
+        "size_factor": 1.05886,
+        "roce_factor": 1.7546666666666666
+      }
+    },
+    "PAYTM": {
+      "individual_betas": {
+        "India_GDP": 1.7760000000000002,
+        "India_Repo_Rate": -1.4400000000000002,
+        "US_Fed_Rate": -1.08,
+        "India_CPI": -0.376,
+        "US_GDP": 0.44400000000000006,
+        "INR_USD": 0.1,
+        "US_CPI": -0.188,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 1.67964871102441,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 1.6,
+        "roce_factor": 0.4
+      }
+    },
+    "LLOYDSME": {
+      "individual_betas": {
+        "India_GDP": 1.7825808,
+        "US_GDP": 1.2340944,
+        "India_CPI": 1.0719999999999998,
+        "US_CPI": 0.9379999999999998,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.31164,
+        "US_Fed_Rate": -0.46745999999999993,
+        "NIFTY250_Return": 2.072
+      },
+      "resultant_beta": 3.7639476149005957,
+      "company_factors": {
+        "pe_factor": 2.3954999999999997,
+        "size_factor": 1.46402,
+        "roce_factor": 2.2
+      }
+    },
+    "FORTIS": {
+      "individual_betas": {
+        "US_GDP": 1.0606336,
+        "India_GDP": 0.7954752,
+        "US_Fed_Rate": -0.54,
+        "India_CPI": 0.35216000000000003,
+        "US_CPI": 0.17608000000000001,
+        "India_Repo_Rate": -0.36000000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.7810933333333333
+      },
+      "resultant_beta": 1.7967784123621255,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 1.40724,
+        "roce_factor": 0.7973333333333333
+      }
+    },
+    "HITACHIENERGY": {
+      "individual_betas": {
+        "India_GDP": 1.985376,
+        "India_Repo_Rate": -1.26,
+        "India_CPI": 0.48335999999999996,
+        "US_GDP": 0.8272400000000001,
+        "INR_USD": 0.2,
+        "US_CPI": 0.64448,
+        "US_Fed_Rate": -0.9,
+        "NIFTY250_Return": 1.1184
+      },
+      "resultant_beta": 2.331709897808332,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 1.8181,
+        "roce_factor": 1.296
+      }
+    },
+    "JKCEMENT": {
+      "individual_betas": {
+        "India_GDP": 1.3852592000000001,
+        "India_CPI": 1.20414,
+        "India_Repo_Rate": -1.4240000000000004,
+        "US_GDP": 0.42623360000000005,
+        "INR_USD": 0.3,
+        "US_CPI": 1.03212,
+        "US_Fed_Rate": -0.8900000000000001,
+        "NIFTY250_Return": 0.9730666666666666
+      },
+      "resultant_beta": 2.51530225699723,
+      "company_factors": {
+        "pe_factor": 2.95,
+        "size_factor": 1.08198,
+        "roce_factor": 0.9326666666666666
+      }
+    },
+    "GEVERNOVA": {
+      "individual_betas": {
+        "India_GDP": 1.6382592,
+        "India_Repo_Rate": -1.26,
+        "India_CPI": 0.40199999999999997,
+        "US_GDP": 0.682608,
+        "INR_USD": 0.2,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -0.9,
+        "NIFTY250_Return": 1.48
+      },
+      "resultant_beta": 2.2168609754938555,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 1.45652,
+        "roce_factor": 2.2
+      }
+    },
+    "MAXFINANCIAL": {
+      "individual_betas": {
+        "India_GDP": 1.299072,
+        "India_Repo_Rate": -1.4400000000000002,
+        "US_Fed_Rate": -1.08,
+        "India_CPI": -0.36772000000000005,
+        "US_GDP": 0.324768,
+        "INR_USD": 0.1,
+        "US_CPI": -0.18386000000000002,
+        "NIFTY250_Return": 0.77444
+      },
+      "resultant_beta": 1.7406471670491952,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 1.1032,
+        "roce_factor": 0.538
+      }
+    },
+    "MUTHOOTFIN": {
+      "individual_betas": {
+        "India_GDP": 2.3654592,
+        "India_Repo_Rate": -0.77136,
+        "US_Fed_Rate": -0.57852,
+        "India_CPI": -0.34724,
+        "US_GDP": 0.5913648,
+        "INR_USD": 0.1,
+        "US_CPI": -0.17362,
+        "NIFTY250_Return": 0.9041466666666667
+      },
+      "resultant_beta": 1.9290242319412385,
+      "company_factors": {
+        "pe_factor": 0.9105000000000001,
+        "size_factor": 2.21402,
+        "roce_factor": 0.8793333333333333
+      }
+    },
+    "IDBI": {
+      "individual_betas": {
+        "India_GDP": 2.2551167999999997,
+        "India_Repo_Rate": -0.69216,
+        "US_Fed_Rate": -0.5191199999999999,
+        "India_CPI": -0.37288000000000004,
+        "US_GDP": 0.5637791999999999,
+        "INR_USD": 0.1,
+        "US_CPI": -0.18644000000000002,
+        "NIFTY250_Return": 0.7417599999999999
+      },
+      "resultant_beta": 1.842576363159094,
+      "company_factors": {
+        "pe_factor": 0.663,
+        "size_factor": 2.09908,
+        "roce_factor": 0.452
+      }
+    },
+    "IOB": {
+      "individual_betas": {
+        "India_GDP": 1.6538303999999997,
+        "India_Repo_Rate": -0.78896,
+        "US_Fed_Rate": -0.5917199999999999,
+        "India_CPI": -0.376,
+        "US_GDP": 0.4134575999999999,
+        "INR_USD": 0.1,
+        "US_CPI": -0.188,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 1.3477484263117243,
+      "company_factors": {
+        "pe_factor": 0.9654999999999999,
+        "size_factor": 1.47274,
+        "roce_factor": 0.4
+      }
+    },
+    "FACT": {
+      "individual_betas": {
+        "India_GDP": 1.254528,
+        "US_GDP": 0.8781696,
+        "India_CPI": 0.9136,
+        "US_CPI": 1.09632,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 0.74736
+      },
+      "resultant_beta": 2.6177782970192163,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 1.31816,
+        "roce_factor": 0.5760000000000001
+      }
+    },
+    "AUTHUMIN": {
+      "individual_betas": {
+        "India_GDP": 1.1867328,
+        "India_Repo_Rate": -0.67264,
+        "US_Fed_Rate": -0.5044799999999999,
+        "India_CPI": -0.275,
+        "US_GDP": 0.2966832,
+        "INR_USD": 0.1,
+        "US_CPI": -0.1375,
+        "NIFTY250_Return": 1.3616666666666668
+      },
+      "resultant_beta": 1.4945719689008345,
+      "company_factors": {
+        "pe_factor": 0.602,
+        "size_factor": 0.98618,
+        "roce_factor": 2.0833333333333335
+      }
+    },
+    "LAURUSLABS": {
+      "individual_betas": {
+        "US_GDP": 0.7733504,
+        "India_GDP": 0.5800128,
+        "US_Fed_Rate": -0.54,
+        "India_CPI": 0.3634,
+        "US_CPI": 0.1817,
+        "India_Repo_Rate": -0.36000000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.7173999999999999
+      },
+      "resultant_beta": 1.5110197375210317,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.95836,
+        "roce_factor": 0.61
+      }
+    },
+    "KAYNES": {
+      "individual_betas": {
+        "India_GDP": 0.859024,
+        "India_Repo_Rate": -1.08,
+        "India_CPI": -0.68464,
+        "US_GDP": 0.25770719999999997,
+        "INR_USD": -0.2,
+        "US_CPI": -0.5134799999999999,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 0.8860800000000001
+      },
+      "resultant_beta": 1.850941055334404,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.82378,
+        "roce_factor": 0.9613333333333334
+      }
+    },
+    "MCX": {
+      "individual_betas": {
+        "India_GDP": 1.0165824,
+        "India_Repo_Rate": -1.4400000000000002,
+        "US_Fed_Rate": -1.08,
+        "India_CPI": -0.26799999999999996,
+        "US_GDP": 0.2541456,
+        "INR_USD": 0.1,
+        "US_CPI": -0.13399999999999998,
+        "NIFTY250_Return": 1.406
+      },
+      "resultant_beta": 2.1558524600909177,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.80894,
+        "roce_factor": 2.2
+      }
+    },
+    "RADICO": {
+      "individual_betas": {
+        "India_GDP": 0.6569216000000001,
+        "India_CPI": -0.8376,
+        "US_CPI": -0.50256,
+        "US_GDP": 0.24634560000000003,
+        "India_Repo_Rate": -0.54,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.36000000000000004,
+        "NIFTY250_Return": 0.8264533333333333
+      },
+      "resultant_beta": 1.5084598506975337,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.77644,
+        "roce_factor": 1.0826666666666667
+      }
+    },
+    "NH": {
+      "individual_betas": {
+        "US_GDP": 0.6420352,
+        "India_GDP": 0.4815263999999999,
+        "US_Fed_Rate": -0.46571999999999997,
+        "India_CPI": 0.317,
+        "US_CPI": 0.1585,
+        "India_Repo_Rate": -0.31048000000000003,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.9803333333333333
+      },
+      "resultant_beta": 1.4946348362425372,
+      "company_factors": {
+        "pe_factor": 2.381,
+        "size_factor": 0.75318,
+        "roce_factor": 1.3833333333333333
+      }
+    },
+    "UCOBANK": {
+      "individual_betas": {
+        "India_GDP": 0.9463872,
+        "India_Repo_Rate": -0.71504,
+        "US_Fed_Rate": -0.53628,
+        "India_CPI": -0.376,
+        "US_GDP": 0.2365968,
+        "INR_USD": 0.1,
+        "US_CPI": -0.188,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 1.106364914621739,
+      "company_factors": {
+        "pe_factor": 0.7344999999999999,
+        "size_factor": 0.73582,
+        "roce_factor": 0.4
+      }
+    },
+    "DELHIVERY": {
+      "individual_betas": {
+        "India_GDP": 0.7639199999999999,
+        "India_Repo_Rate": -0.9,
+        "US_GDP": 0.4583519999999999,
+        "India_CPI": 0.188,
+        "INR_USD": -0.2,
+        "US_CPI": -0.188,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 0.646
+      },
+      "resultant_beta": 1.3191204989959966,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.7049,
+        "roce_factor": 0.4
+      }
+    },
+    "POONAWALLA": {
+      "individual_betas": {
+        "India_GDP": 0.9103872,
+        "India_Repo_Rate": -0.48,
+        "US_Fed_Rate": -0.36,
+        "India_CPI": -0.376,
+        "US_GDP": 0.2275968,
+        "INR_USD": 0.1,
+        "US_CPI": -0.188,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 0.9865785480400577,
+      "company_factors": {
+        "pe_factor": 0.0,
+        "size_factor": 0.69832,
+        "roce_factor": 0.4
+      }
+    },
+    "CHOLA": {
+      "individual_betas": {
+        "India_GDP": 0.907008,
+        "India_Repo_Rate": -0.73216,
+        "US_Fed_Rate": -0.5491199999999999,
+        "India_CPI": -0.35772000000000004,
+        "US_GDP": 0.226752,
+        "INR_USD": 0.1,
+        "US_CPI": -0.17886000000000002,
+        "NIFTY250_Return": 0.8377733333333333
+      },
+      "resultant_beta": 1.178773580698242,
+      "company_factors": {
+        "pe_factor": 0.788,
+        "size_factor": 0.6948,
+        "roce_factor": 0.7046666666666667
+      }
+    },
+    "GODIGIT": {
+      "individual_betas": {
+        "India_GDP": 0.9038016,
+        "India_Repo_Rate": -1.4400000000000002,
+        "US_Fed_Rate": -1.08,
+        "India_CPI": -0.3568,
+        "US_GDP": 0.2259504,
+        "INR_USD": 0.1,
+        "US_CPI": -0.1784,
+        "NIFTY250_Return": 0.8436
+      },
+      "resultant_beta": 1.9261184612703104,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.69146,
+        "roce_factor": 0.7200000000000001
+      }
+    },
+    "COHANCE": {
+      "individual_betas": {
+        "US_GDP": 0.5997568,
+        "India_GDP": 0.44981759999999993,
+        "US_Fed_Rate": -0.54,
+        "India_CPI": 0.26799999999999996,
+        "US_CPI": 0.13399999999999998,
+        "India_Repo_Rate": -0.36000000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 1.258
+      },
+      "resultant_beta": 1.6541896430845757,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.68712,
+        "roce_factor": 2.2
+      }
+    },
+    "GILLETTE": {
+      "individual_betas": {
+        "India_GDP": 0.5990527999999999,
+        "India_CPI": -0.6699999999999999,
+        "US_CPI": -0.40199999999999997,
+        "US_GDP": 0.22464479999999998,
+        "India_Repo_Rate": -0.54,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.36000000000000004,
+        "NIFTY250_Return": 1.184
+      },
+      "resultant_beta": 1.5678271123094452,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.68602,
+        "roce_factor": 2.2
+      }
+    },
+    "CDSL": {
+      "individual_betas": {
+        "India_GDP": 0.8698175999999999,
+        "India_Repo_Rate": -1.4400000000000002,
+        "US_Fed_Rate": -1.08,
+        "India_CPI": -0.26799999999999996,
+        "US_GDP": 0.21745439999999996,
+        "INR_USD": 0.1,
+        "US_CPI": -0.13399999999999998,
+        "NIFTY250_Return": 1.406
+      },
+      "resultant_beta": 2.2289807803264714,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.65606,
+        "roce_factor": 2.2
+      }
+    },
+    "CENTRALBANK": {
+      "individual_betas": {
+        "India_GDP": 0.8677248,
+        "India_Repo_Rate": -0.6040000000000001,
+        "US_Fed_Rate": -0.45299999999999996,
+        "India_CPI": -0.376,
+        "US_GDP": 0.2169312,
+        "INR_USD": 0.1,
+        "US_CPI": -0.188,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 1.0371727159732513,
+      "company_factors": {
+        "pe_factor": 0.3875,
+        "size_factor": 0.65388,
+        "roce_factor": 0.4
+      }
+    },
+    "ASTER": {
+      "individual_betas": {
+        "US_GDP": 0.5628928000000001,
+        "India_GDP": 0.4221696,
+        "US_Fed_Rate": -0.54,
+        "India_CPI": 0.35728000000000004,
+        "US_CPI": 0.17864000000000002,
+        "India_Repo_Rate": -0.36000000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.75208
+      },
+      "resultant_beta": 1.3773572101110643,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.62952,
+        "roce_factor": 0.712
+      }
+    },
+    "SUMICHEM": {
+      "individual_betas": {
+        "India_GDP": 0.677584,
+        "US_GDP": 0.4743087999999999,
+        "India_CPI": 0.7486,
+        "US_CPI": 0.89832,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.6716000000000002,
+        "US_Fed_Rate": -0.5037,
+        "NIFTY250_Return": 1.14336
+      },
+      "resultant_beta": 2.074140406185435,
+      "company_factors": {
+        "pe_factor": 2.6975000000000002,
+        "size_factor": 0.59698,
+        "roce_factor": 1.676
+      }
+    },
+    "GRSE": {
+      "individual_betas": {
+        "India_GDP": 0.8049024,
+        "India_Repo_Rate": -1.15486,
+        "India_CPI": 0.40199999999999997,
+        "US_GDP": 0.335376,
+        "INR_USD": 0.2,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -0.8249000000000001,
+        "NIFTY250_Return": 1.48
+      },
+      "resultant_beta": 2.0241721577975964,
+      "company_factors": {
+        "pe_factor": 2.6245000000000003,
+        "size_factor": 0.58844,
+        "roce_factor": 2.2
+      }
+    },
+    "KIMS": {
+      "individual_betas": {
+        "US_GDP": 0.5354496000000001,
+        "India_GDP": 0.4015872000000001,
+        "US_Fed_Rate": -0.54,
+        "India_CPI": 0.34,
+        "US_CPI": 0.17,
+        "India_Repo_Rate": -0.36000000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.85
+      },
+      "resultant_beta": 1.4036292853624566,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.58664,
+        "roce_factor": 1.0
+      }
+    },
+    "LALPATHLAB": {
+      "individual_betas": {
+        "US_GDP": 0.5287552,
+        "India_GDP": 0.3965664,
+        "US_Fed_Rate": -0.51684,
+        "India_CPI": 0.28448,
+        "US_CPI": 0.14224,
+        "India_Repo_Rate": -0.34456,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 1.1646133333333333
+      },
+      "resultant_beta": 1.557734131519836,
+      "company_factors": {
+        "pe_factor": 2.807,
+        "size_factor": 0.57618,
+        "roce_factor": 1.9253333333333333
+      }
+    },
+    "ITI": {
+      "individual_betas": {
+        "India_GDP": 0.5247360000000001,
+        "India_Repo_Rate": -0.3,
+        "INR_USD": -0.3,
+        "US_GDP": 0.13118400000000002,
+        "India_CPI": -0.564,
+        "US_CPI": -0.376,
+        "US_Fed_Rate": -0.24,
+        "NIFTY250_Return": 0.646
+      },
+      "resultant_beta": 1.0318434469654927,
+      "company_factors": {
+        "pe_factor": 0.0,
+        "size_factor": 0.5699,
+        "roce_factor": 0.4
+      }
+    },
+    "CAMPUS": {
+      "individual_betas": {
+        "India_GDP": 0.6400000000000001,
+        "India_Repo_Rate": -0.63,
+        "India_CPI": -0.652,
+        "US_GDP": 0.19200000000000003,
+        "INR_USD": -0.2,
+        "US_CPI": -0.48899999999999993,
+        "US_Fed_Rate": -0.42000000000000004,
+        "NIFTY250_Return": 0.984
+      },
+      "resultant_beta": 1.5387042043796253,
+      "company_factors": {
+        "pe_factor": 1.125,
+        "size_factor": 0.55,
+        "roce_factor": 1.2333333333333334
+      }
+    },
+    "BATA": {
+      "individual_betas": {
+        "India_GDP": 0.6352,
+        "India_Repo_Rate": -0.9096,
+        "India_CPI": -0.6216,
+        "US_GDP": 0.19055999999999998,
+        "INR_USD": -0.2,
+        "US_CPI": -0.4662,
+        "US_Fed_Rate": -0.6064,
+        "NIFTY250_Return": 1.0752000000000002
+      },
+      "resultant_beta": 1.8198801909338322,
+      "company_factors": {
+        "pe_factor": 2.29,
+        "size_factor": 0.544,
+        "roce_factor": 1.4866666666666668
+      }
+    },
+    "WHIRLPOOL": {
+      "individual_betas": {
+        "India_GDP": 0.6288,
+        "India_Repo_Rate": -0.7872,
+        "India_CPI": -0.6752,
+        "US_GDP": 0.18864,
+        "INR_USD": -0.2,
+        "US_CPI": -0.5064,
+        "US_Fed_Rate": -0.5248,
+        "NIFTY250_Return": 0.9144
+      },
+      "resultant_beta": 1.6710544250884647,
+      "company_factors": {
+        "pe_factor": 1.78,
+        "size_factor": 0.536,
+        "roce_factor": 1.04
+      }
+    },
+    "PIRAMAL": {
+      "individual_betas": {
+        "India_GDP": 0.7488000000000001,
+        "India_Repo_Rate": -0.9344,
+        "US_Fed_Rate": -0.7008,
+        "India_CPI": -0.36440000000000006,
+        "US_GDP": 0.18720000000000003,
+        "INR_USD": 0.1,
+        "US_CPI": -0.18220000000000003,
+        "NIFTY250_Return": 0.7954666666666667
+      },
+      "resultant_beta": 1.3862668641949583,
+      "company_factors": {
+        "pe_factor": 1.42,
+        "size_factor": 0.53,
+        "roce_factor": 0.5933333333333334
+      }
+    },
+    "CROMPTON": {
+      "individual_betas": {
+        "India_GDP": 0.6192,
+        "India_Repo_Rate": -0.75,
+        "India_CPI": -0.6504000000000001,
+        "US_GDP": 0.18575999999999998,
+        "INR_USD": -0.2,
+        "US_CPI": -0.4878,
+        "US_Fed_Rate": -0.5,
+        "NIFTY250_Return": 0.9888
+      },
+      "resultant_beta": 1.6538588943976047,
+      "company_factors": {
+        "pe_factor": 1.625,
+        "size_factor": 0.524,
+        "roce_factor": 1.2466666666666666
+      }
+    },
+    "CONCOR": {
+      "individual_betas": {
+        "India_GDP": 0.6144000000000001,
+        "India_Repo_Rate": -0.458,
+        "US_GDP": 0.36864,
+        "India_CPI": 0.17520000000000002,
+        "INR_USD": -0.2,
+        "US_CPI": -0.17520000000000002,
+        "US_Fed_Rate": -0.36640000000000006,
+        "NIFTY250_Return": 0.7910666666666666
+      },
+      "resultant_beta": 1.0249248010846563,
+      "company_factors": {
+        "pe_factor": 0.79,
+        "size_factor": 0.518,
+        "roce_factor": 0.8266666666666667
+      }
+    },
+    "APOLLOTYRE": {
+      "individual_betas": {
+        "India_GDP": 0.85344,
+        "India_Repo_Rate": -1.053,
+        "India_CPI": 0.5412,
+        "US_GDP": 0.24384000000000003,
+        "INR_USD": -0.3,
+        "US_CPI": 0.3608,
+        "US_Fed_Rate": -0.46799999999999997,
+        "NIFTY250_Return": 1.0335999999999999
+      },
+      "resultant_beta": 1.5422431858701955,
+      "company_factors": {
+        "pe_factor": 1.425,
+        "size_factor": 0.512,
+        "roce_factor": 0.6533333333333334
+      }
+    },
+    "UJJIVAN": {
+      "individual_betas": {
+        "India_GDP": 0.72576,
+        "India_Repo_Rate": -0.7824,
+        "US_Fed_Rate": -0.5868,
+        "India_CPI": -0.376,
+        "US_GDP": 0.18144,
+        "INR_USD": 0.1,
+        "US_CPI": -0.188,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 1.2045536635078795,
+      "company_factors": {
+        "pe_factor": 0.945,
+        "size_factor": 0.506,
+        "roce_factor": 0.4
+      }
+    },
+    "SOUTHBANK": {
+      "individual_betas": {
+        "India_GDP": 0.7200000000000001,
+        "India_Repo_Rate": -0.68,
+        "US_Fed_Rate": -0.51,
+        "India_CPI": -0.376,
+        "US_GDP": 0.18000000000000002,
+        "INR_USD": 0.1,
+        "US_CPI": -0.188,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 1.1123161009577602,
+      "company_factors": {
+        "pe_factor": 0.625,
+        "size_factor": 0.5,
+        "roce_factor": 0.4
+      }
+    },
+    "CANBK": {
+      "individual_betas": {
+        "India_GDP": 0.71616,
+        "India_Repo_Rate": -0.6112000000000001,
+        "US_Fed_Rate": -0.4584,
+        "India_CPI": -0.36640000000000006,
+        "US_GDP": 0.17904,
+        "INR_USD": 0.1,
+        "US_CPI": -0.18320000000000003,
+        "NIFTY250_Return": 0.7828
+      },
+      "resultant_beta": 1.0895195688465424,
+      "company_factors": {
+        "pe_factor": 0.41,
+        "size_factor": 0.496,
+        "roce_factor": 0.56
+      }
+    },
+    "BANKBARODA": {
+      "individual_betas": {
+        "India_GDP": 0.7104,
+        "India_Repo_Rate": -0.6144000000000001,
+        "US_Fed_Rate": -0.4608,
+        "India_CPI": -0.35040000000000004,
+        "US_GDP": 0.1776,
+        "INR_USD": 0.1,
+        "US_CPI": -0.17520000000000002,
+        "NIFTY250_Return": 0.8841333333333332
+      },
+      "resultant_beta": 1.1524936117108788,
+      "company_factors": {
+        "pe_factor": 0.42000000000000004,
+        "size_factor": 0.49,
+        "roce_factor": 0.8266666666666667
+      }
+    },
+    "PNB": {
+      "individual_betas": {
+        "India_GDP": 0.7046399999999999,
+        "India_Repo_Rate": -0.6112000000000001,
+        "US_Fed_Rate": -0.4584,
+        "India_CPI": -0.36640000000000006,
+        "US_GDP": 0.17615999999999998,
+        "INR_USD": 0.1,
+        "US_CPI": -0.18320000000000003,
+        "NIFTY250_Return": 0.7828
+      },
+      "resultant_beta": 1.0919437691678846,
+      "company_factors": {
+        "pe_factor": 0.41,
+        "size_factor": 0.484,
+        "roce_factor": 0.56
+      }
+    },
+    "FEDERALBNK": {
+      "individual_betas": {
+        "India_GDP": 0.6988800000000001,
+        "India_Repo_Rate": -0.6816,
+        "US_Fed_Rate": -0.5112,
+        "India_CPI": -0.3568,
+        "US_GDP": 0.17472000000000001,
+        "INR_USD": 0.1,
+        "US_CPI": -0.1784,
+        "NIFTY250_Return": 0.8436
+      },
+      "resultant_beta": 1.1845881486426275,
+      "company_factors": {
+        "pe_factor": 0.63,
+        "size_factor": 0.478,
+        "roce_factor": 0.7200000000000001
+      }
+    },
+    "RBLBANK": {
+      "individual_betas": {
+        "India_GDP": 0.69312,
+        "India_Repo_Rate": -0.8928000000000001,
+        "US_Fed_Rate": -0.6696000000000001,
+        "India_CPI": -0.376,
+        "US_GDP": 0.17328,
+        "INR_USD": 0.1,
+        "US_CPI": -0.188,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 1.3313923878699705,
+      "company_factors": {
+        "pe_factor": 1.29,
+        "size_factor": 0.472,
+        "roce_factor": 0.4
+      }
+    },
+    "IDFCFIRSTB": {
+      "individual_betas": {
+        "India_GDP": 0.68736,
+        "India_Repo_Rate": -1.4224,
+        "US_Fed_Rate": -1.0668,
+        "India_CPI": -0.376,
+        "US_GDP": 0.17184,
+        "INR_USD": 0.1,
+        "US_CPI": -0.188,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 1.9835378378089183,
+      "company_factors": {
+        "pe_factor": 2.945,
+        "size_factor": 0.466,
+        "roce_factor": 0.4
+      }
+    },
+    "BANDHANBNK": {
+      "individual_betas": {
+        "India_GDP": 0.6816000000000001,
+        "India_Repo_Rate": -0.7776000000000001,
+        "US_Fed_Rate": -0.5831999999999999,
+        "India_CPI": -0.36440000000000006,
+        "US_GDP": 0.17040000000000002,
+        "INR_USD": 0.1,
+        "US_CPI": -0.18220000000000003,
+        "NIFTY250_Return": 0.7954666666666667
+      },
+      "resultant_beta": 1.2519257298244206,
+      "company_factors": {
+        "pe_factor": 0.93,
+        "size_factor": 0.46,
+        "roce_factor": 0.5933333333333334
+      }
+    },
+    "COMP050": {
+      "individual_betas": {
+        "India_GDP": 0.9680000000000002,
+        "INR_USD": 0.6,
+        "US_GDP": 0.3520000000000001,
+        "India_CPI": 0.40704000000000007,
+        "US_CPI": 0.27136000000000005,
+        "India_Repo_Rate": -0.9,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 1.4575999999999998
+      },
+      "resultant_beta": 1.8973611387106497,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.85,
+        "roce_factor": 2.1439999999999997
+      }
+    },
+    "COMP051": {
+      "individual_betas": {
+        "India_GDP": 0.78984,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_GDP": 0.43879999999999997,
+        "India_CPI": -0.2988,
+        "INR_USD": -0.3,
+        "US_CPI": -0.2988,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.2109333333333332
+      },
+      "resultant_beta": 1.6048902308283595,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.847,
+        "roce_factor": 1.6866666666666668
+      }
+    },
+    "COMP052": {
+      "individual_betas": {
+        "US_GDP": 0.70016,
+        "India_GDP": 0.5251199999999999,
+        "US_Fed_Rate": -0.54,
+        "India_CPI": 0.30236,
+        "US_CPI": 0.15118,
+        "India_Repo_Rate": -0.36000000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 1.0632933333333332
+      },
+      "resultant_beta": 1.5954324912618716,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.844,
+        "roce_factor": 1.6273333333333333
+      }
+    },
+    "COMP053": {
+      "individual_betas": {
+        "US_GDP": 1.3092000000000001,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.21916000000000002,
+        "India_GDP": 0.34912000000000004,
+        "India_CPI": 0.1875,
+        "India_Repo_Rate": -0.32874000000000003,
+        "US_CPI": -0.75,
+        "NIFTY250_Return": 0.8816666666666665
+      },
+      "resultant_beta": 1.8721460504993195,
+      "company_factors": {
+        "pe_factor": 1.2395,
+        "size_factor": 0.841,
+        "roce_factor": 0.4166666666666667
+      }
+    },
+    "COMP054": {
+      "individual_betas": {
+        "India_GDP": 1.04448,
+        "India_Repo_Rate": -0.6906199999999999,
+        "India_CPI": 0.52476,
+        "US_GDP": 0.43520000000000003,
+        "INR_USD": 0.2,
+        "US_CPI": 0.6996800000000001,
+        "US_Fed_Rate": -0.49329999999999996,
+        "NIFTY250_Return": 0.9344
+      },
+      "resultant_beta": 1.7559176206747675,
+      "company_factors": {
+        "pe_factor": 0.9664999999999999,
+        "size_factor": 0.838,
+        "roce_factor": 0.836
+      }
+    },
+    "COMP055": {
+      "individual_betas": {
+        "India_GDP": 0.8680000000000001,
+        "US_GDP": 0.6076,
+        "India_CPI": 0.8821,
+        "US_CPI": 1.05852,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.6092000000000001,
+        "US_Fed_Rate": -0.45690000000000003,
+        "NIFTY250_Return": 0.82296
+      },
+      "resultant_beta": 2.2824845207605486,
+      "company_factors": {
+        "pe_factor": 2.3075,
+        "size_factor": 0.835,
+        "roce_factor": 0.7859999999999999
+      }
+    },
+    "COMP056": {
+      "individual_betas": {
+        "India_GDP": 0.8655999999999999,
+        "India_Repo_Rate": -0.732,
+        "India_CPI": -0.60072,
+        "US_GDP": 0.25967999999999997,
+        "INR_USD": -0.2,
+        "US_CPI": -0.45054,
+        "US_Fed_Rate": -0.488,
+        "NIFTY250_Return": 1.1378400000000002
+      },
+      "resultant_beta": 1.5855609673861175,
+      "company_factors": {
+        "pe_factor": 1.55,
+        "size_factor": 0.832,
+        "roce_factor": 1.6606666666666667
+      }
+    },
+    "COMP057": {
+      "individual_betas": {
+        "India_GDP": 0.6042399999999999,
+        "India_CPI": -0.83436,
+        "US_CPI": -0.5562400000000001,
+        "US_GDP": 0.25895999999999997,
+        "India_Repo_Rate": -0.42197999999999997,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.28131999999999996,
+        "NIFTY250_Return": 1.0594000000000001
+      },
+      "resultant_beta": 1.6065771693402335,
+      "company_factors": {
+        "pe_factor": 2.0164999999999997,
+        "size_factor": 0.829,
+        "roce_factor": 2.0313333333333334
+      }
+    },
+    "COMP058": {
+      "individual_betas": {
+        "India_GDP": 1.20512,
+        "India_Repo_Rate": -1.52478,
+        "India_CPI": 0.55446,
+        "US_GDP": 0.34432,
+        "INR_USD": -0.3,
+        "US_CPI": 0.36964,
+        "US_Fed_Rate": -0.6776800000000001,
+        "NIFTY250_Return": 0.96288
+      },
+      "resultant_beta": 1.7465790473775333,
+      "company_factors": {
+        "pe_factor": 2.7355,
+        "size_factor": 0.826,
+        "roce_factor": 0.506
+      }
+    },
+    "COMP059": {
+      "individual_betas": {
+        "India_GDP": 1.2876,
+        "India_Repo_Rate": -0.8268,
+        "India_CPI": 0.752,
+        "US_GDP": 0.25752,
+        "INR_USD": 0.2,
+        "US_CPI": 0.564,
+        "US_Fed_Rate": -0.49607999999999997,
+        "NIFTY250_Return": 0.8360000000000001
+      },
+      "resultant_beta": 1.723990138913515,
+      "company_factors": {
+        "pe_factor": 0.567,
+        "size_factor": 0.823,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP060": {
+      "individual_betas": {
+        "India_GDP": 0.9416000000000002,
+        "India_CPI": 1.09236,
+        "India_Repo_Rate": -1.26,
+        "US_GDP": 0.17120000000000002,
+        "INR_USD": 0.3,
+        "US_CPI": 0.72824,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 0.7552800000000001
+      },
+      "resultant_beta": 1.9667107008659488,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.82,
+        "roce_factor": 0.5980000000000001
+      }
+    },
+    "COMP061": {
+      "individual_betas": {
+        "India_GDP": 1.10968,
+        "US_GDP": 0.7682399999999999,
+        "India_CPI": 1.0719999999999998,
+        "US_CPI": 0.9379999999999998,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.31216,
+        "US_Fed_Rate": -0.46824,
+        "NIFTY250_Return": 2.072
+      },
+      "resultant_beta": 3.1988734349193884,
+      "company_factors": {
+        "pe_factor": 2.402,
+        "size_factor": 0.817,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP062": {
+      "individual_betas": {
+        "India_GDP": 1.1916799999999999,
+        "India_Repo_Rate": -1.42968,
+        "India_CPI": 0.8699,
+        "US_GDP": 0.17024,
+        "INR_USD": 0.3,
+        "US_CPI": 0.6959200000000001,
+        "US_Fed_Rate": -0.9531200000000001,
+        "NIFTY250_Return": 1.2310133333333333
+      },
+      "resultant_beta": 2.143351567730228,
+      "company_factors": {
+        "pe_factor": 1.4785,
+        "size_factor": 0.814,
+        "roce_factor": 0.8673333333333333
+      }
+    },
+    "COMP063": {
+      "individual_betas": {
+        "India_GDP": 0.9336800000000001,
+        "INR_USD": 0.6,
+        "US_GDP": 0.33952000000000004,
+        "India_CPI": 0.492,
+        "US_CPI": 0.32800000000000007,
+        "India_Repo_Rate": -0.7128,
+        "US_Fed_Rate": -0.42768,
+        "NIFTY250_Return": 1.08
+      },
+      "resultant_beta": 1.6299784102326997,
+      "company_factors": {
+        "pe_factor": 2.064,
+        "size_factor": 0.811,
+        "roce_factor": 1.2
+      }
+    },
+    "COMP064": {
+      "individual_betas": {
+        "India_GDP": 0.7617600000000001,
+        "India_Repo_Rate": -0.65336,
+        "US_GDP": 0.4232,
+        "India_CPI": -0.37220000000000003,
+        "INR_USD": -0.3,
+        "US_CPI": -0.37220000000000003,
+        "US_Fed_Rate": -0.65336,
+        "NIFTY250_Return": 0.7460666666666667
+      },
+      "resultant_beta": 1.3170057642029562,
+      "company_factors": {
+        "pe_factor": 2.5835,
+        "size_factor": 0.808,
+        "roce_factor": 0.4633333333333333
+      }
+    },
+    "COMP065": {
+      "individual_betas": {
+        "US_GDP": 0.6752000000000001,
+        "India_GDP": 0.5064000000000001,
+        "US_Fed_Rate": -0.3756,
+        "India_CPI": 0.33004000000000006,
+        "US_CPI": 0.16502000000000003,
+        "India_Repo_Rate": -0.2504,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.90644
+      },
+      "resultant_beta": 1.465307724271535,
+      "company_factors": {
+        "pe_factor": 1.6300000000000001,
+        "size_factor": 0.805,
+        "roce_factor": 1.166
+      }
+    },
+    "COMP066": {
+      "individual_betas": {
+        "US_GDP": 1.2624000000000002,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.19452000000000003,
+        "India_GDP": 0.33664000000000005,
+        "India_CPI": 0.16536,
+        "India_Repo_Rate": -0.29178,
+        "US_CPI": -0.66144,
+        "NIFTY250_Return": 1.2211466666666666
+      },
+      "resultant_beta": 1.9906287263102107,
+      "company_factors": {
+        "pe_factor": 0.9315,
+        "size_factor": 0.802,
+        "roce_factor": 1.1546666666666667
+      }
+    },
+    "COMP067": {
+      "individual_betas": {
+        "India_GDP": 1.0070400000000002,
+        "India_Repo_Rate": -0.71806,
+        "India_CPI": 0.49086,
+        "US_GDP": 0.4196000000000001,
+        "INR_USD": 0.2,
+        "US_CPI": 0.6544800000000001,
+        "US_Fed_Rate": -0.5129,
+        "NIFTY250_Return": 1.0850666666666666
+      },
+      "resultant_beta": 1.760809386155819,
+      "company_factors": {
+        "pe_factor": 1.0645,
+        "size_factor": 0.799,
+        "roce_factor": 1.2126666666666668
+      }
+    },
+    "COMP068": {
+      "individual_betas": {
+        "India_GDP": 0.8368,
+        "US_GDP": 0.58576,
+        "India_CPI": 0.7171000000000001,
+        "US_CPI": 0.8605200000000001,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.43328,
+        "US_Fed_Rate": -0.32495999999999997,
+        "NIFTY250_Return": 1.21896
+      },
+      "resultant_beta": 2.2244879102467023,
+      "company_factors": {
+        "pe_factor": 1.208,
+        "size_factor": 0.796,
+        "roce_factor": 1.886
+      }
+    },
+    "COMP069": {
+      "individual_betas": {
+        "India_GDP": 0.8344,
+        "India_Repo_Rate": -1.08,
+        "India_CPI": -0.5359999999999999,
+        "US_GDP": 0.25032,
+        "INR_USD": -0.2,
+        "US_CPI": -0.40199999999999997,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.332
+      },
+      "resultant_beta": 1.972773626723623,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.793,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP070": {
+      "individual_betas": {
+        "India_GDP": 0.5824,
+        "India_CPI": -1.10232,
+        "US_CPI": -0.73488,
+        "US_GDP": 0.24960000000000002,
+        "India_Repo_Rate": -0.54,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.36000000000000004,
+        "NIFTY250_Return": 0.6128
+      },
+      "resultant_beta": 1.8359756117663224,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.79,
+        "roce_factor": 0.5426666666666667
+      }
+    },
+    "COMP071": {
+      "individual_betas": {
+        "India_GDP": 1.16144,
+        "India_Repo_Rate": -1.62,
+        "India_CPI": 0.40199999999999997,
+        "US_GDP": 0.3318400000000001,
+        "INR_USD": -0.3,
+        "US_CPI": 0.26799999999999996,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.776
+      },
+      "resultant_beta": 2.2918598368513208,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.787,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP072": {
+      "individual_betas": {
+        "India_GDP": 1.2408000000000001,
+        "India_Repo_Rate": -0.9836,
+        "India_CPI": 0.6511200000000001,
+        "US_GDP": 0.24816000000000005,
+        "INR_USD": 0.2,
+        "US_CPI": 0.48834,
+        "US_Fed_Rate": -0.59016,
+        "NIFTY250_Return": 1.2058933333333335
+      },
+      "resultant_beta": 1.78558711585862,
+      "company_factors": {
+        "pe_factor": 0.959,
+        "size_factor": 0.784,
+        "roce_factor": 1.2406666666666666
+      }
+    },
+    "COMP073": {
+      "individual_betas": {
+        "India_GDP": 0.9072800000000001,
+        "India_CPI": 1.09332,
+        "India_Repo_Rate": -0.62552,
+        "US_GDP": 0.16496,
+        "INR_USD": 0.3,
+        "US_CPI": 0.7288800000000001,
+        "US_Fed_Rate": -0.35744,
+        "NIFTY250_Return": 0.75336
+      },
+      "resultant_beta": 1.934697796873608,
+      "company_factors": {
+        "pe_factor": 0.734,
+        "size_factor": 0.781,
+        "roce_factor": 0.5926666666666667
+      }
+    },
+    "COMP074": {
+      "individual_betas": {
+        "India_GDP": 1.06912,
+        "US_GDP": 0.74016,
+        "India_CPI": 1.504,
+        "US_CPI": 1.3159999999999998,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.26196,
+        "US_Fed_Rate": -0.39294,
+        "NIFTY250_Return": 1.0639999999999998
+      },
+      "resultant_beta": 3.343143494374885,
+      "company_factors": {
+        "pe_factor": 1.7745000000000002,
+        "size_factor": 0.778,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP075": {
+      "individual_betas": {
+        "India_GDP": 1.148,
+        "India_Repo_Rate": -2.16,
+        "India_CPI": 0.8753,
+        "US_GDP": 0.16400000000000003,
+        "INR_USD": 0.3,
+        "US_CPI": 0.70024,
+        "US_Fed_Rate": -1.4400000000000002,
+        "NIFTY250_Return": 1.2122933333333334
+      },
+      "resultant_beta": 2.687286650843024,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.775,
+        "roce_factor": 0.8313333333333334
+      }
+    },
+    "COMP076": {
+      "individual_betas": {
+        "India_GDP": 0.8993600000000002,
+        "INR_USD": 0.6,
+        "US_GDP": 0.32704000000000005,
+        "India_CPI": 0.42912,
+        "US_CPI": 0.28608000000000006,
+        "India_Repo_Rate": -0.601,
+        "US_Fed_Rate": -0.3606,
+        "NIFTY250_Return": 1.3594666666666666
+      },
+      "resultant_beta": 1.7769424034195644,
+      "company_factors": {
+        "pe_factor": 1.5050000000000001,
+        "size_factor": 0.772,
+        "roce_factor": 1.8986666666666667
+      }
+    },
+    "COMP077": {
+      "individual_betas": {
+        "India_GDP": 0.7336800000000001,
+        "India_Repo_Rate": -0.36128000000000005,
+        "US_GDP": 0.4076000000000001,
+        "India_CPI": -0.33748,
+        "INR_USD": -0.3,
+        "US_CPI": -0.33748,
+        "US_Fed_Rate": -0.36128000000000005,
+        "NIFTY250_Return": 0.9659599999999999
+      },
+      "resultant_beta": 1.186199379773856,
+      "company_factors": {
+        "pe_factor": 0.758,
+        "size_factor": 0.769,
+        "roce_factor": 1.042
+      }
+    },
+    "COMP078": {
+      "individual_betas": {
+        "US_GDP": 0.65024,
+        "India_GDP": 0.48767999999999995,
+        "US_Fed_Rate": -0.44094,
+        "India_CPI": 0.35252,
+        "US_CPI": 0.17626,
+        "India_Repo_Rate": -0.29396,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.7790533333333333
+      },
+      "resultant_beta": 1.409375619356775,
+      "company_factors": {
+        "pe_factor": 2.1745,
+        "size_factor": 0.766,
+        "roce_factor": 0.7913333333333333
+      }
+    },
+    "COMP079": {
+      "individual_betas": {
+        "US_GDP": 1.2156,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.36000000000000004,
+        "India_GDP": 0.32416,
+        "India_CPI": 0.188,
+        "India_Repo_Rate": -0.54,
+        "US_CPI": -0.752,
+        "NIFTY250_Return": 0.8739999999999999
+      },
+      "resultant_beta": 1.923308817546426,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.763,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP080": {
+      "individual_betas": {
+        "India_GDP": 0.9696,
+        "India_Repo_Rate": -0.8051400000000001,
+        "India_CPI": 0.40199999999999997,
+        "US_GDP": 0.404,
+        "INR_USD": 0.2,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -0.5751000000000001,
+        "NIFTY250_Return": 1.48
+      },
+      "resultant_beta": 1.9064148699086818,
+      "company_factors": {
+        "pe_factor": 1.3755000000000002,
+        "size_factor": 0.76,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP081": {
+      "individual_betas": {
+        "India_GDP": 0.8056000000000001,
+        "US_GDP": 0.56392,
+        "India_CPI": 0.6766,
+        "US_CPI": 0.81192,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 1.3161600000000002
+      },
+      "resultant_beta": 2.1422382823148607,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.757,
+        "roce_factor": 2.156
+      }
+    },
+    "COMP082": {
+      "individual_betas": {
+        "India_GDP": 0.8032000000000001,
+        "India_Repo_Rate": -0.8706,
+        "India_CPI": -0.6572,
+        "US_GDP": 0.24096000000000004,
+        "INR_USD": -0.2,
+        "US_CPI": -0.4929,
+        "US_Fed_Rate": -0.5804,
+        "NIFTY250_Return": 0.9684
+      },
+      "resultant_beta": 1.6812841479630343,
+      "company_factors": {
+        "pe_factor": 2.1275,
+        "size_factor": 0.754,
+        "roce_factor": 1.1900000000000002
+      }
+    },
+    "COMP083": {
+      "individual_betas": {
+        "India_GDP": 0.56056,
+        "India_CPI": -0.8039999999999999,
+        "US_CPI": -0.5359999999999999,
+        "US_GDP": 0.24023999999999998,
+        "India_Repo_Rate": -0.2754,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.1836,
+        "NIFTY250_Return": 1.1099999999999999
+      },
+      "resultant_beta": 1.536248145106623,
+      "company_factors": {
+        "pe_factor": 0.795,
+        "size_factor": 0.751,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP084": {
+      "individual_betas": {
+        "India_GDP": 1.1177599999999999,
+        "India_Repo_Rate": -0.77526,
+        "India_CPI": 0.40199999999999997,
+        "US_GDP": 0.31936000000000003,
+        "INR_USD": -0.3,
+        "US_CPI": 0.26799999999999996,
+        "US_Fed_Rate": -0.34456,
+        "NIFTY250_Return": 1.776
+      },
+      "resultant_beta": 1.9571807900138958,
+      "company_factors": {
+        "pe_factor": 0.6535,
+        "size_factor": 0.748,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP085": {
+      "individual_betas": {
+        "India_GDP": 1.194,
+        "India_Repo_Rate": -1.5493999999999999,
+        "India_CPI": 0.59696,
+        "US_GDP": 0.2388,
+        "INR_USD": 0.2,
+        "US_CPI": 0.44771999999999995,
+        "US_Fed_Rate": -0.9296399999999999,
+        "NIFTY250_Return": 1.4044800000000004
+      },
+      "resultant_beta": 2.1113045963754695,
+      "company_factors": {
+        "pe_factor": 2.3735,
+        "size_factor": 0.745,
+        "roce_factor": 1.692
+      }
+    },
+    "COMP086": {
+      "individual_betas": {
+        "India_GDP": 0.8729600000000002,
+        "India_CPI": 0.8083199999999999,
+        "India_Repo_Rate": -0.99176,
+        "US_GDP": 0.15872000000000003,
+        "INR_USD": 0.3,
+        "US_CPI": 0.53888,
+        "US_Fed_Rate": -0.56672,
+        "NIFTY250_Return": 1.32336
+      },
+      "resultant_beta": 1.9316824390819203,
+      "company_factors": {
+        "pe_factor": 2.0420000000000003,
+        "size_factor": 0.742,
+        "roce_factor": 2.176
+      }
+    },
+    "COMP087": {
+      "individual_betas": {
+        "India_GDP": 1.0285600000000001,
+        "US_GDP": 0.7120800000000002,
+        "India_CPI": 1.4976,
+        "US_CPI": 1.3103999999999998,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.3133600000000001,
+        "US_Fed_Rate": -0.47004,
+        "NIFTY250_Return": 1.078933333333333
+      },
+      "resultant_beta": 3.269292513344697,
+      "company_factors": {
+        "pe_factor": 2.4170000000000003,
+        "size_factor": 0.739,
+        "roce_factor": 0.4266666666666667
+      }
+    },
+    "COMP088": {
+      "individual_betas": {
+        "India_GDP": 1.1043199999999997,
+        "India_Repo_Rate": -1.90992,
+        "India_CPI": 0.8792,
+        "US_GDP": 0.15776,
+        "INR_USD": 0.3,
+        "US_CPI": 0.70336,
+        "US_Fed_Rate": -1.2732800000000002,
+        "NIFTY250_Return": 1.1987733333333335
+      },
+      "resultant_beta": 2.4723848453757067,
+      "company_factors": {
+        "pe_factor": 2.479,
+        "size_factor": 0.736,
+        "roce_factor": 0.8053333333333333
+      }
+    },
+    "COMP089": {
+      "individual_betas": {
+        "India_GDP": 0.86504,
+        "INR_USD": 0.6,
+        "US_GDP": 0.31456,
+        "India_CPI": 0.44298,
+        "US_CPI": 0.29531999999999997,
+        "India_Repo_Rate": -0.6167,
+        "US_Fed_Rate": -0.37002,
+        "NIFTY250_Return": 1.2978666666666667
+      },
+      "resultant_beta": 1.7291126270547874,
+      "company_factors": {
+        "pe_factor": 1.5835000000000001,
+        "size_factor": 0.733,
+        "roce_factor": 1.7446666666666668
+      }
+    },
+    "COMP090": {
+      "individual_betas": {
+        "India_GDP": 0.7056,
+        "India_Repo_Rate": -0.43128000000000005,
+        "US_GDP": 0.392,
+        "India_CPI": -0.32020000000000004,
+        "INR_USD": -0.3,
+        "US_CPI": -0.32020000000000004,
+        "US_Fed_Rate": -0.43128000000000005,
+        "NIFTY250_Return": 1.0754
+      },
+      "resultant_beta": 1.290853069989194,
+      "company_factors": {
+        "pe_factor": 1.1955,
+        "size_factor": 0.73,
+        "roce_factor": 1.3299999999999998
+      }
+    },
+    "COMP091": {
+      "individual_betas": {
+        "US_GDP": 0.6252800000000001,
+        "India_GDP": 0.46896000000000004,
+        "US_Fed_Rate": -0.30432,
+        "India_CPI": 0.26799999999999996,
+        "US_CPI": 0.13399999999999998,
+        "India_Repo_Rate": -0.20288,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 1.258
+      },
+      "resultant_beta": 1.6024385114885888,
+      "company_factors": {
+        "pe_factor": 1.036,
+        "size_factor": 0.727,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP092": {
+      "individual_betas": {
+        "US_GDP": 1.1688,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.35100000000000003,
+        "India_GDP": 0.31168000000000007,
+        "India_CPI": 0.17164000000000001,
+        "India_Repo_Rate": -0.5265,
+        "US_CPI": -0.6865600000000001,
+        "NIFTY250_Return": 1.1248533333333333
+      },
+      "resultant_beta": 2.0028454151781196,
+      "company_factors": {
+        "pe_factor": 2.8875,
+        "size_factor": 0.724,
+        "roce_factor": 0.9453333333333334
+      }
+    },
+    "COMP093": {
+      "individual_betas": {
+        "India_GDP": 0.9321599999999999,
+        "India_Repo_Rate": -0.9854599999999999,
+        "India_CPI": 0.44334,
+        "US_GDP": 0.38839999999999997,
+        "INR_USD": 0.2,
+        "US_CPI": 0.59112,
+        "US_Fed_Rate": -0.7039,
+        "NIFTY250_Return": 1.2962666666666667
+      },
+      "resultant_beta": 1.8461933856843327,
+      "company_factors": {
+        "pe_factor": 2.0195,
+        "size_factor": 0.721,
+        "roce_factor": 1.7406666666666666
+      }
+    },
+    "COMP094": {
+      "individual_betas": {
+        "India_GDP": 0.7744,
+        "US_GDP": 0.5420799999999999,
+        "India_CPI": 0.8414,
+        "US_CPI": 1.00968,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.34656000000000003,
+        "US_Fed_Rate": -0.25992,
+        "NIFTY250_Return": 0.9206399999999999
+      },
+      "resultant_beta": 2.280213400314101,
+      "company_factors": {
+        "pe_factor": 0.666,
+        "size_factor": 0.718,
+        "roce_factor": 1.0573333333333332
+      }
+    },
+    "COMP095": {
+      "individual_betas": {
+        "India_GDP": 0.772,
+        "India_Repo_Rate": -0.76572,
+        "India_CPI": -0.64336,
+        "US_GDP": 0.2316,
+        "INR_USD": -0.2,
+        "US_CPI": -0.48252,
+        "US_Fed_Rate": -0.51048,
+        "NIFTY250_Return": 1.00992
+      },
+      "resultant_beta": 1.6081063764355061,
+      "company_factors": {
+        "pe_factor": 1.6905000000000001,
+        "size_factor": 0.715,
+        "roce_factor": 1.3053333333333332
+      }
+    },
+    "COMP096": {
+      "individual_betas": {
+        "India_GDP": 0.53872,
+        "India_CPI": -0.9042,
+        "US_CPI": -0.6028000000000001,
+        "US_GDP": 0.23088,
+        "India_Repo_Rate": -0.51582,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.34387999999999996,
+        "NIFTY250_Return": 0.9430000000000001
+      },
+      "resultant_beta": 1.7084788855254498,
+      "company_factors": {
+        "pe_factor": 2.7984999999999998,
+        "size_factor": 0.712,
+        "roce_factor": 1.6433333333333333
+      }
+    },
+    "COMP097": {
+      "individual_betas": {
+        "India_GDP": 1.0740800000000001,
+        "India_Repo_Rate": -1.4481,
+        "India_CPI": 0.43404000000000004,
+        "US_GDP": 0.30688000000000004,
+        "INR_USD": -0.3,
+        "US_CPI": 0.28936,
+        "US_Fed_Rate": -0.6436000000000001,
+        "NIFTY250_Return": 1.60512
+      },
+      "resultant_beta": 2.0795455940741308,
+      "company_factors": {
+        "pe_factor": 2.5225,
+        "size_factor": 0.709,
+        "roce_factor": 1.844
+      }
+    },
+    "COMP098": {
+      "individual_betas": {
+        "India_GDP": 1.1471999999999998,
+        "India_Repo_Rate": -1.062,
+        "India_CPI": 0.6498400000000001,
+        "US_GDP": 0.22943999999999998,
+        "INR_USD": 0.2,
+        "US_CPI": 0.48738,
+        "US_Fed_Rate": -0.6372,
+        "NIFTY250_Return": 1.2105866666666667
+      },
+      "resultant_beta": 1.7842760089341394,
+      "company_factors": {
+        "pe_factor": 1.155,
+        "size_factor": 0.706,
+        "roce_factor": 1.2513333333333334
+      }
+    },
+    "COMP099": {
+      "individual_betas": {
+        "India_GDP": 0.83864,
+        "India_CPI": 1.128,
+        "India_Repo_Rate": -0.65198,
+        "US_GDP": 0.15248,
+        "INR_USD": 0.3,
+        "US_CPI": 0.752,
+        "US_Fed_Rate": -0.37256,
+        "NIFTY250_Return": 0.684
+      },
+      "resultant_beta": 1.9240689840265597,
+      "company_factors": {
+        "pe_factor": 0.8285,
+        "size_factor": 0.703,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP100": {
+      "individual_betas": {
+        "India_GDP": 0.9880000000000001,
+        "US_GDP": 0.684,
+        "India_CPI": 1.1926400000000001,
+        "US_CPI": 1.04356,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.36000000000000004,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 1.7905066666666665
+      },
+      "resultant_beta": 3.0825628752342973,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.7,
+        "roce_factor": 1.6973333333333334
+      }
+    },
+    "COMP101": {
+      "individual_betas": {
+        "India_GDP": 1.06064,
+        "India_Repo_Rate": -1.2904799999999998,
+        "India_CPI": 0.8177,
+        "US_GDP": 0.15152000000000002,
+        "INR_USD": 0.3,
+        "US_CPI": 0.6541600000000001,
+        "US_Fed_Rate": -0.86032,
+        "NIFTY250_Return": 1.4119733333333335
+      },
+      "resultant_beta": 2.1561606485784495,
+      "company_factors": {
+        "pe_factor": 1.1885,
+        "size_factor": 0.697,
+        "roce_factor": 1.2153333333333334
+      }
+    },
+    "COMP102": {
+      "individual_betas": {
+        "India_GDP": 0.8307200000000001,
+        "INR_USD": 0.6,
+        "US_GDP": 0.30208000000000007,
+        "India_CPI": 0.49733999999999995,
+        "US_CPI": 0.33156,
+        "India_Repo_Rate": -0.7222999999999999,
+        "US_Fed_Rate": -0.43337999999999993,
+        "NIFTY250_Return": 1.0562666666666667
+      },
+      "resultant_beta": 1.5872207839048553,
+      "company_factors": {
+        "pe_factor": 2.1115,
+        "size_factor": 0.694,
+        "roce_factor": 1.1406666666666667
+      }
+    },
+    "COMP103": {
+      "individual_betas": {
+        "India_GDP": 0.6775199999999999,
+        "India_Repo_Rate": -0.6384000000000001,
+        "US_GDP": 0.37639999999999996,
+        "India_CPI": -0.30956000000000006,
+        "INR_USD": -0.3,
+        "US_CPI": -0.30956000000000006,
+        "US_Fed_Rate": -0.6384000000000001,
+        "NIFTY250_Return": 1.1427866666666664
+      },
+      "resultant_beta": 1.508904661315331,
+      "company_factors": {
+        "pe_factor": 2.4899999999999998,
+        "size_factor": 0.691,
+        "roce_factor": 1.5073333333333332
+      }
+    },
+    "COMP104": {
+      "individual_betas": {
+        "US_GDP": 0.60032,
+        "India_GDP": 0.45024,
+        "US_Fed_Rate": -0.54,
+        "India_CPI": 0.26799999999999996,
+        "US_CPI": 0.13399999999999998,
+        "India_Repo_Rate": -0.36000000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 1.258
+      },
+      "resultant_beta": 1.6544265147537356,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.688,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP105": {
+      "individual_betas": {
+        "US_GDP": 1.1219999999999999,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.23536,
+        "India_GDP": 0.2992,
+        "India_CPI": 0.14794000000000002,
+        "India_Repo_Rate": -0.35304,
+        "US_CPI": -0.5917600000000001,
+        "NIFTY250_Return": 1.4882533333333332
+      },
+      "resultant_beta": 2.098547719247355,
+      "company_factors": {
+        "pe_factor": 1.442,
+        "size_factor": 0.685,
+        "roce_factor": 1.7353333333333334
+      }
+    },
+    "COMP106": {
+      "individual_betas": {
+        "India_GDP": 0.8947200000000001,
+        "India_Repo_Rate": -1.1916799999999999,
+        "India_CPI": 0.564,
+        "US_GDP": 0.3728,
+        "INR_USD": 0.2,
+        "US_CPI": 0.752,
+        "US_Fed_Rate": -0.8512,
+        "NIFTY250_Return": 0.76
+      },
+      "resultant_beta": 1.7293067853506245,
+      "company_factors": {
+        "pe_factor": 2.756,
+        "size_factor": 0.682,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP107": {
+      "individual_betas": {
+        "India_GDP": 0.7432000000000001,
+        "US_GDP": 0.52024,
+        "India_CPI": 0.8852,
+        "US_CPI": 1.0622399999999999,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 0.81552
+      },
+      "resultant_beta": 2.165772659369651,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.679,
+        "roce_factor": 0.7653333333333333
+      }
+    },
+    "COMP108": {
+      "individual_betas": {
+        "India_GDP": 0.7408000000000001,
+        "India_Repo_Rate": -1.07376,
+        "India_CPI": -0.69552,
+        "US_GDP": 0.22224000000000002,
+        "INR_USD": -0.2,
+        "US_CPI": -0.52164,
+        "US_Fed_Rate": -0.71584,
+        "NIFTY250_Return": 0.8534400000000001
+      },
+      "resultant_beta": 1.8989263077427976,
+      "company_factors": {
+        "pe_factor": 2.9739999999999998,
+        "size_factor": 0.676,
+        "roce_factor": 0.8706666666666667
+      }
+    },
+    "COMP109": {
+      "individual_betas": {
+        "India_GDP": 0.5168800000000001,
+        "India_CPI": -0.90048,
+        "US_CPI": -0.60032,
+        "US_GDP": 0.22152000000000005,
+        "India_Repo_Rate": -0.29064,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.19376000000000002,
+        "NIFTY250_Return": 0.9492
+      },
+      "resultant_beta": 1.571571705936155,
+      "company_factors": {
+        "pe_factor": 0.922,
+        "size_factor": 0.673,
+        "roce_factor": 1.6640000000000001
+      }
+    },
+    "COMP110": {
+      "individual_betas": {
+        "India_GDP": 1.0304,
+        "India_Repo_Rate": -1.34406,
+        "India_CPI": 0.45299999999999996,
+        "US_GDP": 0.2944,
+        "INR_USD": -0.3,
+        "US_CPI": 0.30200000000000005,
+        "US_Fed_Rate": -0.59736,
+        "NIFTY250_Return": 1.504
+      },
+      "resultant_beta": 1.9565523575869175,
+      "company_factors": {
+        "pe_factor": 2.2335000000000003,
+        "size_factor": 0.67,
+        "roce_factor": 1.6333333333333333
+      }
+    },
+    "COMP111": {
+      "individual_betas": {
+        "India_GDP": 1.1004,
+        "India_Repo_Rate": -0.908,
+        "India_CPI": 0.5976,
+        "US_GDP": 0.22008,
+        "INR_USD": 0.2,
+        "US_CPI": 0.4482,
+        "US_Fed_Rate": -0.5448,
+        "NIFTY250_Return": 1.4021333333333335
+      },
+      "resultant_beta": 1.832657924145191,
+      "company_factors": {
+        "pe_factor": 0.77,
+        "size_factor": 0.667,
+        "roce_factor": 1.6866666666666668
+      }
+    },
+    "COMP112": {
+      "individual_betas": {
+        "India_GDP": 0.8043200000000001,
+        "India_CPI": 1.01592,
+        "India_Repo_Rate": -1.11636,
+        "US_GDP": 0.14624,
+        "INR_USD": 0.3,
+        "US_CPI": 0.6772800000000001,
+        "US_Fed_Rate": -0.6379200000000002,
+        "NIFTY250_Return": 0.90816
+      },
+      "resultant_beta": 1.9077835117786879,
+      "company_factors": {
+        "pe_factor": 2.487,
+        "size_factor": 0.664,
+        "roce_factor": 1.0226666666666666
+      }
+    },
+    "COMP113": {
+      "individual_betas": {
+        "India_GDP": 0.9474400000000002,
+        "US_GDP": 0.6559200000000002,
+        "India_CPI": 1.07648,
+        "US_CPI": 0.94192,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.22156000000000003,
+        "US_Fed_Rate": -0.33234,
+        "NIFTY250_Return": 2.0615466666666666
+      },
+      "resultant_beta": 3.1350485452112276,
+      "company_factors": {
+        "pe_factor": 1.2695,
+        "size_factor": 0.661,
+        "roce_factor": 2.1813333333333333
+      }
+    },
+    "COMP114": {
+      "individual_betas": {
+        "India_GDP": 1.01696,
+        "India_Repo_Rate": -0.9352799999999999,
+        "India_CPI": 0.6882999999999999,
+        "US_GDP": 0.14528000000000005,
+        "INR_USD": 0.3,
+        "US_CPI": 0.5506399999999999,
+        "US_Fed_Rate": -0.6235200000000001,
+        "NIFTY250_Return": 1.86056
+      },
+      "resultant_beta": 2.265410330079128,
+      "company_factors": {
+        "pe_factor": 0.4485,
+        "size_factor": 0.658,
+        "roce_factor": 2.0780000000000003
+      }
+    },
+    "COMP115": {
+      "individual_betas": {
+        "India_GDP": 0.7964,
+        "INR_USD": 0.6,
+        "US_GDP": 0.2896,
+        "India_CPI": 0.43241999999999997,
+        "US_CPI": 0.28828000000000004,
+        "India_Repo_Rate": -0.9,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 1.3448
+      },
+      "resultant_beta": 1.8075644902517636,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.655,
+        "roce_factor": 1.8619999999999999
+      }
+    },
+    "COMP116": {
+      "individual_betas": {
+        "India_GDP": 0.64944,
+        "India_Repo_Rate": -0.3376,
+        "US_GDP": 0.3608,
+        "India_CPI": -0.27204,
+        "INR_USD": -0.3,
+        "US_CPI": -0.27204,
+        "US_Fed_Rate": -0.3376,
+        "NIFTY250_Return": 1.3804133333333333
+      },
+      "resultant_beta": 1.453257339196114,
+      "company_factors": {
+        "pe_factor": 0.61,
+        "size_factor": 0.652,
+        "roce_factor": 2.1326666666666667
+      }
+    },
+    "COMP117": {
+      "individual_betas": {
+        "US_GDP": 0.5753600000000001,
+        "India_GDP": 0.43152,
+        "US_Fed_Rate": -0.53226,
+        "India_CPI": 0.32560000000000006,
+        "US_CPI": 0.16280000000000003,
+        "India_Repo_Rate": -0.35484000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.9316000000000001
+      },
+      "resultant_beta": 1.4574153715788876,
+      "company_factors": {
+        "pe_factor": 2.9355,
+        "size_factor": 0.649,
+        "roce_factor": 1.24
+      }
+    },
+    "COMP118": {
+      "individual_betas": {
+        "US_GDP": 1.0752000000000002,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.3184,
+        "India_GDP": 0.28672000000000003,
+        "India_CPI": 0.14434,
+        "India_Repo_Rate": -0.4776,
+        "US_CPI": -0.57736,
+        "NIFTY250_Return": 1.5434533333333333
+      },
+      "resultant_beta": 2.175147435856142,
+      "company_factors": {
+        "pe_factor": 2.48,
+        "size_factor": 0.646,
+        "roce_factor": 1.8553333333333333
+      }
+    },
+    "COMP119": {
+      "individual_betas": {
+        "India_GDP": 0.8572800000000002,
+        "India_Repo_Rate": -1.26,
+        "India_CPI": 0.4746,
+        "US_GDP": 0.3572000000000001,
+        "INR_USD": 0.2,
+        "US_CPI": 0.6328,
+        "US_Fed_Rate": -0.9,
+        "NIFTY250_Return": 1.1573333333333333
+      },
+      "resultant_beta": 1.9047278355997683,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.643,
+        "roce_factor": 1.3933333333333333
+      }
+    },
+    "COMP120": {
+      "individual_betas": {
+        "India_GDP": 0.712,
+        "US_GDP": 0.49839999999999995,
+        "India_CPI": 0.8613,
+        "US_CPI": 1.0335599999999998,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 0.87288
+      },
+      "resultant_beta": 2.12995713814892,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.64,
+        "roce_factor": 0.9246666666666666
+      }
+    },
+    "COMP121": {
+      "individual_betas": {
+        "India_GDP": 0.7096,
+        "India_Repo_Rate": -1.08,
+        "India_CPI": -0.57664,
+        "US_GDP": 0.21287999999999999,
+        "INR_USD": -0.2,
+        "US_CPI": -0.43248,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.2100800000000003
+      },
+      "resultant_beta": 1.9926691036221669,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.637,
+        "roce_factor": 1.8613333333333335
+      }
+    },
+    "COMP122": {
+      "individual_betas": {
+        "India_GDP": 0.49504,
+        "India_CPI": -0.86304,
+        "US_CPI": -0.5753600000000001,
+        "US_GDP": 0.21216000000000002,
+        "India_Repo_Rate": -0.30204,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.20135999999999998,
+        "NIFTY250_Return": 1.0116
+      },
+      "resultant_beta": 1.5732695180698566,
+      "company_factors": {
+        "pe_factor": 1.017,
+        "size_factor": 0.634,
+        "roce_factor": 1.8719999999999999
+      }
+    },
+    "COMP123": {
+      "individual_betas": {
+        "India_GDP": 0.98672,
+        "India_Repo_Rate": -1.2324599999999999,
+        "India_CPI": 0.40199999999999997,
+        "US_GDP": 0.28192000000000006,
+        "INR_USD": -0.3,
+        "US_CPI": 0.26799999999999996,
+        "US_Fed_Rate": -0.54776,
+        "NIFTY250_Return": 1.776
+      },
+      "resultant_beta": 2.0986074334763134,
+      "company_factors": {
+        "pe_factor": 1.9235,
+        "size_factor": 0.631,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP124": {
+      "individual_betas": {
+        "India_GDP": 1.0536000000000003,
+        "India_Repo_Rate": -1.0112,
+        "India_CPI": 0.6048800000000001,
+        "US_GDP": 0.21072000000000005,
+        "INR_USD": 0.2,
+        "US_CPI": 0.45365999999999995,
+        "US_Fed_Rate": -0.60672,
+        "NIFTY250_Return": 1.37544
+      },
+      "resultant_beta": 1.8385900831806874,
+      "company_factors": {
+        "pe_factor": 1.028,
+        "size_factor": 0.628,
+        "roce_factor": 1.6260000000000001
+      }
+    },
+    "COMP125": {
+      "individual_betas": {
+        "India_GDP": 0.77,
+        "India_CPI": 0.8166000000000001,
+        "India_Repo_Rate": -0.56658,
+        "US_GDP": 0.13999999999999999,
+        "INR_USD": 0.3,
+        "US_CPI": 0.5444000000000001,
+        "US_Fed_Rate": -0.32376000000000005,
+        "NIFTY250_Return": 1.3068
+      },
+      "resultant_beta": 1.868165581418674,
+      "company_factors": {
+        "pe_factor": 0.5235000000000001,
+        "size_factor": 0.625,
+        "roce_factor": 2.13
+      }
+    },
+    "COMP126": {
+      "individual_betas": {
+        "India_GDP": 0.90688,
+        "US_GDP": 0.6278400000000001,
+        "India_CPI": 1.22976,
+        "US_CPI": 1.0760399999999999,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.23487999999999998,
+        "US_Fed_Rate": -0.35231999999999997,
+        "NIFTY250_Return": 1.7038933333333333
+      },
+      "resultant_beta": 3.0916776989680717,
+      "company_factors": {
+        "pe_factor": 1.436,
+        "size_factor": 0.622,
+        "roce_factor": 1.5426666666666666
+      }
+    },
+    "COMP127": {
+      "individual_betas": {
+        "India_GDP": 0.97328,
+        "India_Repo_Rate": -1.9991999999999999,
+        "India_CPI": 0.7656000000000001,
+        "US_GDP": 0.13904000000000002,
+        "INR_USD": 0.3,
+        "US_CPI": 0.6124800000000001,
+        "US_Fed_Rate": -1.3328,
+        "NIFTY250_Return": 1.5925866666666668
+      },
+      "resultant_beta": 2.7864800796135625,
+      "company_factors": {
+        "pe_factor": 2.665,
+        "size_factor": 0.619,
+        "roce_factor": 1.5626666666666666
+      }
+    },
+    "COMP128": {
+      "individual_betas": {
+        "India_GDP": 0.7620800000000002,
+        "INR_USD": 0.6,
+        "US_GDP": 0.27712000000000003,
+        "India_CPI": 0.549,
+        "US_CPI": 0.36600000000000005,
+        "India_Repo_Rate": -0.48160000000000003,
+        "US_Fed_Rate": -0.28896,
+        "NIFTY250_Return": 0.8266666666666667
+      },
+      "resultant_beta": 1.464618161317057,
+      "company_factors": {
+        "pe_factor": 0.908,
+        "size_factor": 0.616,
+        "roce_factor": 0.5666666666666667
+      }
+    },
+    "COMP129": {
+      "individual_betas": {
+        "India_GDP": 0.62136,
+        "India_Repo_Rate": -0.5890400000000001,
+        "US_GDP": 0.3452,
+        "India_CPI": -0.376,
+        "INR_USD": -0.3,
+        "US_CPI": -0.376,
+        "US_Fed_Rate": -0.5890400000000001,
+        "NIFTY250_Return": 0.722
+      },
+      "resultant_beta": 1.2688840497599012,
+      "company_factors": {
+        "pe_factor": 2.1815,
+        "size_factor": 0.613,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP130": {
+      "individual_betas": {
+        "US_GDP": 0.5504,
+        "India_GDP": 0.41279999999999994,
+        "US_Fed_Rate": -0.40181999999999995,
+        "India_CPI": 0.376,
+        "US_CPI": 0.188,
+        "India_Repo_Rate": -0.26788,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.646
+      },
+      "resultant_beta": 1.283047126325223,
+      "company_factors": {
+        "pe_factor": 1.8485,
+        "size_factor": 0.61,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP131": {
+      "individual_betas": {
+        "US_GDP": 1.0284,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.36000000000000004,
+        "India_GDP": 0.27424,
+        "India_CPI": 0.1605,
+        "India_Repo_Rate": -0.54,
+        "US_CPI": -0.642,
+        "NIFTY250_Return": 1.2956666666666665
+      },
+      "resultant_beta": 2.0448951009245233,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.607,
+        "roce_factor": 1.3166666666666667
+      }
+    },
+    "COMP132": {
+      "individual_betas": {
+        "India_GDP": 0.81984,
+        "India_Repo_Rate": -1.0626,
+        "India_CPI": 0.44411999999999996,
+        "US_GDP": 0.3416,
+        "INR_USD": 0.2,
+        "US_CPI": 0.59216,
+        "US_Fed_Rate": -0.759,
+        "NIFTY250_Return": 1.2928000000000002
+      },
+      "resultant_beta": 1.8642091877813083,
+      "company_factors": {
+        "pe_factor": 2.295,
+        "size_factor": 0.604,
+        "roce_factor": 1.732
+      }
+    },
+    "COMP133": {
+      "individual_betas": {
+        "India_GDP": 0.6808000000000001,
+        "US_GDP": 0.47656000000000004,
+        "India_CPI": 0.7158,
+        "US_CPI": 0.85896,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 1.22208
+      },
+      "resultant_beta": 2.0741761357786896,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.601,
+        "roce_factor": 1.8946666666666667
+      }
+    },
+    "COMP134": {
+      "individual_betas": {
+        "India_GDP": 0.6784,
+        "India_Repo_Rate": -0.81804,
+        "India_CPI": -0.5359999999999999,
+        "US_GDP": 0.20352,
+        "INR_USD": -0.2,
+        "US_CPI": -0.40199999999999997,
+        "US_Fed_Rate": -0.54536,
+        "NIFTY250_Return": 1.332
+      },
+      "resultant_beta": 1.7998631839942751,
+      "company_factors": {
+        "pe_factor": 1.9085,
+        "size_factor": 0.598,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP135": {
+      "individual_betas": {
+        "India_GDP": 0.4731999999999999,
+        "India_CPI": -0.8039999999999999,
+        "US_CPI": -0.5359999999999999,
+        "US_GDP": 0.20279999999999998,
+        "India_Repo_Rate": -0.54,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.36000000000000004,
+        "NIFTY250_Return": 1.1099999999999999
+      },
+      "resultant_beta": 1.732980936923394,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.595,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP136": {
+      "individual_betas": {
+        "India_GDP": 0.9430399999999999,
+        "India_Repo_Rate": -0.83484,
+        "India_CPI": 0.42845999999999995,
+        "US_GDP": 0.26944,
+        "INR_USD": -0.3,
+        "US_CPI": 0.28564,
+        "US_Fed_Rate": -0.37104000000000004,
+        "NIFTY250_Return": 1.63488
+      },
+      "resultant_beta": 1.846925985940963,
+      "company_factors": {
+        "pe_factor": 0.819,
+        "size_factor": 0.592,
+        "roce_factor": 1.906
+      }
+    },
+    "COMP137": {
+      "individual_betas": {
+        "India_GDP": 1.0068000000000001,
+        "India_Repo_Rate": -1.8,
+        "India_CPI": 0.6231200000000001,
+        "US_GDP": 0.20136,
+        "INR_USD": 0.2,
+        "US_CPI": 0.46734,
+        "US_Fed_Rate": -1.08,
+        "NIFTY250_Return": 1.3085600000000002
+      },
+      "resultant_beta": 2.3015681741738905,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.589,
+        "roce_factor": 1.474
+      }
+    },
+    "COMP138": {
+      "individual_betas": {
+        "India_GDP": 0.7356800000000001,
+        "India_CPI": 0.9699599999999999,
+        "India_Repo_Rate": -1.26,
+        "US_GDP": 0.13376000000000002,
+        "INR_USD": 0.3,
+        "US_CPI": 0.6466400000000001,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.00008
+      },
+      "resultant_beta": 1.9784200243487537,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.586,
+        "roce_factor": 1.278
+      }
+    },
+    "COMP139": {
+      "individual_betas": {
+        "India_GDP": 0.86632,
+        "US_GDP": 0.59976,
+        "India_CPI": 1.0719999999999998,
+        "US_CPI": 0.9379999999999998,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.36000000000000004,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 2.072
+      },
+      "resultant_beta": 3.0315811454894446,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.583,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP140": {
+      "individual_betas": {
+        "India_GDP": 0.9295999999999999,
+        "India_Repo_Rate": -1.69248,
+        "India_CPI": 0.6699999999999999,
+        "US_GDP": 0.1328,
+        "INR_USD": 0.3,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -1.1283200000000002,
+        "NIFTY250_Return": 1.924
+      },
+      "resultant_beta": 2.739981725746303,
+      "company_factors": {
+        "pe_factor": 2.0260000000000002,
+        "size_factor": 0.58,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP141": {
+      "individual_betas": {
+        "India_GDP": 0.7277600000000001,
+        "INR_USD": 0.6,
+        "US_GDP": 0.26464,
+        "India_CPI": 0.49566,
+        "US_CPI": 0.33044000000000007,
+        "India_Repo_Rate": -0.4955,
+        "US_Fed_Rate": -0.2973,
+        "NIFTY250_Return": 1.0637333333333334
+      },
+      "resultant_beta": 1.555487778422663,
+      "company_factors": {
+        "pe_factor": 0.9775,
+        "size_factor": 0.577,
+        "roce_factor": 1.1593333333333333
+      }
+    },
+    "COMP142": {
+      "individual_betas": {
+        "India_GDP": 0.59328,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_GDP": 0.3296,
+        "India_CPI": -0.26799999999999996,
+        "INR_USD": -0.3,
+        "US_CPI": -0.26799999999999996,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.406
+      },
+      "resultant_beta": 1.7870183849606607,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.574,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP143": {
+      "individual_betas": {
+        "US_GDP": 0.52544,
+        "India_GDP": 0.39408000000000004,
+        "US_Fed_Rate": -0.25038,
+        "India_CPI": 0.284,
+        "US_CPI": 0.142,
+        "India_Repo_Rate": -0.16692,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 1.1673333333333336
+      },
+      "resultant_beta": 1.4782486442550724,
+      "company_factors": {
+        "pe_factor": 0.5865,
+        "size_factor": 0.571,
+        "roce_factor": 1.9333333333333333
+      }
+    },
+    "COMP144": {
+      "individual_betas": {
+        "US_GDP": 0.9816,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.36000000000000004,
+        "India_GDP": 0.26176,
+        "India_CPI": 0.17208,
+        "India_Repo_Rate": -0.54,
+        "US_CPI": -0.68832,
+        "NIFTY250_Return": 1.1181066666666666
+      },
+      "resultant_beta": 1.9348924832523624,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.568,
+        "roce_factor": 0.9306666666666668
+      }
+    },
+    "COMP145": {
+      "individual_betas": {
+        "India_GDP": 0.7823999999999999,
+        "India_Repo_Rate": -1.19,
+        "India_CPI": 0.40199999999999997,
+        "US_GDP": 0.32599999999999996,
+        "INR_USD": 0.2,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -0.8500000000000001,
+        "NIFTY250_Return": 1.48
+      },
+      "resultant_beta": 2.0484542799513683,
+      "company_factors": {
+        "pe_factor": 2.75,
+        "size_factor": 0.565,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP146": {
+      "individual_betas": {
+        "India_GDP": 0.6496000000000001,
+        "US_GDP": 0.45472,
+        "India_CPI": 0.94,
+        "US_CPI": 1.128,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.6738400000000001,
+        "US_Fed_Rate": -0.50538,
+        "NIFTY250_Return": 0.684
+      },
+      "resultant_beta": 2.1589897461690204,
+      "company_factors": {
+        "pe_factor": 2.7115,
+        "size_factor": 0.562,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP147": {
+      "individual_betas": {
+        "India_GDP": 0.6472,
+        "India_Repo_Rate": -1.08,
+        "India_CPI": -0.75104,
+        "US_GDP": 0.19416,
+        "INR_USD": -0.2,
+        "US_CPI": -0.56328,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 0.68688
+      },
+      "resultant_beta": 1.9523586013229404,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.559,
+        "roce_factor": 0.40800000000000003
+      }
+    },
+    "COMP148": {
+      "individual_betas": {
+        "India_GDP": 0.45136,
+        "India_CPI": -1.01712,
+        "US_CPI": -0.67808,
+        "US_GDP": 0.19344,
+        "India_Repo_Rate": -0.54,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.36000000000000004,
+        "NIFTY250_Return": 0.7547999999999999
+      },
+      "resultant_beta": 1.8230167469708358,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.556,
+        "roce_factor": 1.016
+      }
+    },
+    "COMP149": {
+      "individual_betas": {
+        "India_GDP": 0.89936,
+        "India_Repo_Rate": -1.27332,
+        "India_CPI": 0.447,
+        "US_GDP": 0.25696,
+        "INR_USD": -0.3,
+        "US_CPI": 0.298,
+        "US_Fed_Rate": -0.5659200000000001,
+        "NIFTY250_Return": 1.536
+      },
+      "resultant_beta": 1.959268896783033,
+      "company_factors": {
+        "pe_factor": 2.037,
+        "size_factor": 0.553,
+        "roce_factor": 1.7
+      }
+    },
+    "COMP150": {
+      "individual_betas": {
+        "India_GDP": 0.9600000000000002,
+        "India_Repo_Rate": -1.8,
+        "India_CPI": 0.6897600000000002,
+        "US_GDP": 0.19200000000000003,
+        "INR_USD": 0.2,
+        "US_CPI": 0.51732,
+        "US_Fed_Rate": -1.08,
+        "NIFTY250_Return": 1.0642133333333335
+      },
+      "resultant_beta": 2.195423916694527,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.55,
+        "roce_factor": 0.9186666666666666
+      }
+    },
+    "COMP151": {
+      "individual_betas": {
+        "India_GDP": 0.7013600000000001,
+        "India_CPI": 0.8039999999999999,
+        "India_Repo_Rate": -0.6585599999999999,
+        "US_GDP": 0.12752000000000002,
+        "INR_USD": 0.3,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -0.37632,
+        "NIFTY250_Return": 1.332
+      },
+      "resultant_beta": 1.8653667651907035,
+      "company_factors": {
+        "pe_factor": 0.852,
+        "size_factor": 0.547,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP152": {
+      "individual_betas": {
+        "India_GDP": 0.82576,
+        "US_GDP": 0.57168,
+        "India_CPI": 1.31888,
+        "US_CPI": 1.15402,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.26688,
+        "US_Fed_Rate": -0.40032,
+        "NIFTY250_Return": 1.4959466666666665
+      },
+      "resultant_beta": 3.0383119332562774,
+      "company_factors": {
+        "pe_factor": 1.8359999999999999,
+        "size_factor": 0.544,
+        "roce_factor": 1.1713333333333333
+      }
+    },
+    "COMP153": {
+      "individual_betas": {
+        "India_GDP": 0.8859199999999999,
+        "India_Repo_Rate": -2.16,
+        "India_CPI": 0.6699999999999999,
+        "US_GDP": 0.12656,
+        "INR_USD": 0.3,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -1.4400000000000002,
+        "NIFTY250_Return": 1.924
+      },
+      "resultant_beta": 3.18286619951783,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.541,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP154": {
+      "individual_betas": {
+        "India_GDP": 0.6934400000000002,
+        "INR_USD": 0.6,
+        "US_GDP": 0.25216000000000005,
+        "India_CPI": 0.56118,
+        "US_CPI": 0.37412,
+        "India_Repo_Rate": -0.4517,
+        "US_Fed_Rate": -0.27102,
+        "NIFTY250_Return": 0.7725333333333333
+      },
+      "resultant_beta": 1.418985078762856,
+      "company_factors": {
+        "pe_factor": 0.7585,
+        "size_factor": 0.538,
+        "roce_factor": 0.4313333333333333
+      }
+    },
+    "COMP155": {
+      "individual_betas": {
+        "India_GDP": 0.5652000000000001,
+        "India_Repo_Rate": -0.35464000000000007,
+        "US_GDP": 0.31400000000000006,
+        "India_CPI": -0.27068000000000003,
+        "INR_USD": -0.3,
+        "US_CPI": -0.27068000000000003,
+        "US_Fed_Rate": -0.35464000000000007,
+        "NIFTY250_Return": 1.3890266666666666
+      },
+      "resultant_beta": 1.4744191843224297,
+      "company_factors": {
+        "pe_factor": 0.7165,
+        "size_factor": 0.535,
+        "roce_factor": 2.155333333333333
+      }
+    },
+    "COMP156": {
+      "individual_betas": {
+        "US_GDP": 0.50048,
+        "India_GDP": 0.37536,
+        "US_Fed_Rate": -0.36768,
+        "India_CPI": 0.36252,
+        "US_CPI": 0.18126,
+        "India_Repo_Rate": -0.24512,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.7223866666666666
+      },
+      "resultant_beta": 1.264924581393625,
+      "company_factors": {
+        "pe_factor": 1.564,
+        "size_factor": 0.532,
+        "roce_factor": 0.6246666666666666
+      }
+    },
+    "COMP157": {
+      "individual_betas": {
+        "US_GDP": 0.9348,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.17072,
+        "India_GDP": 0.24928,
+        "India_CPI": 0.14302,
+        "India_Repo_Rate": -0.25608,
+        "US_CPI": -0.57208,
+        "NIFTY250_Return": 1.5636933333333332
+      },
+      "resultant_beta": 2.0246534692476303,
+      "company_factors": {
+        "pe_factor": 0.634,
+        "size_factor": 0.529,
+        "roce_factor": 1.8993333333333333
+      }
+    },
+    "COMP158": {
+      "individual_betas": {
+        "India_GDP": 0.74496,
+        "India_Repo_Rate": -1.05504,
+        "India_CPI": 0.52068,
+        "US_GDP": 0.3104,
+        "INR_USD": 0.2,
+        "US_CPI": 0.6942400000000001,
+        "US_Fed_Rate": -0.7536,
+        "NIFTY250_Return": 0.9525333333333333
+      },
+      "resultant_beta": 1.7033046185667684,
+      "company_factors": {
+        "pe_factor": 2.268,
+        "size_factor": 0.526,
+        "roce_factor": 0.8813333333333334
+      }
+    },
+    "COMP159": {
+      "individual_betas": {
+        "India_GDP": 0.6184000000000001,
+        "US_GDP": 0.43288000000000004,
+        "India_CPI": 0.6699999999999999,
+        "US_CPI": 0.8039999999999999,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 1.332
+      },
+      "resultant_beta": 2.058028580947348,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.523,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP160": {
+      "individual_betas": {
+        "India_GDP": 0.6160000000000001,
+        "India_Repo_Rate": -0.72432,
+        "India_CPI": -0.6590400000000001,
+        "US_GDP": 0.18480000000000002,
+        "INR_USD": -0.2,
+        "US_CPI": -0.49427999999999994,
+        "US_Fed_Rate": -0.48288000000000003,
+        "NIFTY250_Return": 0.9628800000000001
+      },
+      "resultant_beta": 1.6266120562777058,
+      "company_factors": {
+        "pe_factor": 1.518,
+        "size_factor": 0.52,
+        "roce_factor": 1.1746666666666667
+      }
+    },
+    "COMP161": {
+      "individual_betas": {
+        "India_GDP": 0.42952,
+        "India_CPI": -1.12272,
+        "US_CPI": -0.74848,
+        "US_GDP": 0.18408,
+        "India_Repo_Rate": -0.53382,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.35588000000000003,
+        "NIFTY250_Return": 0.5788
+      },
+      "resultant_beta": 1.9128565387142464,
+      "company_factors": {
+        "pe_factor": 2.9485,
+        "size_factor": 0.517,
+        "roce_factor": 0.42933333333333334
+      }
+    },
+    "COMP162": {
+      "individual_betas": {
+        "India_GDP": 0.8556799999999999,
+        "India_Repo_Rate": -1.62,
+        "India_CPI": 0.564,
+        "US_GDP": 0.24448,
+        "INR_USD": -0.3,
+        "US_CPI": 0.376,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 0.9119999999999999
+      },
+      "resultant_beta": 1.838522164323573,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.514,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP163": {
+      "individual_betas": {
+        "India_GDP": 0.9132,
+        "India_Repo_Rate": -1.7556000000000003,
+        "India_CPI": 0.6577600000000001,
+        "US_GDP": 0.18264,
+        "INR_USD": 0.2,
+        "US_CPI": 0.49332,
+        "US_Fed_Rate": -1.05336,
+        "NIFTY250_Return": 1.1815466666666667
+      },
+      "resultant_beta": 2.2282728417809374,
+      "company_factors": {
+        "pe_factor": 2.8890000000000002,
+        "size_factor": 0.511,
+        "roce_factor": 1.1853333333333333
+      }
+    },
+    "COMP164": {
+      "individual_betas": {
+        "India_GDP": 0.6670400000000001,
+        "India_CPI": 1.0146,
+        "India_Repo_Rate": -1.22542,
+        "US_GDP": 0.12128000000000001,
+        "INR_USD": 0.3,
+        "US_CPI": 0.6764000000000001,
+        "US_Fed_Rate": -0.70024,
+        "NIFTY250_Return": 0.9108
+      },
+      "resultant_beta": 1.9603286175664976,
+      "company_factors": {
+        "pe_factor": 2.8765,
+        "size_factor": 0.508,
+        "roce_factor": 1.03
+      }
+    },
+    "COMP165": {
+      "individual_betas": {
+        "India_GDP": 0.7852000000000001,
+        "US_GDP": 0.5436000000000001,
+        "India_CPI": 1.1347200000000002,
+        "US_CPI": 0.99288,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.33444000000000007,
+        "US_Fed_Rate": -0.50166,
+        "NIFTY250_Return": 1.9256533333333332
+      },
+      "resultant_beta": 2.9772255055455004,
+      "company_factors": {
+        "pe_factor": 2.6805,
+        "size_factor": 0.505,
+        "roce_factor": 1.9386666666666665
+      }
+    },
+    "COMP166": {
+      "individual_betas": {
+        "India_GDP": 0.84224,
+        "India_Repo_Rate": -2.1048,
+        "India_CPI": 0.8592,
+        "US_GDP": 0.12032000000000001,
+        "INR_USD": 0.3,
+        "US_CPI": 0.68736,
+        "US_Fed_Rate": -1.4032,
+        "NIFTY250_Return": 1.2681066666666667
+      },
+      "resultant_beta": 2.7829824686268934,
+      "company_factors": {
+        "pe_factor": 2.8850000000000002,
+        "size_factor": 0.502,
+        "roce_factor": 0.9386666666666666
+      }
+    },
+    "COMP167": {
+      "individual_betas": {
+        "India_GDP": 0.65912,
+        "INR_USD": 0.6,
+        "US_GDP": 0.23968,
+        "India_CPI": 0.42989999999999995,
+        "US_CPI": 0.28659999999999997,
+        "India_Repo_Rate": -0.6796,
+        "US_Fed_Rate": -0.40775999999999996,
+        "NIFTY250_Return": 1.356
+      },
+      "resultant_beta": 1.7437086063689455,
+      "company_factors": {
+        "pe_factor": 1.8980000000000001,
+        "size_factor": 0.499,
+        "roce_factor": 1.8900000000000001
+      }
+    },
+    "COMP168": {
+      "individual_betas": {
+        "India_GDP": 0.53712,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_GDP": 0.2984,
+        "India_CPI": -0.30268000000000006,
+        "INR_USD": -0.3,
+        "US_CPI": -0.30268000000000006,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.18636
+      },
+      "resultant_beta": 1.67245023038239,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.496,
+        "roce_factor": 1.6219999999999999
+      }
+    },
+    "COMP169": {
+      "individual_betas": {
+        "US_GDP": 0.47552000000000005,
+        "India_GDP": 0.35664,
+        "US_Fed_Rate": -0.54,
+        "India_CPI": 0.34464000000000006,
+        "US_CPI": 0.17232000000000003,
+        "India_Repo_Rate": -0.36000000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.8237066666666666
+      },
+      "resultant_beta": 1.3659371324156384,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.493,
+        "roce_factor": 0.9226666666666666
+      }
+    },
+    "COMP170": {
+      "individual_betas": {
+        "US_GDP": 0.8880000000000001,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.36000000000000004,
+        "India_GDP": 0.23680000000000004,
+        "India_CPI": 0.15044000000000002,
+        "India_Repo_Rate": -0.54,
+        "US_CPI": -0.6017600000000001,
+        "NIFTY250_Return": 1.44992
+      },
+      "resultant_beta": 2.0922008955070606,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.49,
+        "roce_factor": 1.6520000000000001
+      }
+    },
+    "COMP171": {
+      "individual_betas": {
+        "India_GDP": 0.70752,
+        "India_Repo_Rate": -0.8486800000000001,
+        "India_CPI": 0.40974000000000005,
+        "US_GDP": 0.2948,
+        "INR_USD": 0.2,
+        "US_CPI": 0.54632,
+        "US_Fed_Rate": -0.6062000000000001,
+        "NIFTY250_Return": 1.4456
+      },
+      "resultant_beta": 1.858018985388686,
+      "company_factors": {
+        "pe_factor": 1.5310000000000001,
+        "size_factor": 0.487,
+        "roce_factor": 2.114
+      }
+    },
+    "COMP172": {
+      "individual_betas": {
+        "India_GDP": 0.5871999999999999,
+        "US_GDP": 0.41103999999999996,
+        "India_CPI": 0.9222,
+        "US_CPI": 1.10664,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 0.72672
+      },
+      "resultant_beta": 2.099797648775443,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.484,
+        "roce_factor": 0.5186666666666667
+      }
+    },
+    "COMP173": {
+      "individual_betas": {
+        "India_GDP": 0.5848,
+        "India_Repo_Rate": -1.08,
+        "India_CPI": -0.6900000000000001,
+        "US_GDP": 0.17543999999999998,
+        "INR_USD": -0.2,
+        "US_CPI": -0.5175,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 0.87
+      },
+      "resultant_beta": 1.9951860005814983,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.481,
+        "roce_factor": 0.9166666666666666
+      }
+    },
+    "COMP174": {
+      "individual_betas": {
+        "India_GDP": 0.40768,
+        "India_CPI": -1.128,
+        "US_CPI": -0.752,
+        "US_GDP": 0.17472000000000001,
+        "India_Repo_Rate": -0.25973999999999997,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.17316,
+        "NIFTY250_Return": 0.5700000000000001
+      },
+      "resultant_beta": 1.7428258231834701,
+      "company_factors": {
+        "pe_factor": 0.6645,
+        "size_factor": 0.478,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP175": {
+      "individual_betas": {
+        "India_GDP": 0.812,
+        "India_Repo_Rate": -0.77814,
+        "India_CPI": 0.49644,
+        "US_GDP": 0.23200000000000004,
+        "INR_USD": -0.3,
+        "US_CPI": 0.33096000000000003,
+        "US_Fed_Rate": -0.34584000000000004,
+        "NIFTY250_Return": 1.27232
+      },
+      "resultant_beta": 1.5857179711357183,
+      "company_factors": {
+        "pe_factor": 0.6615,
+        "size_factor": 0.475,
+        "roce_factor": 1.1506666666666667
+      }
+    },
+    "COMP176": {
+      "individual_betas": {
+        "India_GDP": 0.8664000000000001,
+        "India_Repo_Rate": -1.6684,
+        "India_CPI": 0.5359999999999999,
+        "US_GDP": 0.17328,
+        "INR_USD": 0.2,
+        "US_CPI": 0.40199999999999997,
+        "US_Fed_Rate": -1.00104,
+        "NIFTY250_Return": 1.6280000000000001
+      },
+      "resultant_beta": 2.4352609993854846,
+      "company_factors": {
+        "pe_factor": 2.6710000000000003,
+        "size_factor": 0.472,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP177": {
+      "individual_betas": {
+        "India_GDP": 0.63272,
+        "India_CPI": 1.04124,
+        "India_Repo_Rate": -0.59122,
+        "US_GDP": 0.11503999999999999,
+        "INR_USD": 0.3,
+        "US_CPI": 0.6941600000000001,
+        "US_Fed_Rate": -0.33784000000000003,
+        "NIFTY250_Return": 0.85752
+      },
+      "resultant_beta": 1.8303358531014013,
+      "company_factors": {
+        "pe_factor": 0.6115,
+        "size_factor": 0.469,
+        "roce_factor": 0.882
+      }
+    },
+    "COMP178": {
+      "individual_betas": {
+        "India_GDP": 0.74464,
+        "US_GDP": 0.51552,
+        "India_CPI": 1.46448,
+        "US_CPI": 1.28142,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.34904,
+        "US_Fed_Rate": -0.52356,
+        "NIFTY250_Return": 1.1562133333333333
+      },
+      "resultant_beta": 3.0152210523200624,
+      "company_factors": {
+        "pe_factor": 2.863,
+        "size_factor": 0.466,
+        "roce_factor": 0.5646666666666668
+      }
+    },
+    "COMP179": {
+      "individual_betas": {
+        "India_GDP": 0.7985599999999999,
+        "India_Repo_Rate": -1.53576,
+        "India_CPI": 0.926,
+        "US_GDP": 0.11408000000000001,
+        "INR_USD": 0.3,
+        "US_CPI": 0.7408000000000001,
+        "US_Fed_Rate": -1.02384,
+        "NIFTY250_Return": 1.0365333333333333
+      },
+      "resultant_beta": 2.203724659400219,
+      "company_factors": {
+        "pe_factor": 1.6995,
+        "size_factor": 0.463,
+        "roce_factor": 0.49333333333333335
+      }
+    },
+    "COMP180": {
+      "individual_betas": {
+        "India_GDP": 0.6248000000000001,
+        "INR_USD": 0.6,
+        "US_GDP": 0.22720000000000004,
+        "India_CPI": 0.43542,
+        "US_CPI": 0.29028000000000004,
+        "India_Repo_Rate": -0.5604,
+        "US_Fed_Rate": -0.33624,
+        "NIFTY250_Return": 1.3314666666666666
+      },
+      "resultant_beta": 1.7009434639113927,
+      "company_factors": {
+        "pe_factor": 1.302,
+        "size_factor": 0.46,
+        "roce_factor": 1.8286666666666667
+      }
+    },
+    "COMP181": {
+      "individual_betas": {
+        "India_GDP": 0.5090400000000002,
+        "India_Repo_Rate": -0.59816,
+        "US_GDP": 0.28280000000000005,
+        "India_CPI": -0.26799999999999996,
+        "INR_USD": -0.3,
+        "US_CPI": -0.26799999999999996,
+        "US_Fed_Rate": -0.59816,
+        "NIFTY250_Return": 1.406
+      },
+      "resultant_beta": 1.6963875931254697,
+      "company_factors": {
+        "pe_factor": 2.2385,
+        "size_factor": 0.457,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP182": {
+      "individual_betas": {
+        "US_GDP": 0.45056000000000007,
+        "India_GDP": 0.33792,
+        "US_Fed_Rate": -0.25638,
+        "India_CPI": 0.2721200000000001,
+        "US_CPI": 0.13606000000000004,
+        "India_Repo_Rate": -0.17092000000000002,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 1.2346533333333332
+      },
+      "resultant_beta": 1.4821980118101352,
+      "company_factors": {
+        "pe_factor": 0.6365000000000001,
+        "size_factor": 0.454,
+        "roce_factor": 2.131333333333333
+      }
+    },
+    "COMP183": {
+      "individual_betas": {
+        "US_GDP": 0.8412,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.25896,
+        "India_GDP": 0.22432,
+        "India_CPI": 0.15456000000000003,
+        "India_Repo_Rate": -0.38843999999999995,
+        "US_CPI": -0.6182400000000001,
+        "NIFTY250_Return": 1.3867466666666666
+      },
+      "resultant_beta": 1.9414829747765723,
+      "company_factors": {
+        "pe_factor": 1.737,
+        "size_factor": 0.451,
+        "roce_factor": 1.5146666666666666
+      }
+    },
+    "COMP184": {
+      "individual_betas": {
+        "India_GDP": 0.67008,
+        "India_Repo_Rate": -0.9671199999999999,
+        "India_CPI": 0.471,
+        "US_GDP": 0.2792,
+        "INR_USD": 0.2,
+        "US_CPI": 0.6280000000000001,
+        "US_Fed_Rate": -0.6908,
+        "NIFTY250_Return": 1.1733333333333333
+      },
+      "resultant_beta": 1.754892008929977,
+      "company_factors": {
+        "pe_factor": 1.954,
+        "size_factor": 0.448,
+        "roce_factor": 1.4333333333333333
+      }
+    },
+    "COMP185": {
+      "individual_betas": {
+        "India_GDP": 0.556,
+        "US_GDP": 0.3892,
+        "India_CPI": 0.6699999999999999,
+        "US_CPI": 0.8039999999999999,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.37192000000000003,
+        "US_Fed_Rate": -0.27893999999999997,
+        "NIFTY250_Return": 1.332
+      },
+      "resultant_beta": 2.053015978874371,
+      "company_factors": {
+        "pe_factor": 0.8244999999999999,
+        "size_factor": 0.445,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP186": {
+      "individual_betas": {
+        "India_GDP": 0.5536000000000001,
+        "India_Repo_Rate": -0.6629999999999999,
+        "India_CPI": -0.6133600000000001,
+        "US_GDP": 0.16608000000000003,
+        "INR_USD": -0.2,
+        "US_CPI": -0.46002,
+        "US_Fed_Rate": -0.442,
+        "NIFTY250_Return": 1.09992
+      },
+      "resultant_beta": 1.6348481062539595,
+      "company_factors": {
+        "pe_factor": 1.2625,
+        "size_factor": 0.442,
+        "roce_factor": 1.5553333333333332
+      }
+    },
+    "COMP187": {
+      "individual_betas": {
+        "India_GDP": 0.38584,
+        "India_CPI": -0.88128,
+        "US_CPI": -0.5875199999999999,
+        "US_GDP": 0.16536,
+        "India_Repo_Rate": -0.54,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.36000000000000004,
+        "NIFTY250_Return": 0.9812000000000001
+      },
+      "resultant_beta": 1.7895380082261805,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.439,
+        "roce_factor": 1.7706666666666666
+      }
+    },
+    "COMP188": {
+      "individual_betas": {
+        "India_GDP": 0.7683199999999999,
+        "India_Repo_Rate": -1.0893599999999999,
+        "India_CPI": 0.45918,
+        "US_GDP": 0.21952,
+        "INR_USD": -0.3,
+        "US_CPI": 0.30612,
+        "US_Fed_Rate": -0.48416,
+        "NIFTY250_Return": 1.47104
+      },
+      "resultant_beta": 1.8365038485569556,
+      "company_factors": {
+        "pe_factor": 1.526,
+        "size_factor": 0.436,
+        "roce_factor": 1.5646666666666667
+      }
+    },
+    "COMP189": {
+      "individual_betas": {
+        "India_GDP": 0.8196,
+        "India_Repo_Rate": -0.8742,
+        "India_CPI": 0.5370400000000001,
+        "US_GDP": 0.16391999999999998,
+        "INR_USD": 0.2,
+        "US_CPI": 0.40277999999999997,
+        "US_Fed_Rate": -0.52452,
+        "NIFTY250_Return": 1.6241866666666667
+      },
+      "resultant_beta": 1.9460031253294001,
+      "company_factors": {
+        "pe_factor": 0.6855,
+        "size_factor": 0.433,
+        "roce_factor": 2.191333333333333
+      }
+    },
+    "COMP190": {
+      "individual_betas": {
+        "India_GDP": 0.5984,
+        "India_CPI": 0.8039999999999999,
+        "India_Repo_Rate": -1.26,
+        "US_GDP": 0.10880000000000001,
+        "INR_USD": 0.3,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.332
+      },
+      "resultant_beta": 2.1031517442854297,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.43,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP191": {
+      "individual_betas": {
+        "India_GDP": 0.7040800000000002,
+        "US_GDP": 0.4874400000000001,
+        "India_CPI": 1.49008,
+        "US_CPI": 1.30382,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.30464,
+        "US_Fed_Rate": -0.45696000000000003,
+        "NIFTY250_Return": 1.09648
+      },
+      "resultant_beta": 3.025662731458232,
+      "company_factors": {
+        "pe_factor": 2.308,
+        "size_factor": 0.427,
+        "roce_factor": 0.458
+      }
+    },
+    "COMP192": {
+      "individual_betas": {
+        "India_GDP": 0.75488,
+        "India_Repo_Rate": -1.3764,
+        "India_CPI": 0.6699999999999999,
+        "US_GDP": 0.10784,
+        "INR_USD": 0.3,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -0.9176000000000001,
+        "NIFTY250_Return": 1.924
+      },
+      "resultant_beta": 2.568037407881061,
+      "company_factors": {
+        "pe_factor": 1.3675000000000002,
+        "size_factor": 0.424,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP193": {
+      "individual_betas": {
+        "India_GDP": 0.59048,
+        "INR_USD": 0.6,
+        "US_GDP": 0.21472,
+        "India_CPI": 0.40199999999999997,
+        "US_CPI": 0.26799999999999996,
+        "India_Repo_Rate": -0.4499,
+        "US_Fed_Rate": -0.26994,
+        "NIFTY250_Return": 1.48
+      },
+      "resultant_beta": 1.7923974944814363,
+      "company_factors": {
+        "pe_factor": 0.7495,
+        "size_factor": 0.421,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP194": {
+      "individual_betas": {
+        "India_GDP": 0.48096,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_GDP": 0.2672,
+        "India_CPI": -0.30196,
+        "INR_USD": -0.3,
+        "US_CPI": -0.30196,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.19092
+      },
+      "resultant_beta": 1.7021481248402761,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.418,
+        "roce_factor": 1.6340000000000001
+      }
+    },
+    "COMP195": {
+      "individual_betas": {
+        "US_GDP": 0.42560000000000003,
+        "India_GDP": 0.3192,
+        "US_Fed_Rate": -0.27587999999999996,
+        "India_CPI": 0.33972,
+        "US_CPI": 0.16986,
+        "India_Repo_Rate": -0.18392,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.8515866666666666
+      },
+      "resultant_beta": 1.2503234849145948,
+      "company_factors": {
+        "pe_factor": 0.799,
+        "size_factor": 0.415,
+        "roce_factor": 1.0046666666666666
+      }
+    },
+    "COMP196": {
+      "individual_betas": {
+        "US_GDP": 0.7944000000000001,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.21276000000000003,
+        "India_GDP": 0.21184000000000003,
+        "India_CPI": 0.13399999999999998,
+        "India_Repo_Rate": -0.31914000000000003,
+        "US_CPI": -0.5359999999999999,
+        "NIFTY250_Return": 1.702
+      },
+      "resultant_beta": 2.103461938071533,
+      "company_factors": {
+        "pe_factor": 1.1595,
+        "size_factor": 0.412,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP197": {
+      "individual_betas": {
+        "India_GDP": 0.63264,
+        "India_Repo_Rate": -0.9627799999999999,
+        "India_CPI": 0.40199999999999997,
+        "US_GDP": 0.2636,
+        "INR_USD": 0.2,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -0.6877,
+        "NIFTY250_Return": 1.48
+      },
+      "resultant_beta": 1.9338598693262343,
+      "company_factors": {
+        "pe_factor": 1.9385000000000001,
+        "size_factor": 0.409,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP198": {
+      "individual_betas": {
+        "India_GDP": 0.5248,
+        "US_GDP": 0.36736,
+        "India_CPI": 0.8198,
+        "US_CPI": 0.98376,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.53128,
+        "US_Fed_Rate": -0.3984599999999999,
+        "NIFTY250_Return": 0.97248
+      },
+      "resultant_beta": 2.0276401891950857,
+      "company_factors": {
+        "pe_factor": 1.8204999999999998,
+        "size_factor": 0.406,
+        "roce_factor": 1.2013333333333334
+      }
+    },
+    "COMP199": {
+      "individual_betas": {
+        "India_GDP": 0.5224,
+        "India_Repo_Rate": -1.05864,
+        "India_CPI": -0.7225600000000001,
+        "US_GDP": 0.15672,
+        "INR_USD": -0.2,
+        "US_CPI": -0.54192,
+        "US_Fed_Rate": -0.7057600000000002,
+        "NIFTY250_Return": 0.77232
+      },
+      "resultant_beta": 2.0034510980807707,
+      "company_factors": {
+        "pe_factor": 2.911,
+        "size_factor": 0.403,
+        "roce_factor": 0.6453333333333333
+      }
+    },
+    "COMP200": {
+      "individual_betas": {
+        "India_GDP": 0.364,
+        "India_CPI": -1.0196399999999999,
+        "US_CPI": -0.67976,
+        "US_GDP": 0.156,
+        "India_Repo_Rate": -0.54,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.36000000000000004,
+        "NIFTY250_Return": 0.7505999999999999
+      },
+      "resultant_beta": 1.8681000634360603,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.4,
+        "roce_factor": 1.002
+      }
+    },
+    "COMP201": {
+      "individual_betas": {
+        "India_GDP": 0.7246400000000001,
+        "India_Repo_Rate": -1.3959000000000001,
+        "India_CPI": 0.40277999999999997,
+        "US_GDP": 0.20704000000000003,
+        "INR_USD": -0.3,
+        "US_CPI": 0.26852000000000004,
+        "US_Fed_Rate": -0.6204000000000001,
+        "NIFTY250_Return": 1.7718399999999999
+      },
+      "resultant_beta": 2.2626557717570477,
+      "company_factors": {
+        "pe_factor": 2.3775,
+        "size_factor": 0.397,
+        "roce_factor": 2.191333333333333
+      }
+    },
+    "COMP202": {
+      "individual_betas": {
+        "India_GDP": 0.7728000000000002,
+        "India_Repo_Rate": -0.9002,
+        "India_CPI": 0.66312,
+        "US_GDP": 0.15456000000000003,
+        "INR_USD": 0.2,
+        "US_CPI": 0.49733999999999995,
+        "US_Fed_Rate": -0.5401199999999999,
+        "NIFTY250_Return": 1.1618933333333334
+      },
+      "resultant_beta": 1.6910841740000717,
+      "company_factors": {
+        "pe_factor": 0.7505,
+        "size_factor": 0.394,
+        "roce_factor": 1.1406666666666667
+      }
+    },
+    "COMP203": {
+      "individual_betas": {
+        "India_GDP": 0.5640800000000001,
+        "India_CPI": 0.8039999999999999,
+        "India_Repo_Rate": -0.6129199999999999,
+        "US_GDP": 0.10256000000000001,
+        "INR_USD": 0.3,
+        "US_CPI": 0.5359999999999999,
+        "US_Fed_Rate": -0.35024,
+        "NIFTY250_Return": 1.332
+      },
+      "resultant_beta": 1.8539116753705884,
+      "company_factors": {
+        "pe_factor": 0.689,
+        "size_factor": 0.391,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP204": {
+      "individual_betas": {
+        "India_GDP": 0.66352,
+        "US_GDP": 0.45936,
+        "India_CPI": 1.17904,
+        "US_CPI": 1.03166,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.20936,
+        "US_Fed_Rate": -0.31404,
+        "NIFTY250_Return": 1.82224
+      },
+      "resultant_beta": 2.9510247274563244,
+      "company_factors": {
+        "pe_factor": 1.117,
+        "size_factor": 0.388,
+        "roce_factor": 1.754
+      }
+    },
+    "COMP205": {
+      "individual_betas": {
+        "India_GDP": 0.7111999999999999,
+        "India_Repo_Rate": -2.0711999999999997,
+        "India_CPI": 0.8324,
+        "US_GDP": 0.10160000000000001,
+        "INR_USD": 0.3,
+        "US_CPI": 0.6659200000000001,
+        "US_Fed_Rate": -1.3808,
+        "NIFTY250_Return": 1.3610133333333336
+      },
+      "resultant_beta": 2.856526959666901,
+      "company_factors": {
+        "pe_factor": 2.815,
+        "size_factor": 0.385,
+        "roce_factor": 1.1173333333333335
+      }
+    },
+    "COMP206": {
+      "individual_betas": {
+        "India_GDP": 0.5561600000000001,
+        "INR_USD": 0.6,
+        "US_GDP": 0.20224000000000003,
+        "India_CPI": 0.564,
+        "US_CPI": 0.376,
+        "India_Repo_Rate": -0.9,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 0.76
+      },
+      "resultant_beta": 1.4563574617893114,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.382,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP207": {
+      "individual_betas": {
+        "India_GDP": 0.4528800000000001,
+        "India_Repo_Rate": -0.6713600000000001,
+        "US_GDP": 0.25160000000000005,
+        "India_CPI": -0.26799999999999996,
+        "INR_USD": -0.3,
+        "US_CPI": -0.26799999999999996,
+        "US_Fed_Rate": -0.6713600000000001,
+        "NIFTY250_Return": 1.406
+      },
+      "resultant_beta": 1.7963461207008096,
+      "company_factors": {
+        "pe_factor": 2.696,
+        "size_factor": 0.379,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP208": {
+      "individual_betas": {
+        "US_GDP": 0.40064000000000005,
+        "India_GDP": 0.30048,
+        "US_Fed_Rate": -0.26028,
+        "India_CPI": 0.34996000000000005,
+        "US_CPI": 0.17498000000000002,
+        "India_Repo_Rate": -0.17352,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.7935599999999999
+      },
+      "resultant_beta": 1.2053241853127867,
+      "company_factors": {
+        "pe_factor": 0.669,
+        "size_factor": 0.376,
+        "roce_factor": 0.834
+      }
+    },
+    "COMP209": {
+      "individual_betas": {
+        "US_GDP": 0.7476,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.33276000000000006,
+        "India_GDP": 0.19936,
+        "India_CPI": 0.13399999999999998,
+        "India_Repo_Rate": -0.49914000000000003,
+        "US_CPI": -0.5359999999999999,
+        "NIFTY250_Return": 1.702
+      },
+      "resultant_beta": 2.198293520416649,
+      "company_factors": {
+        "pe_factor": 2.6595,
+        "size_factor": 0.373,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP210": {
+      "individual_betas": {
+        "India_GDP": 0.5952,
+        "India_Repo_Rate": -1.0682,
+        "India_CPI": 0.45804,
+        "US_GDP": 0.248,
+        "INR_USD": 0.2,
+        "US_CPI": 0.6107200000000002,
+        "US_Fed_Rate": -0.763,
+        "NIFTY250_Return": 1.2309333333333332
+      },
+      "resultant_beta": 1.8470179910214315,
+      "company_factors": {
+        "pe_factor": 2.315,
+        "size_factor": 0.37,
+        "roce_factor": 1.5773333333333333
+      }
+    },
+    "COMP211": {
+      "individual_betas": {
+        "India_GDP": 0.49360000000000004,
+        "US_GDP": 0.34552,
+        "India_CPI": 0.9148000000000001,
+        "US_CPI": 1.09776,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.7200000000000001,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 0.7444799999999999
+      },
+      "resultant_beta": 2.0471169153889406,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.367,
+        "roce_factor": 0.568
+      }
+    },
+    "COMP212": {
+      "individual_betas": {
+        "India_GDP": 0.4912,
+        "India_Repo_Rate": -0.81912,
+        "India_CPI": -0.5575200000000001,
+        "US_GDP": 0.14736,
+        "INR_USD": -0.2,
+        "US_CPI": -0.41814,
+        "US_Fed_Rate": -0.54608,
+        "NIFTY250_Return": 1.26744
+      },
+      "resultant_beta": 1.8703184654144127,
+      "company_factors": {
+        "pe_factor": 1.9129999999999998,
+        "size_factor": 0.364,
+        "roce_factor": 2.0206666666666666
+      }
+    },
+    "COMP213": {
+      "individual_betas": {
+        "India_GDP": 0.34215999999999996,
+        "India_CPI": -0.90168,
+        "US_CPI": -0.6011200000000001,
+        "US_GDP": 0.14664,
+        "India_Repo_Rate": -0.26904,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.17936000000000002,
+        "NIFTY250_Return": 0.9471999999999999
+      },
+      "resultant_beta": 1.6189110195778798,
+      "company_factors": {
+        "pe_factor": 0.742,
+        "size_factor": 0.361,
+        "roce_factor": 1.6573333333333333
+      }
+    },
+    "COMP214": {
+      "individual_betas": {
+        "India_GDP": 0.68096,
+        "India_Repo_Rate": -1.47492,
+        "India_CPI": 0.40986,
+        "US_GDP": 0.19456,
+        "INR_USD": -0.3,
+        "US_CPI": 0.27324000000000004,
+        "US_Fed_Rate": -0.6555200000000001,
+        "NIFTY250_Return": 1.73408
+      },
+      "resultant_beta": 2.3081899083728357,
+      "company_factors": {
+        "pe_factor": 2.597,
+        "size_factor": 0.358,
+        "roce_factor": 2.1126666666666667
+      }
+    },
+    "COMP215": {
+      "individual_betas": {
+        "India_GDP": 0.726,
+        "India_Repo_Rate": -1.4276,
+        "India_CPI": 0.5359999999999999,
+        "US_GDP": 0.1452,
+        "INR_USD": 0.2,
+        "US_CPI": 0.40199999999999997,
+        "US_Fed_Rate": -0.85656,
+        "NIFTY250_Return": 1.6280000000000001
+      },
+      "resultant_beta": 2.292760820719999,
+      "company_factors": {
+        "pe_factor": 2.069,
+        "size_factor": 0.355,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP216": {
+      "individual_betas": {
+        "India_GDP": 0.5297600000000001,
+        "India_CPI": 1.00716,
+        "India_Repo_Rate": -0.7495599999999999,
+        "US_GDP": 0.09632000000000002,
+        "INR_USD": 0.3,
+        "US_CPI": 0.67144,
+        "US_Fed_Rate": -0.42832000000000003,
+        "NIFTY250_Return": 0.92568
+      },
+      "resultant_beta": 1.8143471929678896,
+      "company_factors": {
+        "pe_factor": 1.177,
+        "size_factor": 0.352,
+        "roce_factor": 1.0713333333333332
+      }
+    },
+    "COMP217": {
+      "individual_betas": {
+        "India_GDP": 0.6229600000000001,
+        "US_GDP": 0.43128,
+        "India_CPI": 1.11216,
+        "US_CPI": 0.97314,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.36000000000000004,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 1.9782933333333332
+      },
+      "resultant_beta": 2.903566263799143,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.349,
+        "roce_factor": 2.0326666666666666
+      }
+    },
+    "COMP218": {
+      "individual_betas": {
+        "India_GDP": 0.66752,
+        "India_Repo_Rate": -1.21344,
+        "India_CPI": 0.8346,
+        "US_GDP": 0.09536,
+        "INR_USD": 0.3,
+        "US_CPI": 0.66768,
+        "US_Fed_Rate": -0.8089600000000001,
+        "NIFTY250_Return": 1.3533866666666665
+      },
+      "resultant_beta": 2.1529146175601968,
+      "company_factors": {
+        "pe_factor": 1.028,
+        "size_factor": 0.346,
+        "roce_factor": 1.1026666666666667
+      }
+    },
+    "COMP219": {
+      "individual_betas": {
+        "India_GDP": 0.5218400000000001,
+        "INR_USD": 0.6,
+        "US_GDP": 0.18976000000000004,
+        "India_CPI": 0.4812,
+        "US_CPI": 0.32080000000000003,
+        "India_Repo_Rate": -0.5276000000000001,
+        "US_Fed_Rate": -0.31656,
+        "NIFTY250_Return": 1.1280000000000001
+      },
+      "resultant_beta": 1.5495919582945141,
+      "company_factors": {
+        "pe_factor": 1.1380000000000001,
+        "size_factor": 0.343,
+        "roce_factor": 1.32
+      }
+    },
+    "COMP220": {
+      "individual_betas": {
+        "India_GDP": 0.4248,
+        "India_Repo_Rate": -0.45872,
+        "US_GDP": 0.23600000000000002,
+        "India_CPI": -0.27796,
+        "INR_USD": -0.3,
+        "US_CPI": -0.27796,
+        "US_Fed_Rate": -0.45872,
+        "NIFTY250_Return": 1.3429200000000001
+      },
+      "resultant_beta": 1.552996771122258,
+      "company_factors": {
+        "pe_factor": 1.367,
+        "size_factor": 0.34,
+        "roce_factor": 2.0340000000000003
+      }
+    },
+    "COMP221": {
+      "individual_betas": {
+        "US_GDP": 0.37568,
+        "India_GDP": 0.28176,
+        "US_Fed_Rate": -0.24078,
+        "India_CPI": 0.32672,
+        "US_CPI": 0.16336,
+        "India_Repo_Rate": -0.16052,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.9252533333333334
+      },
+      "resultant_beta": 1.2530831092211778,
+      "company_factors": {
+        "pe_factor": 0.5065000000000001,
+        "size_factor": 0.337,
+        "roce_factor": 1.2213333333333334
+      }
+    },
+    "COMP222": {
+      "individual_betas": {
+        "US_GDP": 0.7008000000000001,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.15216,
+        "India_GDP": 0.18688000000000005,
+        "India_CPI": 0.17322,
+        "India_Repo_Rate": -0.22823999999999997,
+        "US_CPI": -0.69288,
+        "NIFTY250_Return": 1.1006266666666666
+      },
+      "resultant_beta": 1.6361778537199503,
+      "company_factors": {
+        "pe_factor": 0.40199999999999997,
+        "size_factor": 0.334,
+        "roce_factor": 0.8926666666666667
+      }
+    },
+    "COMP223": {
+      "individual_betas": {
+        "India_GDP": 0.55776,
+        "India_Repo_Rate": -0.93646,
+        "India_CPI": 0.46637999999999996,
+        "US_GDP": 0.23240000000000002,
+        "INR_USD": 0.2,
+        "US_CPI": 0.6218400000000001,
+        "US_Fed_Rate": -0.6689,
+        "NIFTY250_Return": 1.1938666666666666
+      },
+      "resultant_beta": 1.7550832974418318,
+      "company_factors": {
+        "pe_factor": 1.8445,
+        "size_factor": 0.331,
+        "roce_factor": 1.4846666666666666
+      }
+    },
+    "COMP224": {
+      "individual_betas": {
+        "India_GDP": 0.46240000000000003,
+        "US_GDP": 0.32368,
+        "India_CPI": 0.7879,
+        "US_CPI": 0.94548,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.5288,
+        "US_Fed_Rate": -0.3966,
+        "NIFTY250_Return": 1.04904
+      },
+      "resultant_beta": 1.9861895244727616,
+      "company_factors": {
+        "pe_factor": 1.8050000000000002,
+        "size_factor": 0.328,
+        "roce_factor": 1.4140000000000001
+      }
+    },
+    "COMP225": {
+      "individual_betas": {
+        "India_GDP": 0.46,
+        "India_Repo_Rate": -0.71256,
+        "India_CPI": -0.67488,
+        "US_GDP": 0.138,
+        "INR_USD": -0.2,
+        "US_CPI": -0.5061599999999999,
+        "US_Fed_Rate": -0.47504,
+        "NIFTY250_Return": 0.91536
+      },
+      "resultant_beta": 1.6872458603969023,
+      "company_factors": {
+        "pe_factor": 1.4689999999999999,
+        "size_factor": 0.325,
+        "roce_factor": 1.0426666666666666
+      }
+    },
+    "COMP226": {
+      "individual_betas": {
+        "India_GDP": 0.32032,
+        "India_CPI": -0.9924,
+        "US_CPI": -0.6616,
+        "US_GDP": 0.13727999999999999,
+        "India_Repo_Rate": -0.3714,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.24760000000000001,
+        "NIFTY250_Return": 0.7959999999999999
+      },
+      "resultant_beta": 1.7415652667015609,
+      "company_factors": {
+        "pe_factor": 1.595,
+        "size_factor": 0.322,
+        "roce_factor": 1.1533333333333333
+      }
+    },
+    "COMP227": {
+      "individual_betas": {
+        "India_GDP": 0.6372800000000001,
+        "India_Repo_Rate": -0.9900000000000001,
+        "India_CPI": 0.4764,
+        "US_GDP": 0.18208000000000002,
+        "INR_USD": -0.3,
+        "US_CPI": 0.31760000000000005,
+        "US_Fed_Rate": -0.44000000000000006,
+        "NIFTY250_Return": 1.3792
+      },
+      "resultant_beta": 1.7454967983967011,
+      "company_factors": {
+        "pe_factor": 1.25,
+        "size_factor": 0.319,
+        "roce_factor": 1.3733333333333335
+      }
+    },
+    "COMP228": {
+      "individual_betas": {
+        "India_GDP": 0.6792,
+        "India_Repo_Rate": -1.2584,
+        "India_CPI": 0.54392,
+        "US_GDP": 0.13584000000000002,
+        "INR_USD": 0.2,
+        "US_CPI": 0.40793999999999997,
+        "US_Fed_Rate": -0.7550399999999999,
+        "NIFTY250_Return": 1.5989600000000002
+      },
+      "resultant_beta": 2.163527799566734,
+      "company_factors": {
+        "pe_factor": 1.6460000000000001,
+        "size_factor": 0.316,
+        "roce_factor": 2.134
+      }
+    },
+    "COMP229": {
+      "individual_betas": {
+        "India_GDP": 0.49544000000000005,
+        "India_CPI": 1.1084399999999999,
+        "India_Repo_Rate": -0.7329000000000001,
+        "US_GDP": 0.09008000000000001,
+        "INR_USD": 0.3,
+        "US_CPI": 0.7389600000000001,
+        "US_Fed_Rate": -0.41880000000000006,
+        "NIFTY250_Return": 0.72312
+      },
+      "resultant_beta": 1.8284017967297883,
+      "company_factors": {
+        "pe_factor": 1.1175000000000002,
+        "size_factor": 0.313,
+        "roce_factor": 0.5086666666666667
+      }
+    },
+    "COMP230": {
+      "individual_betas": {
+        "India_GDP": 0.5824,
+        "US_GDP": 0.4032,
+        "India_CPI": 1.2224000000000002,
+        "US_CPI": 1.0695999999999999,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.29752,
+        "US_Fed_Rate": -0.44628,
+        "NIFTY250_Return": 1.7210666666666667
+      },
+      "resultant_beta": 2.8727529701138526,
+      "company_factors": {
+        "pe_factor": 2.2190000000000003,
+        "size_factor": 0.31,
+        "roce_factor": 1.5733333333333335
+      }
+    },
+    "COMP231": {
+      "individual_betas": {
+        "India_GDP": 0.62384,
+        "India_Repo_Rate": -2.16,
+        "India_CPI": 0.7956,
+        "US_GDP": 0.08912,
+        "INR_USD": 0.3,
+        "US_CPI": 0.63648,
+        "US_Fed_Rate": -1.4400000000000002,
+        "NIFTY250_Return": 1.4885866666666667
+      },
+      "resultant_beta": 3.062400122140147,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.307,
+        "roce_factor": 1.3626666666666667
+      }
+    },
+    "COMP232": {
+      "individual_betas": {
+        "India_GDP": 0.48752000000000006,
+        "INR_USD": 0.6,
+        "US_GDP": 0.17728000000000002,
+        "India_CPI": 0.564,
+        "US_CPI": 0.376,
+        "India_Repo_Rate": -0.6401,
+        "US_Fed_Rate": -0.38406,
+        "NIFTY250_Return": 0.76
+      },
+      "resultant_beta": 1.3594336805014582,
+      "company_factors": {
+        "pe_factor": 1.7005,
+        "size_factor": 0.304,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP233": {
+      "individual_betas": {
+        "India_GDP": 0.39672,
+        "India_Repo_Rate": -0.34016,
+        "US_GDP": 0.2204,
+        "India_CPI": -0.2736,
+        "INR_USD": -0.3,
+        "US_CPI": -0.2736,
+        "US_Fed_Rate": -0.34016,
+        "NIFTY250_Return": 1.3705333333333334
+      },
+      "resultant_beta": 1.486993225869965,
+      "company_factors": {
+        "pe_factor": 0.626,
+        "size_factor": 0.301,
+        "roce_factor": 2.106666666666667
+      }
+    },
+    "COMP234": {
+      "individual_betas": {
+        "US_GDP": 0.35200000000000004,
+        "India_GDP": 0.264,
+        "US_Fed_Rate": -0.54,
+        "India_CPI": 0.32408000000000003,
+        "US_CPI": 0.16204000000000002,
+        "India_Repo_Rate": -0.36000000000000004,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.9402133333333333
+      },
+      "resultant_beta": 1.3906451048709905,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.3,
+        "roce_factor": 1.2653333333333334
+      }
+    },
+    "COMP235": {
+      "individual_betas": {
+        "US_GDP": 0.66,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.36000000000000004,
+        "India_GDP": 0.17600000000000002,
+        "India_CPI": 0.1524,
+        "India_Repo_Rate": -0.54,
+        "US_CPI": -0.6096,
+        "NIFTY250_Return": 1.4198666666666664
+      },
+      "resultant_beta": 2.0287210103801625,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.3,
+        "roce_factor": 1.5866666666666667
+      }
+    },
+    "COMP236": {
+      "individual_betas": {
+        "India_GDP": 0.528,
+        "India_Repo_Rate": -1.26,
+        "India_CPI": 0.53592,
+        "US_GDP": 0.22,
+        "INR_USD": 0.2,
+        "US_CPI": 0.7145600000000001,
+        "US_Fed_Rate": -0.9,
+        "NIFTY250_Return": 0.8848
+      },
+      "resultant_beta": 1.8271979683686028,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.3,
+        "roce_factor": 0.712
+      }
+    },
+    "COMP237": {
+      "individual_betas": {
+        "India_GDP": 0.44,
+        "US_GDP": 0.308,
+        "India_CPI": 0.6929000000000001,
+        "US_CPI": 0.8314800000000001,
+        "INR_USD": 0.2,
+        "India_Repo_Rate": -0.38192000000000004,
+        "US_Fed_Rate": -0.28644,
+        "NIFTY250_Return": 1.2770400000000002
+      },
+      "resultant_beta": 1.990679272265743,
+      "company_factors": {
+        "pe_factor": 0.8869999999999999,
+        "size_factor": 0.3,
+        "roce_factor": 2.0473333333333334
+      }
+    },
+    "COMP238": {
+      "individual_betas": {
+        "India_GDP": 0.44,
+        "India_Repo_Rate": -0.94536,
+        "India_CPI": -0.65688,
+        "US_GDP": 0.132,
+        "INR_USD": -0.2,
+        "US_CPI": -0.49265999999999993,
+        "US_Fed_Rate": -0.6302400000000001,
+        "NIFTY250_Return": 0.96936
+      },
+      "resultant_beta": 1.950025185233624,
+      "company_factors": {
+        "pe_factor": 2.439,
+        "size_factor": 0.3,
+        "roce_factor": 1.1926666666666668
+      }
+    },
+    "COMP239": {
+      "individual_betas": {
+        "India_GDP": 0.308,
+        "India_CPI": -1.128,
+        "US_CPI": -0.752,
+        "US_GDP": 0.132,
+        "India_Repo_Rate": -0.33918,
+        "INR_USD": -0.2,
+        "US_Fed_Rate": -0.22612000000000002,
+        "NIFTY250_Return": 0.5700000000000001
+      },
+      "resultant_beta": 1.8318674330097249,
+      "company_factors": {
+        "pe_factor": 1.3265,
+        "size_factor": 0.3,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP240": {
+      "individual_betas": {
+        "India_GDP": 0.616,
+        "India_Repo_Rate": -1.4031000000000002,
+        "India_CPI": 0.564,
+        "US_GDP": 0.17600000000000002,
+        "INR_USD": -0.3,
+        "US_CPI": 0.376,
+        "US_Fed_Rate": -0.6236000000000002,
+        "NIFTY250_Return": 0.9119999999999999
+      },
+      "resultant_beta": 1.741580545406497,
+      "company_factors": {
+        "pe_factor": 2.3975,
+        "size_factor": 0.3,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP241": {
+      "individual_betas": {
+        "India_GDP": 0.66,
+        "India_Repo_Rate": -1.8,
+        "India_CPI": 0.576,
+        "US_GDP": 0.132,
+        "INR_USD": 0.2,
+        "US_CPI": 0.432,
+        "US_Fed_Rate": -1.08,
+        "NIFTY250_Return": 1.4813333333333334
+      },
+      "resultant_beta": 2.5544907111546937,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.3,
+        "roce_factor": 1.8666666666666667
+      }
+    },
+    "COMP242": {
+      "individual_betas": {
+        "India_GDP": 0.48400000000000004,
+        "India_CPI": 1.128,
+        "India_Repo_Rate": -0.6328,
+        "US_GDP": 0.08800000000000001,
+        "INR_USD": 0.3,
+        "US_CPI": 0.752,
+        "US_Fed_Rate": -0.36160000000000003,
+        "NIFTY250_Return": 0.684
+      },
+      "resultant_beta": 1.8320864656374243,
+      "company_factors": {
+        "pe_factor": 0.76,
+        "size_factor": 0.3,
+        "roce_factor": 0.4
+      }
+    },
+    "COMP243": {
+      "individual_betas": {
+        "India_GDP": 0.5720000000000001,
+        "US_GDP": 0.396,
+        "India_CPI": 1.0719999999999998,
+        "US_CPI": 0.9379999999999998,
+        "INR_USD": 0.4,
+        "India_Repo_Rate": -0.36000000000000004,
+        "US_Fed_Rate": -0.54,
+        "NIFTY250_Return": 2.072
+      },
+      "resultant_beta": 2.904240876031191,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.3,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP244": {
+      "individual_betas": {
+        "India_GDP": 0.616,
+        "India_Repo_Rate": -1.08,
+        "India_CPI": 0.8054,
+        "US_GDP": 0.08800000000000001,
+        "INR_USD": 0.3,
+        "US_CPI": 0.64432,
+        "US_Fed_Rate": -0.7200000000000001,
+        "NIFTY250_Return": 1.4546133333333333
+      },
+      "resultant_beta": 2.141942470184553,
+      "company_factors": {
+        "pe_factor": 0.75,
+        "size_factor": 0.3,
+        "roce_factor": 1.2973333333333334
+      }
+    },
+    "COMP245": {
+      "individual_betas": {
+        "India_GDP": 0.48400000000000004,
+        "INR_USD": 0.6,
+        "US_GDP": 0.17600000000000002,
+        "India_CPI": 0.43404000000000004,
+        "US_CPI": 0.28936,
+        "India_Repo_Rate": -0.3834,
+        "US_Fed_Rate": -0.23004,
+        "NIFTY250_Return": 1.3376000000000001
+      },
+      "resultant_beta": 1.6743425754057333,
+      "company_factors": {
+        "pe_factor": 0.417,
+        "size_factor": 0.3,
+        "roce_factor": 1.844
+      }
+    },
+    "COMP246": {
+      "individual_betas": {
+        "India_GDP": 0.396,
+        "India_Repo_Rate": -0.31576000000000004,
+        "US_GDP": 0.22,
+        "India_CPI": -0.26799999999999996,
+        "INR_USD": -0.3,
+        "US_CPI": -0.26799999999999996,
+        "US_Fed_Rate": -0.31576000000000004,
+        "NIFTY250_Return": 1.406
+      },
+      "resultant_beta": 1.4978471887015647,
+      "company_factors": {
+        "pe_factor": 0.47350000000000003,
+        "size_factor": 0.3,
+        "roce_factor": 2.2
+      }
+    },
+    "COMP247": {
+      "individual_betas": {
+        "US_GDP": 0.35200000000000004,
+        "India_GDP": 0.264,
+        "US_Fed_Rate": -0.25361999999999996,
+        "India_CPI": 0.32388,
+        "US_CPI": 0.16194,
+        "India_Repo_Rate": -0.16908,
+        "INR_USD": -0.4,
+        "NIFTY250_Return": 0.9413466666666668
+      },
+      "resultant_beta": 1.2541256078511749,
+      "company_factors": {
+        "pe_factor": 0.6134999999999999,
+        "size_factor": 0.3,
+        "roce_factor": 1.2686666666666668
+      }
+    },
+    "COMP248": {
+      "individual_betas": {
+        "US_GDP": 0.66,
+        "INR_USD": -0.7,
+        "US_Fed_Rate": -0.36000000000000004,
+        "India_GDP": 0.17600000000000002,
+        "India_CPI": 0.16602000000000003,
+        "India_Repo_Rate": -0.54,
+        "US_CPI": -0.6640800000000001,
+        "NIFTY250_Return": 1.2110266666666665
+      },
+      "resultant_beta": 1.9094025113971322,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.3,
+        "roce_factor": 1.1326666666666665
+      }
+    },
+    "COMP249": {
+      "individual_betas": {
+        "India_GDP": 0.528,
+        "India_Repo_Rate": -1.26,
+        "India_CPI": 0.5055,
+        "US_GDP": 0.22,
+        "INR_USD": 0.2,
+        "US_CPI": 0.674,
+        "US_Fed_Rate": -0.9,
+        "NIFTY250_Return": 1.02
+      },
+      "resultant_beta": 1.8884453572619473,
+      "company_factors": {
+        "pe_factor": 3.0,
+        "size_factor": 0.3,
+        "roce_factor": 1.05
+      }
+    }
+  },
+  "statistics": {
+    "mean": 1.923143061423436,
+    "median": 1.8465596858126478,
+    "std": 0.5290371162314413,
+    "min": 0.9865785480400577,
+    "max": 4.225429306148593,
+    "total_companies": 260
+  },
+  "sector_analysis": {
+    "sector_avg_betas": {
+      "Oil Gas & Consumable Fuels": 4.225429306148593,
+      "Financial Services": 1.6010651278091363,
+      "Telecommunication": 1.248165664453627,
+      "Information Technology": 2.2181168762936134,
+      "Fast Moving Consumer Goods": 1.7293005383810525,
+      "Consumer Goods": 1.5035999939519469,
+      "Metals & Mining": 3.100258336401449,
+      "Healthcare": 1.443808542490671,
+      "Capital Goods": 1.89245244623747,
+      "Construction Materials": 2.51530225699723,
+      "Chemicals": 2.141923918013344,
+      "Consumer Durables": 1.7896833928781628,
+      "Services": 1.1720226500403266,
+      "Automobile and Auto Components": 1.9248393834952267,
+      "Textiles": 1.6340028820518555,
+      "Media Entertainment & Publication": 1.518537582443221,
+      "Construction": 2.058986562014224,
+      "Power": 1.906630609949592,
+      "Realty": 2.54683005019628
+    },
+    "sector_company_counts": {
+      "Oil Gas & Consumable Fuels": 1,
+      "Financial Services": 29,
+      "Telecommunication": 2,
+      "Information Technology": 18,
+      "Fast Moving Consumer Goods": 16,
+      "Consumer Goods": 3,
+      "Metals & Mining": 16,
+      "Healthcare": 23,
+      "Capital Goods": 19,
+      "Construction Materials": 1,
+      "Chemicals": 17,
+      "Consumer Durables": 20,
+      "Services": 2,
+      "Automobile and Auto Components": 16,
+      "Textiles": 16,
+      "Media Entertainment & Publication": 16,
+      "Construction": 15,
+      "Power": 15,
+      "Realty": 15
+    }
+  },
+  "methodology": {
+    "formula": "\u03b2_resultant = \u221a(\u03a3\u03b2\u1d62\u00b2 + 2\u03a3\u03a3\u03b2\u1d62\u03b2\u2c7c\u03c1\u1d62\u2c7c)",
+    "risk_factors": 8,
+    "data_period": "8 years quarterly (32 observations)",
+    "enhancement": "NIFTY250 specific sector sensitivities"
+  }
+}
