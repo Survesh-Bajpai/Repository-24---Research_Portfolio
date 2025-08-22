@@ -1,0 +1,651 @@
+{
+  "qvm_results": {
+    "RELIANCE": {
+      "forward_qvm": 0.1,
+      "backward_qvm": 1.0,
+      "ultimate_qvm_before_beta": 0.31622776601683794,
+      "ultimate_qvm": 0.10378204641295566,
+      "qmr_beta": 3.0470372954349605,
+      "dcf_results": {
+        "enterprise_value": 97590.87386646915,
+        "equity_value": 16610.414726469156,
+        "intrinsic_value_per_share": 12.274489481185185,
+        "current_price": 1424.8,
+        "upside_potential": -0.9913851140643002,
+        "wacc": 0.20696052704636167,
+        "cost_of_equity": 0.23782223772609762,
+        "terminal_growth": 0.008320000000000001
+      },
+      "forward_ratios": {
+        "forward_roe": 0.8767542857142858,
+        "forward_roce": 1.1899718856034902,
+        "forward_peg": 41.12633709947177,
+        "iv_bv_ratio": 0.0064611644517749076,
+        "cost_of_equity": 0.23782223772609762,
+        "wacc": 0.20696052704636167
+      },
+      "projections": {
+        "Year_1": {
+          "revenue": 702932.4208342858,
+          "net_income": 22539.67130479543,
+          "free_cash_flow": 19158.720609076114,
+          "growth_rate": 0.020800000000000003
+        },
+        "Year_2": {
+          "revenue": 714632.1955164447,
+          "net_income": 22952.35280296213,
+          "free_cash_flow": 19509.49988251781,
+          "growth_rate": 0.018720000000000004
+        },
+        "Year_3": {
+          "revenue": 724004.1062663924,
+          "net_income": 23283.483088664518,
+          "free_cash_flow": 19790.960625364838,
+          "growth_rate": 0.016848000000000002
+        },
+        "Year_4": {
+          "revenue": 731335.0320162027,
+          "net_income": 23542.858491276013,
+          "free_cash_flow": 20011.42971758461,
+          "growth_rate": 0.015163200000000003
+        },
+        "Year_5": {
+          "revenue": 736896.260858598,
+          "net_income": 23739.843456637453,
+          "free_cash_flow": 20178.866938141833,
+          "growth_rate": 0.013646880000000002
+        },
+        "Year_6": {
+          "revenue": 740939.0668693207,
+          "net_income": 23883.181397145137,
+          "free_cash_flow": 20300.704187573367,
+          "growth_rate": 0.012282192000000003
+        },
+        "Year_7": {
+          "revenue": 743692.3141953975,
+          "net_income": 23980.884149260903,
+          "free_cash_flow": 20383.751526871765,
+          "growth_rate": 0.011053972800000002
+        },
+        "terminal_growth": 0.008320000000000001
+      }
+    },
+    "HDFCBANK": {
+      "forward_qvm": 0.1,
+      "backward_qvm": 0.939894997695517,
+      "ultimate_qvm_before_beta": 0.3065770698691468,
+      "ultimate_qvm": 0.1293975420869004,
+      "qmr_beta": 2.369265017903174,
+      "dcf_results": {
+        "enterprise_value": 88933.7422054931,
+        "equity_value": -3517697.5301945074,
+        "intrinsic_value_per_share": -4583.356476363867,
+        "current_price": 1991.2,
+        "upside_potential": -3.301806185397683,
+        "wacc": 0.07071530477142113,
+        "cost_of_equity": 0.19715590107419043,
+        "terminal_growth": 0.016213333333333333
+      },
+      "forward_ratios": {
+        "forward_roe": 0.6556790153846155,
+        "forward_roce": 0.17491437148217637,
+        "forward_peg": 67.72810124294253,
+        "iv_bv_ratio": -4.14325113371583,
+        "cost_of_equity": 0.19715590107419043,
+        "wacc": 0.07071530477142113
+      },
+      "projections": {
+        "Year_1": {
+          "revenue": 326190.3572337778,
+          "net_income": 5566.837197604979,
+          "free_cash_flow": 4731.811617964232,
+          "growth_rate": 0.04053333333333333
+        },
+        "Year_2": {
+          "revenue": 336772.7736034728,
+          "net_income": 5765.508512654538,
+          "free_cash_flow": 4900.682235756357,
+          "growth_rate": 0.03648
+        },
+        "Year_3": {
+          "revenue": 345385.55993207847,
+          "net_income": 5927.726769420019,
+          "free_cash_flow": 5038.567754007016,
+          "growth_rate": 0.032832
+        },
+        "Year_4": {
+          "revenue": 352210.9615579,
+          "net_income": 6056.622077704788,
+          "free_cash_flow": 5148.12876604907,
+          "growth_rate": 0.029548800000000004
+        },
+        "Year_5": {
+          "revenue": 357444.4516100467,
+          "net_income": 6155.671114795106,
+          "free_cash_flow": 5232.32044757584,
+          "growth_rate": 0.02659392
+        },
+        "Year_6": {
+          "revenue": 361283.6012958185,
+          "net_income": 6228.465423979432,
+          "free_cash_flow": 5294.195610382517,
+          "growth_rate": 0.023934528
+        },
+        "Year_7": {
+          "revenue": 363920.02887033083,
+          "net_income": 6278.539915745575,
+          "free_cash_flow": 5336.758928383739,
+          "growth_rate": 0.021541075200000002
+        },
+        "terminal_growth": 0.016213333333333333
+      }
+    },
+    "BHARTIARTL": {
+      "forward_qvm": 0.1,
+      "backward_qvm": 1.0,
+      "ultimate_qvm_before_beta": 0.31622776601683794,
+      "ultimate_qvm": 0.15956997810667073,
+      "qmr_beta": 1.9817497612579933,
+      "dcf_results": {
+        "enterprise_value": 49343.57186617797,
+        "equity_value": -351437.040753822,
+        "intrinsic_value_per_share": -585.5334813200656,
+        "current_price": 1929.9,
+        "upside_potential": -1.3034009437380516,
+        "wacc": 0.10172343797636615,
+        "cost_of_equity": 0.1739049856754796,
+        "terminal_growth": 0.01472
+      },
+      "forward_ratios": {
+        "forward_roe": 1.5359052050209205,
+        "forward_roce": 0.9575468859232673,
+        "forward_peg": 63.69278952680499,
+        "iv_bv_ratio": -1.0922433974569852,
+        "cost_of_equity": 0.1739049856754796,
+        "wacc": 0.10172343797636615
+      },
+      "projections": {
+        "Year_1": {
+          "revenue": 100498.06253523013,
+          "net_income": 4941.883662448067,
+          "free_cash_flow": 4200.601113080857,
+          "growth_rate": 0.0368
+        },
+        "Year_2": {
+          "revenue": 103458.03817466438,
+          "net_income": 5101.9994516749475,
+          "free_cash_flow": 4336.6995339237055,
+          "growth_rate": 0.033120000000000004
+        },
+        "Year_3": {
+          "revenue": 105859.90126511976,
+          "net_income": 5232.308466722044,
+          "free_cash_flow": 4447.462196713737,
+          "growth_rate": 0.029808
+        },
+        "Year_4": {
+          "revenue": 107758.65400623967,
+          "net_income": 5335.571246656675,
+          "free_cash_flow": 4535.235559658174,
+          "growth_rate": 0.026827200000000002
+        },
+        "Year_5": {
+          "revenue": 109211.61853739567,
+          "net_income": 5414.7474171059985,
+          "free_cash_flow": 4602.535304540099,
+          "growth_rate": 0.02414448
+        },
+        "Year_6": {
+          "revenue": 110275.65706799313,
+          "net_income": 5472.827543479833,
+          "free_cash_flow": 4651.903411957858,
+          "growth_rate": 0.021730032000000003
+        },
+        "Year_7": {
+          "revenue": 111005.20973695598,
+          "net_income": 5512.711536065783,
+          "free_cash_flow": 4685.8048056559155,
+          "growth_rate": 0.0195570288
+        },
+        "terminal_growth": 0.01472
+      }
+    },
+    "TCS": {
+      "forward_qvm": 2.1527373246444252,
+      "backward_qvm": 1.0101436739640228,
+      "ultimate_qvm_before_beta": 1.47464368245207,
+      "ultimate_qvm": 0.46589407671568095,
+      "qmr_beta": 3.1651908795397583,
+      "dcf_results": {
+        "enterprise_value": 290649.3842682201,
+        "equity_value": 274933.7146482201,
+        "intrinsic_value_per_share": 759.8868576206393,
+        "current_price": 3102.6,
+        "upside_potential": -0.7550806234704315,
+        "wacc": 0.23281444184335093,
+        "cost_of_equity": 0.2449114527723855,
+        "terminal_growth": 0.04
+      },
+      "forward_ratios": {
+        "forward_roe": 62.20140913879004,
+        "forward_roce": 73.7607765494715,
+        "forward_peg": 1.1837374427002194,
+        "iv_bv_ratio": 3.159459957231434,
+        "cost_of_equity": 0.2449114527723855,
+        "wacc": 0.23281444184335093
+      },
+      "projections": {
+        "Year_1": {
+          "revenue": 187789.06901295375,
+          "net_income": 54127.175854023975,
+          "free_cash_flow": 46008.099475920375,
+          "growth_rate": 0.1752
+        },
+        "Year_2": {
+          "revenue": 214158.63353868303,
+          "net_income": 62489.1423838219,
+          "free_cash_flow": 53115.771026248614,
+          "growth_rate": 0.15768
+        },
+        "Year_3": {
+          "revenue": 237933.96213484963,
+          "net_income": 70123.9991786456,
+          "free_cash_flow": 59605.39930184875,
+          "growth_rate": 0.141912
+        },
+        "Year_4": {
+          "revenue": 258443.068702484,
+          "net_income": 76779.83590041312,
+          "free_cash_flow": 65262.86051535115,
+          "growth_rate": 0.12772080000000002
+        },
+        "Year_5": {
+          "revenue": 275316.97709082114,
+          "net_income": 82304.60028824382,
+          "free_cash_flow": 69958.91024500724,
+          "growth_rate": 0.11494872
+        },
+        "Year_6": {
+          "revenue": 288458.6502646207,
+          "net_income": 86639.9818385997,
+          "free_cash_flow": 73643.98456280975,
+          "growth_rate": 0.10345384800000001
+        },
+        "Year_7": {
+          "revenue": 297989.7483596218,
+          "net_income": 89805.8333029001,
+          "free_cash_flow": 76334.95830746507,
+          "growth_rate": 0.0931084632
+        },
+        "terminal_growth": 0.04
+      }
+    },
+    "ICICIBANK": {
+      "forward_qvm": 0.1,
+      "backward_qvm": 1.001694643067177,
+      "ultimate_qvm_before_beta": 0.31649559919012726,
+      "ultimate_qvm": 0.1339367277935751,
+      "qmr_beta": 2.363023230475767,
+      "dcf_results": {
+        "enterprise_value": 77853.74978209603,
+        "equity_value": -1408705.3526179038,
+        "intrinsic_value_per_share": -1973.1893798904123,
+        "current_price": 1446.0,
+        "upside_potential": -2.364584633395859,
+        "wacc": 0.07668065778396903,
+        "cost_of_equity": 0.196781393828546,
+        "terminal_growth": 0.019093333333333334
+      },
+      "forward_ratios": {
+        "forward_roe": 1.0430459325842698,
+        "forward_roce": 0.3628887439408493,
+        "forward_peg": 42.17878813718191,
+        "iv_bv_ratio": -2.8656277301313047,
+        "cost_of_equity": 0.196781393828546,
+        "wacc": 0.07668065778396903
+      },
+      "projections": {
+        "Year_1": {
+          "revenue": 243058.29019265916,
+          "net_income": 5127.478258281888,
+          "free_cash_flow": 4358.356519539605,
+          "growth_rate": 0.04773333333333333
+        },
+        "Year_2": {
+          "revenue": 252345.1618092583,
+          "net_income": 5342.994001531954,
+          "free_cash_flow": 4541.544901302161,
+          "growth_rate": 0.04296
+        },
+        "Year_3": {
+          "revenue": 259947.0631836085,
+          "net_income": 5520.077250623576,
+          "free_cash_flow": 4692.06566303004,
+          "growth_rate": 0.038664
+        },
+        "Year_4": {
+          "revenue": 265999.8113231037,
+          "net_income": 5661.512999672197,
+          "free_cash_flow": 4812.286049721368,
+          "growth_rate": 0.0347976
+        },
+        "Year_5": {
+          "revenue": 270658.9104321363,
+          "net_income": 5770.662865003556,
+          "free_cash_flow": 4905.063435253022,
+          "growth_rate": 0.03131784
+        },
+        "Year_6": {
+          "revenue": 274087.94587013806,
+          "net_income": 5851.170395375751,
+          "free_cash_flow": 4973.494836069388,
+          "growth_rate": 0.028186056
+        },
+        "Year_7": {
+          "revenue": 276449.85468142905,
+          "net_income": 5906.734397020404,
+          "free_cash_flow": 5020.724237467343,
+          "growth_rate": 0.0253674504
+        },
+        "terminal_growth": 0.019093333333333334
+      }
+    },
+    "SBIN": {
+      "forward_qvm": 0.1,
+      "backward_qvm": 1.1036013656635315,
+      "ultimate_qvm_before_beta": 0.3322049616823222,
+      "ultimate_qvm": 0.14227643198108111,
+      "qmr_beta": 2.3349261508504546,
+      "dcf_results": {
+        "enterprise_value": 48123.12150113109,
+        "equity_value": -1857307.103498869,
+        "intrinsic_value_per_share": -2012.115761624145,
+        "current_price": 825.7,
+        "upside_potential": -3.4368605566478685,
+        "wacc": 0.07000707918896498,
+        "cost_of_equity": 0.19509556905102726,
+        "terminal_growth": 0.016934058378688027
+      },
+      "forward_ratios": {
+        "forward_roe": 0.3844537936682664,
+        "forward_roce": 0.15378151746730653,
+        "forward_peg": 61.44050659957674,
+        "iv_bv_ratio": -2.4368605566478685,
+        "cost_of_equity": 0.19509556905102726,
+        "wacc": 0.07000707918896498
+      },
+      "projections": {
+        "Year_1": {
+          "revenue": 324260.7170068027,
+          "net_income": 2930.1995142857136,
+          "free_cash_flow": 2490.6695871428565,
+          "growth_rate": 0.04233514594672007
+        },
+        "Year_2": {
+          "revenue": 335248.39239774016,
+          "net_income": 3039.4246054154723,
+          "free_cash_flow": 2583.5109146031514,
+          "growth_rate": 0.03810163135204806
+        },
+        "Year_3": {
+          "revenue": 344203.89750514354,
+          "net_income": 3128.749545310402,
+          "free_cash_flow": 2659.4371135138417,
+          "growth_rate": 0.03429146821684326
+        },
+        "Year_4": {
+          "revenue": 351309.27975780214,
+          "net_income": 3199.817330848891,
+          "free_cash_flow": 2719.844731221557,
+          "growth_rate": 0.030862321395158935
+        },
+        "Year_5": {
+          "revenue": 356762.7524963743,
+          "net_income": 3254.487418483162,
+          "free_cash_flow": 2766.3143057106877,
+          "growth_rate": 0.02777608925564304
+        },
+        "Year_6": {
+          "revenue": 360766.56882707356,
+          "net_income": 3294.702537087311,
+          "free_cash_flow": 2800.4971565242145,
+          "growth_rate": 0.024998480330078735
+        },
+        "Year_7": {
+          "revenue": 363518.15649454686,
+          "net_income": 3322.389090576923,
+          "free_cash_flow": 2824.0307269903847,
+          "growth_rate": 0.022498632297070862
+        },
+        "terminal_growth": 0.016934058378688027
+      }
+    },
+    "HINDUNILVR": {
+      "forward_qvm": 0.5555471326491607,
+      "backward_qvm": 1.0,
+      "ultimate_qvm_before_beta": 0.7453503422211334,
+      "ultimate_qvm": 0.3820339236123768,
+      "qmr_beta": 1.9510056467587114,
+      "dcf_results": {
+        "enterprise_value": 56269.592765796464,
+        "equity_value": 40093.126745796464,
+        "intrinsic_value_per_share": 170.63872830949728,
+        "current_price": 2648.0,
+        "upside_potential": -0.9355593926323651,
+        "wacc": 0.15916844142081654,
+        "cost_of_equity": 0.17206033880552268,
+        "terminal_growth": 0.04
+      },
+      "forward_ratios": {
+        "forward_roe": 15.626991849181207,
+        "forward_roce": 16.31940070778285,
+        "forward_peg": 8.25256841874619,
+        "iv_bv_ratio": 0.8441719565160174,
+        "cost_of_equity": 0.17206033880552268,
+        "wacc": 0.15916844142081654
+      },
+      "projections": {
+        "Year_1": {
+          "revenue": 46544.772156196945,
+          "net_income": 7421.887922580646,
+          "free_cash_flow": 6308.604734193549,
+          "growth_rate": 0.10157966504973377
+        },
+        "Year_2": {
+          "revenue": 50331.53386847036,
+          "net_income": 8086.1647754597325,
+          "free_cash_flow": 6873.240059140772,
+          "growth_rate": 0.0914216985447604
+        },
+        "Year_3": {
+          "revenue": 53564.04052195974,
+          "net_income": 8657.61030849112,
+          "free_cash_flow": 7358.9687622174515,
+          "growth_rate": 0.08227952869028436
+        },
+        "Year_4": {
+          "revenue": 56228.376594934,
+          "net_income": 9131.637887357656,
+          "free_cash_flow": 7761.892204254007,
+          "growth_rate": 0.07405157582125593
+        },
+        "Year_5": {
+          "revenue": 58338.78703513672,
+          "net_income": 9509.115192866431,
+          "free_cash_flow": 8082.747913936466,
+          "growth_rate": 0.06664641823913033
+        },
+        "Year_6": {
+          "revenue": 59930.15363996168,
+          "net_income": 9795.042213933031,
+          "free_cash_flow": 8325.785881843076,
+          "growth_rate": 0.059981776415217306
+        },
+        "Year_7": {
+          "revenue": 61050.88556798433,
+          "net_income": 9997.239432177386,
+          "free_cash_flow": 8497.653517350778,
+          "growth_rate": 0.053983598773695574
+        },
+        "terminal_growth": 0.04
+      }
+    },
+    "INFY": {
+      "forward_qvm": 1.4442342551876022,
+      "backward_qvm": 0.9934043527719008,
+      "ultimate_qvm_before_beta": 1.1977932190180607,
+      "ultimate_qvm": 0.43645826390538695,
+      "qmr_beta": 2.7443476686644015,
+      "dcf_results": {
+        "enterprise_value": 163648.26477754067,
+        "equity_value": 153701.70525754066,
+        "intrinsic_value_per_share": 369.97593997790125,
+        "current_price": 1496.4,
+        "upside_potential": -0.7527559877185904,
+        "wacc": 0.20783412974061485,
+        "cost_of_equity": 0.21966086011986408,
+        "terminal_growth": 0.04
+      },
+      "forward_ratios": {
+        "forward_roe": 31.812594146493534,
+        "forward_roce": 39.53980096332647,
+        "forward_peg": 1.2369903856237074,
+        "iv_bv_ratio": 1.953227697023135,
+        "cost_of_equity": 0.21966086011986408,
+        "wacc": 0.20783412974061485
+      },
+      "projections": {
+        "Year_1": {
+          "revenue": 111411.93582089551,
+          "net_income": 25033.691547761195,
+          "free_cash_flow": 21278.637815597016,
+          "growth_rate": 0.2007528327744828
+        },
+        "Year_2": {
+          "revenue": 129342.33915813534,
+          "net_income": 29466.205420590406,
+          "free_cash_flow": 25046.274607501844,
+          "growth_rate": 0.18067754949703452
+        },
+        "Year_3": {
+          "revenue": 145807.55673109577,
+          "net_income": 33594.56153137822,
+          "free_cash_flow": 28555.377301671484,
+          "growth_rate": 0.16260979454733107
+        },
+        "Year_4": {
+          "revenue": 160230.52145678856,
+          "net_income": 37254.16712325806,
+          "free_cash_flow": 31666.042054769354,
+          "growth_rate": 0.14634881509259798
+        },
+        "Year_5": {
+          "revenue": 172250.8664065152,
+          "net_income": 40334.83838701666,
+          "free_cash_flow": 34284.61262896416,
+          "growth_rate": 0.13171393358333816
+        },
+        "Year_6": {
+          "revenue": 181715.9860279103,
+          "net_income": 42781.48715925833,
+          "free_cash_flow": 36364.26408536958,
+          "growth_rate": 0.11854254022500436
+        },
+        "Year_7": {
+          "revenue": 188649.34104461398,
+          "net_income": 44587.62760108111,
+          "free_cash_flow": 37899.48346091894,
+          "growth_rate": 0.10668828620250392
+        },
+        "terminal_growth": 0.04
+      }
+    }
+  },
+  "sector_averages": {
+    "Oil Gas & Consumable Fuels": {
+      "PE": 11.2,
+      "PB": 0.75,
+      "ROE": 7.8,
+      "ROCE": 9.1
+    },
+    "Financial Services": {
+      "PE": 15.699999999999998,
+      "PB": 1.6333333333333335,
+      "ROE": 15.066666666666665,
+      "ROCE": 3.9666666666666672
+    },
+    "Telecommunication": {
+      "PE": 47.8,
+      "PB": 3.6,
+      "ROE": 13.8,
+      "ROCE": 8.7
+    },
+    "Information Technology": {
+      "PE": 27.450000000000003,
+      "PB": 10.4,
+      "ROE": 37.5,
+      "ROCE": 44.35
+    },
+    "Fast Moving Consumer Goods": {
+      "PE": 58.9,
+      "PB": 13.1,
+      "ROE": 23.7,
+      "ROCE": 29.4
+    }
+  },
+  "distribution_stats": {
+    "mean": 0.24416862382682847,
+    "std": 0.1447908560074251,
+    "min": 0.10378204641295566,
+    "max": 0.46589407671568095
+  },
+  "classifications": {
+    "Strong Buy": [],
+    "Buy": [
+      [
+        "TCS",
+        0.46589407671568095,
+        1.5313498310796785
+      ],
+      [
+        "INFY",
+        0.43645826390538695,
+        1.3280509928658586
+      ]
+    ],
+    "Hold": [
+      [
+        "RELIANCE",
+        0.10378204641295566,
+        -0.9695817904873327
+      ],
+      [
+        "HDFCBANK",
+        0.1293975420869004,
+        -0.7926680241053511
+      ],
+      [
+        "BHARTIARTL",
+        0.15956997810667073,
+        -0.5842816877594769
+      ],
+      [
+        "ICICIBANK",
+        0.1339367277935751,
+        -0.7613180767962343
+      ],
+      [
+        "SBIN",
+        0.14227643198108111,
+        -0.7037197973366643
+      ],
+      [
+        "HINDUNILVR",
+        0.3820339236123768,
+        0.9521685525395222
+      ]
+    ],
+    "Sell": [],
+    "Strong Sell": []
+  }
+}

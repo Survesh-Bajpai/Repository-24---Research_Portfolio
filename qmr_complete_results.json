@@ -1,0 +1,669 @@
+{
+  "correlation_matrix": [
+    [
+      1.0,
+      -0.2841666081534419,
+      -0.3756108643135894,
+      0.5448777942500466,
+      0.526855095230264,
+      -0.3532535027431328,
+      -0.0016794084296637912,
+      -0.13462358232672558
+    ],
+    [
+      -0.2841666081534419,
+      1.0,
+      0.5055666907255897,
+      0.06360651178491784,
+      0.4769429246352784,
+      0.9375266266402089,
+      0.38434911938167876,
+      0.38448786036337607
+    ],
+    [
+      -0.3756108643135894,
+      0.5055666907255898,
+      1.0,
+      0.15456887305430628,
+      -0.09894968806580688,
+      0.27620272334601736,
+      0.7729569154335145,
+      0.487036466627518
+    ],
+    [
+      0.5448777942500466,
+      0.06360651178491786,
+      0.1545688730543063,
+      1.0,
+      0.4142403115134102,
+      0.009548603569144115,
+      0.7031359862398842,
+      -0.10763257669100548
+    ],
+    [
+      0.5268550952302641,
+      0.47694292463527843,
+      -0.09894968806580688,
+      0.4142403115134102,
+      1.0,
+      0.39699850009345405,
+      0.08069273223116821,
+      0.11365271643420488
+    ],
+    [
+      -0.3532535027431328,
+      0.9375266266402089,
+      0.2762027233460174,
+      0.009548603569144113,
+      0.39699850009345405,
+      1.0,
+      0.21254037959645775,
+      0.2124445583574786
+    ],
+    [
+      -0.0016794084296637912,
+      0.38434911938167876,
+      0.7729569154335145,
+      0.7031359862398843,
+      0.0806927322311682,
+      0.21254037959645777,
+      0.9999999999999999,
+      0.25635378273853365
+    ],
+    [
+      -0.13462358232672555,
+      0.384487860363376,
+      0.4870364666275179,
+      -0.10763257669100548,
+      0.11365271643420488,
+      0.21244455835747864,
+      0.25635378273853365,
+      0.9999999999999999
+    ]
+  ],
+  "factor_names": [
+    "India_CPI",
+    "India_GDP",
+    "India_Repo_Rate",
+    "INR_USD",
+    "US_CPI",
+    "US_GDP",
+    "US_Fed_Rate",
+    "NIFTY100_Return"
+  ],
+  "sector_betas": {
+    "Financial Services": {
+      "individual_betas": {
+        "India_CPI": -0.2,
+        "India_GDP": 1.2,
+        "India_Repo_Rate": -0.8,
+        "INR_USD": 0.1,
+        "US_CPI": -0.1,
+        "US_GDP": 0.3,
+        "US_Fed_Rate": -0.6,
+        "NIFTY100_Return": 0.95
+      },
+      "resultant_beta": 1.721074423792569
+    },
+    "Information Technology": {
+      "individual_betas": {
+        "India_CPI": 0.1,
+        "India_GDP": 0.4,
+        "India_Repo_Rate": -0.3,
+        "INR_USD": -0.7,
+        "US_CPI": -0.4,
+        "US_GDP": 1.5,
+        "US_Fed_Rate": -0.2,
+        "NIFTY100_Return": 1.15
+      },
+      "resultant_beta": 2.3292710036714093
+    },
+    "Oil Gas & Consumable Fuels": {
+      "individual_betas": {
+        "India_CPI": 0.9,
+        "India_GDP": 0.8,
+        "India_Repo_Rate": -0.4,
+        "INR_USD": 0.5,
+        "US_CPI": 0.8,
+        "US_GDP": 0.6,
+        "US_Fed_Rate": -0.3,
+        "NIFTY100_Return": 1.25
+      },
+      "resultant_beta": 2.634431427976954
+    },
+    "Telecommunication": {
+      "individual_betas": {
+        "India_CPI": -0.3,
+        "India_GDP": 0.8,
+        "India_Repo_Rate": -0.5,
+        "INR_USD": -0.3,
+        "US_CPI": -0.2,
+        "US_GDP": 0.2,
+        "US_Fed_Rate": -0.4,
+        "NIFTY100_Return": 0.85
+      },
+      "resultant_beta": 1.5042102352205267
+    },
+    "Fast Moving Consumer Goods": {
+      "individual_betas": {
+        "India_CPI": -0.6,
+        "India_GDP": 0.7,
+        "India_Repo_Rate": -0.3,
+        "INR_USD": -0.2,
+        "US_CPI": -0.4,
+        "US_GDP": 0.3,
+        "US_Fed_Rate": -0.2,
+        "NIFTY100_Return": 0.75
+      },
+      "resultant_beta": 1.604731931447887
+    }
+  },
+  "company_qmr_betas": {
+    "RELIANCE": {
+      "sector": "Oil Gas & Consumable Fuels",
+      "individual_betas": {
+        "India_CPI": 0.9,
+        "India_GDP": 1.2000000000000002,
+        "India_Repo_Rate": -0.4084,
+        "INR_USD": 0.5,
+        "US_CPI": 0.8,
+        "US_GDP": 0.8999999999999999,
+        "US_Fed_Rate": -0.30629999999999996,
+        "NIFTY100_Return": 1.1400000000000001
+      },
+      "resultant_beta": 3.0470372954349605,
+      "adjustments": {
+        "debt_adjustment": 0.021,
+        "size_factor": 1.5,
+        "growth_factor": 0.5599999999999999
+      }
+    },
+    "HDFCBANK": {
+      "sector": "Financial Services",
+      "individual_betas": {
+        "India_CPI": -0.2,
+        "India_GDP": 1.7999999999999998,
+        "India_Repo_Rate": -1.2000000000000002,
+        "INR_USD": 0.1,
+        "US_CPI": -0.1,
+        "US_GDP": 0.44999999999999996,
+        "US_Fed_Rate": -0.8999999999999999,
+        "NIFTY100_Return": 0.94525
+      },
+      "resultant_beta": 2.369265017903174,
+      "adjustments": {
+        "debt_adjustment": 0.5,
+        "size_factor": 1.5,
+        "growth_factor": 0.975
+      }
+    },
+    "BHARTIARTL": {
+      "sector": "Telecommunication",
+      "individual_betas": {
+        "India_CPI": -0.3,
+        "India_GDP": 1.2000000000000002,
+        "India_Repo_Rate": -0.5865,
+        "INR_USD": -0.3,
+        "US_CPI": -0.2,
+        "US_GDP": 0.30000000000000004,
+        "US_Fed_Rate": -0.46920000000000006,
+        "NIFTY100_Return": 1.0863
+      },
+      "resultant_beta": 1.9817497612579933,
+      "adjustments": {
+        "debt_adjustment": 0.17300000000000001,
+        "size_factor": 1.5,
+        "growth_factor": 2.3899999999999997
+      }
+    },
+    "TCS": {
+      "sector": "Information Technology",
+      "individual_betas": {
+        "India_CPI": 0.1,
+        "India_GDP": 0.6000000000000001,
+        "India_Repo_Rate": -0.3021,
+        "INR_USD": -0.7,
+        "US_CPI": -0.4,
+        "US_GDP": 2.25,
+        "US_Fed_Rate": -0.2014,
+        "NIFTY100_Return": 1.2431499999999998
+      },
+      "resultant_beta": 3.1651908795397583,
+      "adjustments": {
+        "debt_adjustment": 0.007000000000000001,
+        "size_factor": 1.5,
+        "growth_factor": 1.405
+      }
+    },
+    "ICICIBANK": {
+      "sector": "Financial Services",
+      "individual_betas": {
+        "India_CPI": -0.2,
+        "India_GDP": 1.7999999999999998,
+        "India_Repo_Rate": -1.2000000000000002,
+        "INR_USD": 0.1,
+        "US_CPI": -0.1,
+        "US_GDP": 0.44999999999999996,
+        "US_Fed_Rate": -0.8999999999999999,
+        "NIFTY100_Return": 0.9291
+      },
+      "resultant_beta": 2.363023230475767,
+      "adjustments": {
+        "debt_adjustment": 0.5,
+        "size_factor": 1.5,
+        "growth_factor": 0.89
+      }
+    },
+    "SBIN": {
+      "sector": "Financial Services",
+      "individual_betas": {
+        "India_CPI": -0.2,
+        "India_GDP": 1.7999999999999998,
+        "India_Repo_Rate": -1.2000000000000002,
+        "INR_USD": 0.1,
+        "US_CPI": -0.1,
+        "US_GDP": 0.44999999999999996,
+        "US_Fed_Rate": -0.8999999999999999,
+        "NIFTY100_Return": 0.8531
+      },
+      "resultant_beta": 2.3349261508504546,
+      "adjustments": {
+        "debt_adjustment": 0.5,
+        "size_factor": 1.5,
+        "growth_factor": 0.49000000000000005
+      }
+    },
+    "HINDUNILVR": {
+      "sector": "Fast Moving Consumer Goods",
+      "individual_betas": {
+        "India_CPI": -0.6,
+        "India_GDP": 0.871040478,
+        "India_Repo_Rate": -0.30389999999999995,
+        "INR_USD": -0.2,
+        "US_CPI": -0.4,
+        "US_GDP": 0.373303062,
+        "US_Fed_Rate": -0.2026,
+        "NIFTY100_Return": 1.04175
+      },
+      "resultant_beta": 1.9510056467587114,
+      "adjustments": {
+        "debt_adjustment": 0.013000000000000001,
+        "size_factor": 1.24434354,
+        "growth_factor": 2.945
+      }
+    },
+    "INFY": {
+      "sector": "Information Technology",
+      "individual_betas": {
+        "India_CPI": 0.1,
+        "India_GDP": 0.497327976,
+        "India_Repo_Rate": -0.3024,
+        "INR_USD": -0.7,
+        "US_CPI": -0.4,
+        "US_GDP": 1.8649799099999997,
+        "US_Fed_Rate": -0.2016,
+        "NIFTY100_Return": 1.2282
+      },
+      "resultant_beta": 2.7443476686644015,
+      "adjustments": {
+        "debt_adjustment": 0.008,
+        "size_factor": 1.24331994,
+        "growth_factor": 1.34
+      }
+    }
+  },
+  "risk_factors": [
+    {
+      "Quarter": "2017-09-30",
+      "India_CPI": 3.36,
+      "India_GDP": 7.0,
+      "India_Repo_Rate": 6.0,
+      "INR_USD": 63.85,
+      "US_CPI": 1.9,
+      "US_GDP": 2.4,
+      "US_Fed_Rate": 1.25,
+      "NIFTY100_Return": 0.0734799350201344
+    },
+    {
+      "Quarter": "2017-12-31",
+      "India_CPI": 3.36,
+      "India_GDP": 7.0,
+      "India_Repo_Rate": 6.0,
+      "INR_USD": 63.85,
+      "US_CPI": 1.9,
+      "US_GDP": 2.4,
+      "US_Fed_Rate": 1.25,
+      "NIFTY100_Return": 0.10539504353278381
+    },
+    {
+      "Quarter": "2018-03-31",
+      "India_CPI": 3.36,
+      "India_GDP": 7.0,
+      "India_Repo_Rate": 6.0,
+      "INR_USD": 63.85,
+      "US_CPI": 1.9,
+      "US_GDP": 2.4,
+      "US_Fed_Rate": 1.25,
+      "NIFTY100_Return": -0.01056789208989043
+    },
+    {
+      "Quarter": "2018-06-30",
+      "India_CPI": 3.36,
+      "India_GDP": 7.0,
+      "India_Repo_Rate": 6.0,
+      "INR_USD": 63.85,
+      "US_CPI": 1.9,
+      "US_GDP": 2.4,
+      "US_Fed_Rate": 1.25,
+      "NIFTY100_Return": 0.14050052497770962
+    },
+    {
+      "Quarter": "2018-09-30",
+      "India_CPI": 3.69,
+      "India_GDP": 6.5,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 69.85,
+      "US_CPI": 2.7,
+      "US_GDP": 2.9,
+      "US_Fed_Rate": 2.0,
+      "NIFTY100_Return": 0.005029062756530263
+    },
+    {
+      "Quarter": "2018-12-31",
+      "India_CPI": 3.69,
+      "India_GDP": 6.5,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 69.85,
+      "US_CPI": 2.7,
+      "US_GDP": 2.9,
+      "US_Fed_Rate": 2.0,
+      "NIFTY100_Return": 0.03582654407085033
+    },
+    {
+      "Quarter": "2019-03-31",
+      "India_CPI": 3.69,
+      "India_GDP": 6.5,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 69.85,
+      "US_CPI": 2.7,
+      "US_GDP": 2.9,
+      "US_Fed_Rate": 2.0,
+      "NIFTY100_Return": 0.10600675916604138
+    },
+    {
+      "Quarter": "2019-06-30",
+      "India_CPI": 3.69,
+      "India_GDP": 6.5,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 69.85,
+      "US_CPI": 2.7,
+      "US_GDP": 2.9,
+      "US_Fed_Rate": 2.0,
+      "NIFTY100_Return": 0.037865619549143054
+    },
+    {
+      "Quarter": "2019-09-30",
+      "India_CPI": 3.21,
+      "India_GDP": 4.0,
+      "India_Repo_Rate": 5.4,
+      "INR_USD": 71.15,
+      "US_CPI": 1.8,
+      "US_GDP": 2.2,
+      "US_Fed_Rate": 2.25,
+      "NIFTY100_Return": -0.09091289041789166
+    },
+    {
+      "Quarter": "2019-12-31",
+      "India_CPI": 3.21,
+      "India_GDP": 4.0,
+      "India_Repo_Rate": 5.4,
+      "INR_USD": 71.15,
+      "US_CPI": 1.8,
+      "US_GDP": 2.2,
+      "US_Fed_Rate": 2.25,
+      "NIFTY100_Return": -0.004565002571608726
+    },
+    {
+      "Quarter": "2020-03-31",
+      "India_CPI": 3.21,
+      "India_GDP": 4.0,
+      "India_Repo_Rate": 5.4,
+      "INR_USD": 71.15,
+      "US_CPI": 1.8,
+      "US_GDP": 2.2,
+      "US_Fed_Rate": 2.25,
+      "NIFTY100_Return": 0.009895603743815465
+    },
+    {
+      "Quarter": "2020-06-30",
+      "India_CPI": 3.21,
+      "India_GDP": 4.0,
+      "India_Repo_Rate": 5.4,
+      "INR_USD": 71.15,
+      "US_CPI": 1.8,
+      "US_GDP": 2.2,
+      "US_Fed_Rate": 2.25,
+      "NIFTY100_Return": 0.10844371807804398
+    },
+    {
+      "Quarter": "2020-09-30",
+      "India_CPI": 6.69,
+      "India_GDP": -6.6,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 74.85,
+      "US_CPI": 1.3,
+      "US_GDP": -3.4,
+      "US_Fed_Rate": 0.25,
+      "NIFTY100_Return": -0.17598283447859286
+    },
+    {
+      "Quarter": "2020-12-31",
+      "India_CPI": 6.69,
+      "India_GDP": -6.6,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 74.85,
+      "US_CPI": 1.3,
+      "US_GDP": -3.4,
+      "US_Fed_Rate": 0.25,
+      "NIFTY100_Return": -0.15022886439222793
+    },
+    {
+      "Quarter": "2021-03-31",
+      "India_CPI": 6.69,
+      "India_GDP": -6.6,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 74.85,
+      "US_CPI": 1.3,
+      "US_GDP": -3.4,
+      "US_Fed_Rate": 0.25,
+      "NIFTY100_Return": -0.09238691901141427
+    },
+    {
+      "Quarter": "2021-06-30",
+      "India_CPI": 6.69,
+      "India_GDP": -6.6,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 74.85,
+      "US_CPI": 1.3,
+      "US_GDP": -3.4,
+      "US_Fed_Rate": 0.25,
+      "NIFTY100_Return": 0.07760010209137613
+    },
+    {
+      "Quarter": "2021-09-30",
+      "India_CPI": 5.3,
+      "India_GDP": 8.7,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 73.95,
+      "US_CPI": 5.3,
+      "US_GDP": 5.7,
+      "US_Fed_Rate": 0.25,
+      "NIFTY100_Return": -0.17104907070945202
+    },
+    {
+      "Quarter": "2021-12-31",
+      "India_CPI": 5.3,
+      "India_GDP": 8.7,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 73.95,
+      "US_CPI": 5.3,
+      "US_GDP": 5.7,
+      "US_Fed_Rate": 0.25,
+      "NIFTY100_Return": 0.006681751637196132
+    },
+    {
+      "Quarter": "2022-03-31",
+      "India_CPI": 5.3,
+      "India_GDP": 8.7,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 73.95,
+      "US_CPI": 5.3,
+      "US_GDP": 5.7,
+      "US_Fed_Rate": 0.25,
+      "NIFTY100_Return": 0.008911683138563994
+    },
+    {
+      "Quarter": "2022-06-30",
+      "India_CPI": 5.3,
+      "India_GDP": 8.7,
+      "India_Repo_Rate": 4.0,
+      "INR_USD": 73.95,
+      "US_CPI": 5.3,
+      "US_GDP": 5.7,
+      "US_Fed_Rate": 0.25,
+      "NIFTY100_Return": -0.05466286230498936
+    },
+    {
+      "Quarter": "2022-09-30",
+      "India_CPI": 7.0,
+      "India_GDP": 7.0,
+      "India_Repo_Rate": 5.4,
+      "INR_USD": 79.85,
+      "US_CPI": 8.5,
+      "US_GDP": 2.1,
+      "US_Fed_Rate": 2.5,
+      "NIFTY100_Return": 0.0833386600854627
+    },
+    {
+      "Quarter": "2022-12-31",
+      "India_CPI": 7.0,
+      "India_GDP": 7.0,
+      "India_Repo_Rate": 5.4,
+      "INR_USD": 79.85,
+      "US_CPI": 8.5,
+      "US_GDP": 2.1,
+      "US_Fed_Rate": 2.5,
+      "NIFTY100_Return": -0.037478121590226815
+    },
+    {
+      "Quarter": "2023-03-31",
+      "India_CPI": 7.0,
+      "India_GDP": 7.0,
+      "India_Repo_Rate": 5.4,
+      "INR_USD": 79.85,
+      "US_CPI": 8.5,
+      "US_GDP": 2.1,
+      "US_Fed_Rate": 2.5,
+      "NIFTY100_Return": 0.10276691650049867
+    },
+    {
+      "Quarter": "2023-06-30",
+      "India_CPI": 7.0,
+      "India_GDP": 7.0,
+      "India_Repo_Rate": 5.4,
+      "INR_USD": 79.85,
+      "US_CPI": 8.5,
+      "US_GDP": 2.1,
+      "US_Fed_Rate": 2.5,
+      "NIFTY100_Return": 0.03785082984612634
+    },
+    {
+      "Quarter": "2023-09-30",
+      "India_CPI": 6.83,
+      "India_GDP": 7.2,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 83.15,
+      "US_CPI": 3.7,
+      "US_GDP": 2.5,
+      "US_Fed_Rate": 5.25,
+      "NIFTY100_Return": 0.1012340656525857
+    },
+    {
+      "Quarter": "2023-12-31",
+      "India_CPI": 6.83,
+      "India_GDP": 7.2,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 83.15,
+      "US_CPI": 3.7,
+      "US_GDP": 2.5,
+      "US_Fed_Rate": 5.25,
+      "NIFTY100_Return": 0.10499072176186701
+    },
+    {
+      "Quarter": "2024-03-31",
+      "India_CPI": 6.83,
+      "India_GDP": 7.2,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 83.15,
+      "US_CPI": 3.7,
+      "US_GDP": 2.5,
+      "US_Fed_Rate": 5.25,
+      "NIFTY100_Return": 0.07372956243198343
+    },
+    {
+      "Quarter": "2024-06-30",
+      "India_CPI": 6.83,
+      "India_GDP": 7.2,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 83.15,
+      "US_CPI": 3.7,
+      "US_GDP": 2.5,
+      "US_Fed_Rate": 5.25,
+      "NIFTY100_Return": -0.05747652802070555
+    },
+    {
+      "Quarter": "2024-09-30",
+      "India_CPI": 3.65,
+      "India_GDP": 6.8,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 83.75,
+      "US_CPI": 2.9,
+      "US_GDP": 3.1,
+      "US_Fed_Rate": 5.25,
+      "NIFTY100_Return": -0.10898155343408865
+    },
+    {
+      "Quarter": "2024-12-31",
+      "India_CPI": 3.65,
+      "India_GDP": 6.8,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 83.75,
+      "US_CPI": 2.9,
+      "US_GDP": 3.1,
+      "US_Fed_Rate": 5.25,
+      "NIFTY100_Return": 0.05923499660815651
+    },
+    {
+      "Quarter": "2025-03-31",
+      "India_CPI": 3.65,
+      "India_GDP": 6.8,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 83.75,
+      "US_CPI": 2.9,
+      "US_GDP": 3.1,
+      "US_Fed_Rate": 5.25,
+      "NIFTY100_Return": 3.280944425505805e-05
+    },
+    {
+      "Quarter": "2025-06-30",
+      "India_CPI": 3.65,
+      "India_GDP": 6.8,
+      "India_Repo_Rate": 6.5,
+      "INR_USD": 83.75,
+      "US_CPI": 2.9,
+      "US_GDP": 3.1,
+      "US_Fed_Rate": 5.25,
+      "NIFTY100_Return": 0.005305413704943904
+    }
+  ]
+}

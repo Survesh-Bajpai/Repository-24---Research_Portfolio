@@ -1,0 +1,57 @@
+{
+  "filter_results": {
+    "qvm1": {
+      "name": "QVM > 1",
+      "stocks": 0,
+      "qualifying_stocks": []
+    },
+    "qvm1sd": {
+      "name": "QVM > +1SD",
+      "stocks": 2,
+      "qualifying_stocks": [
+        "TCS",
+        "INFY"
+      ]
+    },
+    "qvm2sd": {
+      "name": "QVM > +2SD",
+      "stocks": 0,
+      "qualifying_stocks": []
+    }
+  },
+  "optimization_results": {
+    "qvm1": {
+      "error": "No stocks passed filter"
+    },
+    "qvm1sd": {
+      "success": true,
+      "portfolio_composition": [
+        {
+          "Symbol": "TCS",
+          "Company": "Tata Consultancy Services Ltd",
+          "Sector": "Information Technology",
+          "Weight": 0.5,
+          "QVM_Score": 0.46589407671568095
+        },
+        {
+          "Symbol": "INFY",
+          "Company": "Infosys Ltd",
+          "Sector": "Information Technology",
+          "Weight": 0.5,
+          "QVM_Score": 0.43645826390538695
+        }
+      ],
+      "metrics": {
+        "expected_return": 0.11254856335854627,
+        "volatility": 0.03963387039824404,
+        "sharpe_ratio": 1.4520046308950925,
+        "sortino_ratio": 2.087765496123033,
+        "up_capture_ratio": 0.163698029851052,
+        "down_capture_ratio": 0.25528785202861776,
+        "max_drawdown": -0.032073009704743034,
+        "number_of_stocks": 2
+      },
+      "constraint_satisfaction": {
+        "sortino_vs_sharpe": "Sortino (2.09) vs 2\u00d7Sharpe (2.90)",
+        "capture_ratios": "Up (0.16) vs Down (0.26)",
+        "sortino_constraint_met": 
