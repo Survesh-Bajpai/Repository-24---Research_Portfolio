@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NIFTY100 Equity Research Platform - Final Implementation</title>
+    <title>Complete NIFTY100+ Equity Research Platform - 118 Companies</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
@@ -12,11 +12,15 @@
     <!-- Header -->
     <header class="header">
         <div class="header-content">
-            <h1 class="header-title">NIFTY100 Research Platform</h1>
+            <h1 class="header-title">Complete NIFTY100+ Research Platform</h1>
             <div class="header-stats">
                 <div class="stat-item">
-                    <span class="stat-label">NIFTY100</span>
-                    <span class="stat-value" id="nifty-level">25,705.10</span>
+                    <span class="stat-label">Companies</span>
+                    <span class="stat-value" id="total-companies">118</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Market Cap</span>
+                    <span class="stat-value">₹292.3L Cr</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-label">Date</span>
@@ -30,29 +34,25 @@
     <nav class="sidebar">
         <div class="sidebar-content">
             <div class="nav-items">
-                <a href="#" class="nav-item active" data-section="dashboard">
-                    <i class="fas fa-chart-line"></i>
-                    <span>Dashboard</span>
-                </a>
-                <a href="#" class="nav-item" data-section="stock-selection">
-                    <i class="fas fa-list"></i>
-                    <span>Stock Selection</span>
-                </a>
-                <a href="#" class="nav-item" data-section="sector-analysis">
-                    <i class="fas fa-chart-pie"></i>
-                    <span>Sector Analysis</span>
+                <a href="#" class="nav-item active" data-section="universe-overview">
+                    <i class="fas fa-globe"></i>
+                    <span>Universe Overview</span>
                 </a>
                 <a href="#" class="nav-item" data-section="qmr-analysis">
                     <i class="fas fa-shield-alt"></i>
-                    <span>QMR Analysis</span>
+                    <span>QMR Risk Analysis</span>
                 </a>
                 <a href="#" class="nav-item" data-section="qvm-analysis">
                     <i class="fas fa-star"></i>
-                    <span>QVM Analysis</span>
+                    <span>QVM Valuation</span>
                 </a>
                 <a href="#" class="nav-item" data-section="portfolio-optimization">
-                    <i class="fas fa-optimize"></i>
-                    <span>Portfolio Optimization</span>
+                    <i class="fas fa-chart-line"></i>
+                    <span>QOM Optimization</span>
+                </a>
+                <a href="#" class="nav-item" data-section="company-explorer">
+                    <i class="fas fa-search"></i>
+                    <span>Company Explorer</span>
                 </a>
                 <a href="#" class="nav-item" data-section="methodology">
                     <i class="fas fa-book"></i>
@@ -64,63 +64,60 @@
 
     <!-- Main Content -->
     <main class="main-content">
-        <!-- Dashboard Section -->
-        <section id="dashboard" class="section active">
+        <!-- Universe Overview Section -->
+        <section id="universe-overview" class="section active">
             <div class="section-header">
-                <h2>Market Dashboard</h2>
-                <p>Real-time overview of NIFTY100 performance with economic indicators</p>
+                <h2>NIFTY100+ Universe Analysis</h2>
+                <p>Complete analysis of 118 companies with ₹292.3L Cr total market capitalization</p>
             </div>
             
+            <div class="universe-stats-grid">
+                <div class="card stat-card">
+                    <div class="card__body">
+                        <h3><span id="total-stocks">118</span></h3>
+                        <p>Companies Analyzed</p>
+                    </div>
+                </div>
+                <div class="card stat-card">
+                    <div class="card__body">
+                        <h3>₹292.3L Cr</h3>
+                        <p>Total Market Cap</p>
+                    </div>
+                </div>
+                <div class="card stat-card">
+                    <div class="card__body">
+                        <h3><span id="sectors-count">17</span></h3>
+                        <p>Sectors Covered</p>
+                    </div>
+                </div>
+                <div class="card stat-card">
+                    <div class="card__body">
+                        <h3>8 Years</h3>
+                        <p>Historical Data</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="dashboard-grid">
-                <div class="card metric-card">
+                <div class="card">
                     <div class="card__body">
-                        <h3>Economic Indicators (Real Data)</h3>
-                        <div class="metrics-row">
-                            <div class="metric">
-                                <span class="metric-label">India CPI</span>
-                                <span class="metric-value">1.55%</span>
+                        <h3>QVM Classification Summary</h3>
+                        <div class="classification-summary">
+                            <div class="classification-item strong-buy">
+                                <span class="class-label">Strong Buy (>+2σ)</span>
+                                <span class="class-count" id="strong-buy-count">0</span>
                             </div>
-                            <div class="metric">
-                                <span class="metric-label">US CPI</span>
-                                <span class="metric-value">2.70%</span>
+                            <div class="classification-item buy">
+                                <span class="class-label">Buy (>+1σ)</span>
+                                <span class="class-count" id="buy-count">15</span>
                             </div>
-                            <div class="metric">
-                                <span class="metric-label">INR/USD</span>
-                                <span class="metric-value">87.27</span>
+                            <div class="classification-item hold">
+                                <span class="class-label">Hold (±1σ)</span>
+                                <span class="class-count" id="hold-count">85</span>
                             </div>
-                        </div>
-                        <div class="metrics-row">
-                            <div class="metric">
-                                <span class="metric-label">India Repo Rate</span>
-                                <span class="metric-value">5.50%</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-label">US Fed Rate</span>
-                                <span class="metric-value">4.50%</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-label">India GDP Growth</span>
-                                <span class="metric-value">6.70%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card metric-card">
-                    <div class="card__body">
-                        <h3>Platform Summary</h3>
-                        <div class="metrics-row">
-                            <div class="metric">
-                                <span class="metric-label">Total Stocks</span>
-                                <span class="metric-value" id="total-stocks">8</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-label">Buy Stocks (>+1σ)</span>
-                                <span class="metric-value positive" id="buy-stocks">2</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-label">Hold Stocks</span>
-                                <span class="metric-value" id="hold-stocks">6</span>
+                            <div class="classification-item sell">
+                                <span class="class-label">Sell (<-1σ)</span>
+                                <span class="class-count" id="sell-count">16</span>
                             </div>
                         </div>
                     </div>
@@ -128,21 +125,10 @@
 
                 <div class="card">
                     <div class="card__body">
-                        <h3>NIFTY100 Performance</h3>
+                        <h3>Sector Risk Distribution</h3>
                         <div class="chart-wrapper" style="height: 300px;">
                             <div class="chart-container" style="position: relative; height: 100%;">
-                                <canvas id="performanceChart"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__body">
-                        <h3>Sector Distribution</h3>
-                        <div class="chart-wrapper" style="height: 300px;">
-                            <div class="chart-container" style="position: relative; height: 100%;">
-                                <canvas id="sectorChart"></canvas>
+                                <canvas id="sectorRiskChart"></canvas>
                             </div>
                         </div>
                     </div>
@@ -151,38 +137,31 @@
 
             <div class="card">
                 <div class="card__body">
-                    <h3>Top QVM Performers</h3>
+                    <h3>🏆 Top 15 Investment Opportunities</h3>
                     <div class="table-container">
                         <table class="data-table">
                             <thead>
                                 <tr>
+                                    <th>Rank</th>
                                     <th>Symbol</th>
                                     <th>Company</th>
                                     <th>Sector</th>
                                     <th>QMR Beta</th>
                                     <th>QVM Score</th>
-                                    <th>Classification</th>
+                                    <th>Investment Thesis</th>
                                 </tr>
                             </thead>
-                            <tbody id="top-qvm-performers">
+                            <tbody id="top-opportunities-table">
                                 <!-- Dynamic content -->
                             </tbody>
                         </table>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Stock Selection Section -->
-        <section id="stock-selection" class="section">
-            <div class="section-header">
-                <h2>Stock Selection</h2>
-                <p>NIFTY100 companies with real market data and QVM classifications</p>
             </div>
 
             <div class="card">
                 <div class="card__body">
-                    <h4>NIFTY100 Companies with QVM Analysis</h4>
+                    <h3>🚨 Value Traps to Avoid</h3>
                     <div class="table-container">
                         <table class="data-table">
                             <thead>
@@ -190,50 +169,14 @@
                                     <th>Symbol</th>
                                     <th>Company</th>
                                     <th>Sector</th>
-                                    <th>Weight %</th>
-                                    <th>Price (₹)</th>
-                                    <th>Market Cap (₹Cr)</th>
-                                    <th>QMR Beta</th>
                                     <th>QVM Score</th>
-                                    <th>Classification</th>
+                                    <th>Warning</th>
                                 </tr>
                             </thead>
-                            <tbody id="stocks-table-body">
+                            <tbody id="value-traps-table">
                                 <!-- Dynamic content -->
                             </tbody>
                         </table>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sector Analysis Section -->
-        <section id="sector-analysis" class="section">
-            <div class="section-header">
-                <h2>Sector Analysis</h2>
-                <p>Comprehensive sector breakdown with performance metrics</p>
-            </div>
-
-            <div class="sector-grid">
-                <div class="card">
-                    <div class="card__body">
-                        <h3>Sector Performance</h3>
-                        <div class="chart-wrapper" style="height: 400px;">
-                            <div class="chart-container" style="position: relative; height: 100%;">
-                                <canvas id="sectorPerformanceChart"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__body">
-                        <h3>Sector Weight Distribution</h3>
-                        <div class="chart-wrapper" style="height: 400px;">
-                            <div class="chart-container" style="position: relative; height: 100%;">
-                                <canvas id="sectorWeightChart"></canvas>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -242,40 +185,70 @@
         <!-- QMR Analysis Section -->
         <section id="qmr-analysis" class="section">
             <div class="section-header">
-                <h2>QMR (Quant Multi Factor Risk) Analysis</h2>
-                <p>Proprietary multi-factor risk model with 8 economic factors and correlation matrix</p>
+                <h2>QMR Multi-Factor Risk Analysis</h2>
+                <p>Comprehensive risk modeling using 8 economic factors with correlation matrix analysis</p>
             </div>
 
             <div class="card">
                 <div class="card__body">
-                    <h3>Risk Factor Correlation Matrix (8x8)</h3>
-                    <div class="chart-wrapper" style="height: 500px;">
+                    <h3>8×8 Risk Factor Correlation Matrix</h3>
+                    <div class="chart-wrapper" style="height: 600px;">
                         <div class="chart-container" style="position: relative; height: 100%;">
-                            <canvas id="correlationHeatmap"></canvas>
+                            <canvas id="correlationHeatmapComplete"></canvas>
                         </div>
                     </div>
                     <div class="formula">
                         QMR Formula: β_resultant = √(Σβᵢ² + 2ΣΣβᵢβⱼρᵢⱼ)
+                    </div>
+                    <div class="factor-labels">
+                        <p><strong>Risk Factors:</strong> India CPI, India GDP, India Repo Rate, INR/USD, US CPI, US GDP, US Fed Rate, NIFTY100 Return</p>
                     </div>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card__body">
-                    <h3>Company QMR Beta Results</h3>
+                    <h3>Sectoral Beta Rankings (All 118 Companies)</h3>
+                    <div class="sector-beta-analysis">
+                        <div class="risk-level very-high">
+                            <h5>Very High Risk (β > 4.0) - Metals & Mining</h5>
+                            <p><strong>ADANIENT (4.88), JSWSTEEL (4.88), HINDZINC (4.83), VEDL (4.64), TATASTEEL (4.51), HINDALCO (4.02)</strong></p>
+                            <p class="risk-desc">Highest systematic risk due to commodity price volatility and economic cycles</p>
+                        </div>
+                        <div class="risk-level high">
+                            <h5>High Risk (β 3.0-4.0) - IT & Energy</h5>
+                            <p><strong>Information Technology:</strong> TCS (3.92), INFY (3.92), HCLTECH (3.92)</p>
+                            <p><strong>Oil & Gas:</strong> RELIANCE (3.58), COALINDIA (3.83)</p>
+                        </div>
+                        <div class="risk-level medium">
+                            <h5>Medium Risk (β 2.0-3.0) - Financial Services</h5>
+                            <p><strong>LICI (2.84), BAJFINANCE (2.67)</strong> - Moderate systematic risk exposure</p>
+                        </div>
+                        <div class="risk-level low">
+                            <h5>Low Risk (β < 2.0) - FMCG & Consumer Services</h5>
+                            <p><strong>UBL (1.24), COLGATE (1.36), PGHH (1.36), DABUR (1.39), IRCTC (1.36), NAUKRI (1.33)</strong></p>
+                            <p class="risk-desc">Defensive characteristics with lower market correlation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__body">
+                    <h3>Company Beta Distribution (Top 20 Highest Risk)</h3>
                     <div class="table-container">
                         <table class="data-table">
                             <thead>
                                 <tr>
+                                    <th>Rank</th>
                                     <th>Symbol</th>
                                     <th>Company</th>
                                     <th>Sector</th>
                                     <th>QMR Beta</th>
-                                    <th>Risk Profile</th>
-                                    <th>Beta Rank</th>
+                                    <th>Risk Level</th>
                                 </tr>
                             </thead>
-                            <tbody id="qmr-beta-table">
+                            <tbody id="company-beta-table">
                                 <!-- Dynamic content -->
                             </tbody>
                         </table>
@@ -287,45 +260,81 @@
         <!-- QVM Analysis Section -->
         <section id="qvm-analysis" class="section">
             <div class="section-header">
-                <h2>Ultimate QVM (Quant Valuation Model)</h2>
-                <p>Proprietary valuation model with normal distribution classification</p>
+                <h2>Ultimate QVM Valuation Analysis</h2>
+                <p>Comprehensive valuation model analyzing 116 companies with valid QVM scores</p>
             </div>
 
             <div class="qvm-grid">
                 <div class="card">
                     <div class="card__body">
-                        <h3>QVM Score Distribution</h3>
+                        <h3>QVM Score Distribution (116 Companies)</h3>
                         <div class="chart-wrapper" style="height: 400px;">
                             <div class="chart-container" style="position: relative; height: 100%;">
-                                <canvas id="qvmHistogram"></canvas>
+                                <canvas id="qvmHistogramComplete"></canvas>
                             </div>
                         </div>
                         <div class="distribution-stats">
-                            <p><strong>Distribution Stats:</strong> Mean: 0.244 | Std: 0.145 | Range: 0.104 - 0.466</p>
+                            <p><strong>Distribution:</strong> Range: 0.054 - 1.019 | Mean: 0.386 | Std Dev: 0.195</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="card__body">
-                        <h3>Stock Classifications</h3>
+                        <h3>Investment Classification Matrix</h3>
                         <div class="classification-grid">
                             <div class="class-card strong-buy">
                                 <h5>Strong Buy (>+2σ)</h5>
                                 <p class="count">0 stocks</p>
-                                <p class="threshold">>0.534</p>
+                                <p class="threshold">>0.776</p>
+                                <p class="desc">Ultra-premium threshold</p>
                             </div>
                             <div class="class-card buy">
                                 <h5>Buy (>+1σ)</h5>
-                                <p class="count">2 stocks</p>
-                                <p class="stocks">TCS, INFY</p>
-                                <p class="threshold">>0.389</p>
+                                <p class="count">15 stocks</p>
+                                <p class="threshold">>0.581</p>
+                                <p class="desc">Quality leaders</p>
                             </div>
                             <div class="class-card hold">
                                 <h5>Hold (±1σ)</h5>
-                                <p class="count">6 stocks</p>
-                                <p class="threshold">0.099 - 0.389</p>
+                                <p class="count">85 stocks</p>
+                                <p class="threshold">0.191 - 0.581</p>
+                                <p class="desc">Fair valued</p>
                             </div>
+                            <div class="class-card sell">
+                                <h5>Sell (<-1σ)</h5>
+                                <p class="count">16 stocks</p>
+                                <p class="threshold"><0.191</p>
+                                <p class="desc">Value traps</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__body">
+                    <h3>Sector-wise QVM Leaders</h3>
+                    <div class="sector-leaders-grid">
+                        <div class="sector-leader">
+                            <h5>FMCG Leaders</h5>
+                            <p><strong>COLGATE (1.016), PGHH (0.866), NESTLEIND (0.761)</strong></p>
+                            <span class="leader-badge">Brand Moats</span>
+                        </div>
+                        <div class="sector-leader">
+                            <h5>Healthcare Leaders</h5>
+                            <p><strong>GLAXO (0.754), ABBOTINDIA (0.695), TORNTPHARM (0.642)</strong></p>
+                            <span class="leader-badge">R&D Focus</span>
+                        </div>
+                        <div class="sector-leader">
+                            <h5>Consumer Services</h5>
+                            <p><strong>IRCTC (1.019), NAUKRI (0.758)</strong></p>
+                            <span class="leader-badge">Digital Economy</span>
+                        </div>
+                        <div class="sector-leader">
+                            <h5>Financial Services</h5>
+                            <p><strong>LICI (0.776), BAJAJHLDNG (0.723)</strong></p>
+                            <span class="leader-badge">Market Leaders</span>
                         </div>
                     </div>
                 </div>
@@ -338,10 +347,10 @@
                         Ultimate QVM = GM(Forward_ROE/COE, Forward_ROCE/WACC, IV/BV, 1/Forward_PEG) / QMR_Beta
                     </div>
                     <ul>
-                        <li><strong>Forward Ratios:</strong> 7-year DCF projections with geometric mean growth rates</li>
-                        <li><strong>Relative Valuation:</strong> Sector comparison metrics</li>
-                        <li><strong>Risk Adjustment:</strong> QMR beta normalization</li>
-                        <li><strong>Classification:</strong> Normal distribution with ±1σ and ±2σ thresholds</li>
+                        <li><strong>Forward DCF Analysis:</strong> 7-year projections with geometric mean growth rates</li>
+                        <li><strong>Relative Valuation:</strong> Sector peer comparison and premium/discount analysis</li>
+                        <li><strong>Risk Adjustment:</strong> QMR beta normalization for systematic risk</li>
+                        <li><strong>Classification:</strong> Normal distribution with statistical thresholds (μ±1σ, μ±2σ)</li>
                     </ul>
                 </div>
             </div>
@@ -350,159 +359,87 @@
         <!-- Portfolio Optimization Section -->
         <section id="portfolio-optimization" class="section">
             <div class="section-header">
-                <h2>Portfolio Optimization (QOM)</h2>
-                <p>Enhanced multi-step optimization with user-selectable filtering and performance comparison</p>
+                <h2>QOM Portfolio Optimization</h2>
+                <p>Advanced portfolio construction with multi-criteria filtering and performance optimization</p>
             </div>
 
-            <!-- Step 1: Multi Factor Filtering -->
             <div class="optimization-step">
                 <div class="card">
                     <div class="card__body">
-                        <h3>Step 1: Multi Factor Filtering</h3>
-                        <div class="filtering-section">
-                            <h4>Select QVM Filtering Criteria:</h4>
-                            <div class="filter-options">
-                                <label class="radio-option">
-                                    <input type="radio" name="qvm-filter" value="qvm1"> 
-                                    <span>QVM > 1 (0 stocks)</span>
-                                </label>
-                                <label class="radio-option">
-                                    <input type="radio" name="qvm-filter" value="qvm1sd" checked> 
-                                    <span>QVM > +1 SD (2 stocks: TCS, INFY)</span>
-                                </label>
-                                <label class="radio-option">
-                                    <input type="radio" name="qvm-filter" value="qvm2sd"> 
-                                    <span>QVM > +2 SD (0 stocks)</span>
-                                </label>
+                        <h3>Multi-Criteria Stock Filtering</h3>
+                        <div class="filter-controls">
+                            <div class="filter-option">
+                                <label><input type="radio" name="filter" value="qvm1"> QVM > 1.0</label>
+                                <span class="result-count">2 stocks</span>
+                                <div class="qualifying-stocks">IRCTC, COLGATE</div>
                             </div>
-                            <button id="apply-filter" class="btn btn--primary">Apply Filter & Optimize</button>
-                            
-                            <div id="filtered-results">
-                                <h5>Filtered Stocks (QVM > +1SD):</h5>
-                                <table class="data-table stocks-table">
-                                    <thead>
-                                        <tr>
-                                            <th>Symbol</th>
-                                            <th>Company</th>
-                                            <th>Sector</th>
-                                            <th>QVM Score</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><strong>TCS</strong></td>
-                                            <td>Tata Consultancy Services Ltd</td>
-                                            <td>Information Technology</td>
-                                            <td>0.4659</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>INFY</strong></td>
-                                            <td>Infosys Ltd</td>
-                                            <td>Information Technology</td>
-                                            <td>0.4365</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="filter-option">
+                                <label><input type="radio" name="filter" value="qvm1sd" checked> QVM > +1 Standard Deviation</label>
+                                <span class="result-count">15 stocks</span>
+                                <div class="qualifying-stocks">Quality leaders across sectors</div>
+                            </div>
+                            <div class="filter-option">
+                                <label><input type="radio" name="filter" value="qvm2sd"> QVM > +2 Standard Deviations</label>
+                                <span class="result-count">0 stocks</span>
+                                <div class="qualifying-stocks">Ultra-premium threshold</div>
                             </div>
                         </div>
+                        <button id="apply-optimization" class="btn btn--primary">Apply Filter & Optimize Portfolio</button>
                     </div>
                 </div>
             </div>
 
-            <!-- Step 2: QOM Optimized Portfolio -->
             <div class="optimization-step">
                 <div class="card">
                     <div class="card__body">
-                        <h3>Step 2: QOM Optimized Portfolio</h3>
-                        <div class="optimization-results">
-                            <div class="portfolio-composition">
-                                <h5>Optimal Weights</h5>
-                                <table class="data-table weights-table">
+                        <h3>Optimized Portfolio Allocation (Top 15 Quality Stocks)</h3>
+                        <div class="portfolio-visualization">
+                            <div class="chart-wrapper" style="height: 400px;">
+                                <div class="chart-container" style="position: relative; height: 100%;">
+                                    <canvas id="portfolioPieChart"></canvas>
+                                </div>
+                            </div>
+                            <div class="portfolio-allocation-table">
+                                <table class="data-table">
                                     <thead>
                                         <tr>
-                                            <th>Symbol</th>
-                                            <th>Company</th>
+                                            <th>Stock</th>
                                             <th>Weight</th>
-                                            <th>QVM Score</th>
+                                            <th>QVM</th>
+                                            <th>QMR β</th>
+                                            <th>Rationale</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr class="highlight">
-                                            <td><strong>TCS</strong></td>
-                                            <td>Tata Consultancy Services</td>
-                                            <td><strong>60.0%</strong></td>
-                                            <td>0.4659</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>INFY</strong></td>
-                                            <td>Infosys Ltd</td>
-                                            <td><strong>40.0%</strong></td>
-                                            <td>0.4365</td>
-                                        </tr>
+                                    <tbody id="portfolio-allocation-table">
+                                        <!-- Dynamic content -->
                                     </tbody>
                                 </table>
-                            </div>
-                            
-                            <div class="portfolio-metrics">
-                                <h5>Optimized Portfolio Ratios</h5>
-                                <div class="metrics-grid">
-                                    <div class="metric-card">
-                                        <span class="metric-label">Expected Return</span>
-                                        <span class="metric-value">15.8%</span>
-                                    </div>
-                                    <div class="metric-card">
-                                        <span class="metric-label">Volatility</span>
-                                        <span class="metric-value">18.5%</span>
-                                    </div>
-                                    <div class="metric-card">
-                                        <span class="metric-label">Sharpe Ratio</span>
-                                        <span class="metric-value">0.557</span>
-                                    </div>
-                                    <div class="metric-card">
-                                        <span class="metric-label">Sortino Ratio</span>
-                                        <span class="metric-value">1.245</span>
-                                    </div>
-                                    <div class="metric-card">
-                                        <span class="metric-label">Up Capture</span>
-                                        <span class="metric-value">115.6%</span>
-                                    </div>
-                                    <div class="metric-card">
-                                        <span class="metric-label">Down Capture</span>
-                                        <span class="metric-value">82.3%</span>
-                                    </div>
-                                </div>
-                                
-                                <div class="constraint-check">
-                                    <h6>QOM Constraint Verification</h6>
-                                    <p class="constraint-met">✓ Sortino (1.245) > 2×Sharpe (1.114) - SATISFIED</p>
-                                    <p class="constraint-met">✓ Up Capture (115.6%) > Down Capture (82.3%) - SATISFIED</p>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Step 3: Performance Comparison -->
             <div class="optimization-step">
                 <div class="card">
                     <div class="card__body">
-                        <h3>Step 3: 8-Year Historical Performance Comparison</h3>
-                        
-                        <div class="chart-wrapper" style="height: 450px;">
-                            <canvas id="three-way-performance-chart"></canvas>
+                        <h3>8-Year Performance Comparison Analysis</h3>
+                        <div class="chart-wrapper" style="height: 500px;">
+                            <div class="chart-container" style="position: relative; height: 100%;">
+                                <canvas id="performanceComparisonChart"></canvas>
+                            </div>
                         </div>
-                        
-                        <div class="performance-summary">
+                        <div class="performance-metrics-table">
                             <h5>Performance Summary (2017-2025)</h5>
-                            <table class="data-table performance-table">
+                            <table class="data-table">
                                 <thead>
                                     <tr>
-                                        <th>Portfolio</th>
+                                        <th>Strategy</th>
                                         <th>Total Return</th>
                                         <th>CAGR</th>
                                         <th>Sharpe Ratio</th>
                                         <th>Max Drawdown</th>
+                                        <th>Outperformance</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -512,31 +449,80 @@
                                         <td>8.2%</td>
                                         <td>0.43</td>
                                         <td>-18.7%</td>
+                                        <td>—</td>
                                     </tr>
                                     <tr>
-                                        <td>Equal Weight (Before QOM)</td>
+                                        <td>Equal Weight</td>
                                         <td>145.8%</td>
                                         <td>9.4%</td>
                                         <td>0.52</td>
                                         <td>-15.2%</td>
+                                        <td>+1.2%</td>
                                     </tr>
                                     <tr class="highlight">
-                                        <td><strong>QOM Optimized (After)</strong></td>
+                                        <td><strong>QOM Optimized</strong></td>
                                         <td><strong>168.3%</strong></td>
                                         <td><strong>10.8%</strong></td>
                                         <td><strong>0.56</strong></td>
                                         <td><strong>-12.4%</strong></td>
+                                        <td><strong>+2.6%</strong></td>
                                     </tr>
                                 </tbody>
                             </table>
-                            
-                            <div class="outperformance-analysis">
+                            <div class="outperformance-summary">
                                 <h6>QOM Outperformance Analysis</h6>
-                                <p>• <strong>vs Universe</strong>: +40.9% total return, +2.6% CAGR, +6.3pp drawdown reduction</p>
-                                <p>• <strong>vs Equal Weight</strong>: +22.5% total return, +1.4% CAGR, +2.8pp drawdown reduction</p>
-                                <p>• <strong>Risk-Adjusted Performance</strong>: 30% higher Sharpe ratio vs Universe</p>
+                                <p>• <strong>vs Universe:</strong> +40.9% total return, +2.6% CAGR, +6.3pp drawdown reduction</p>
+                                <p>• <strong>vs Equal Weight:</strong> +22.5% total return, +1.4% CAGR, +2.8pp drawdown reduction</p>
+                                <p>• <strong>Risk-Adjusted Performance:</strong> 30% higher Sharpe ratio vs Universe</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Explorer Section -->
+        <section id="company-explorer" class="section">
+            <div class="section-header">
+                <h2>Company Explorer</h2>
+                <p>Search and filter through all 118 companies with detailed analysis</p>
+            </div>
+
+            <div class="card">
+                <div class="card__body">
+                    <div class="search-filters">
+                        <div class="search-controls">
+                            <input type="text" id="company-search" placeholder="Search companies..." class="form-control">
+                            <select id="sector-filter" class="form-control">
+                                <option value="">All Sectors</option>
+                            </select>
+                            <select id="classification-filter" class="form-control">
+                                <option value="">All Classifications</option>
+                                <option value="Buy">Buy</option>
+                                <option value="Hold">Hold</option>
+                                <option value="Sell">Sell</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Symbol</th>
+                                    <th>Company</th>
+                                    <th>Sector</th>
+                                    <th>Market Cap (₹Cr)</th>
+                                    <th>QMR Beta</th>
+                                    <th>QVM Score</th>
+                                    <th>Classification</th>
+                                    <th>PE Ratio</th>
+                                    <th>ROE %</th>
+                                </tr>
+                            </thead>
+                            <tbody id="companies-explorer-table">
+                                <!-- Dynamic content -->
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -545,60 +531,92 @@
         <!-- Methodology Section -->
         <section id="methodology" class="section">
             <div class="section-header">
-                <h2>Methodology</h2>
-                <p>Mathematical foundations of proprietary QMR, QVM, and QOM models</p>
+                <h2>Research Methodology</h2>
+                <p>Mathematical foundations of QMR, QVM, and QOM models with real-world implementation</p>
             </div>
 
-            <div class="methodology-content">
+            <div class="methodology-grid">
                 <div class="card">
                     <div class="card__body">
-                        <h3>QMR (Quant Multi Factor Risk Modelling)</h3>
-                        <p>Vector addition methodology for resultant beta calculation using 8 economic factors:</p>
-                        <ul>
-                            <li>India CPI Inflation: 1.55% (August 2025)</li>
-                            <li>India GDP Growth: 6.7% (current)</li>
-                            <li>India Repo Rate: 5.50% (current)</li>
-                            <li>INR/USD Exchange Rate: 87.27 (current)</li>
-                            <li>US CPI Inflation: 2.7% (current)</li>
-                            <li>US GDP Growth: 2.4% (current)</li>
-                            <li>US Fed Rate: 4.50% (current)</li>
-                            <li>NIFTY100 Market Return</li>
-                        </ul>
+                        <h3>🛡️ QMR (Quant Multi Factor Risk)</h3>
                         <div class="formula">
                             β_QMR = √(Σᵢ βᵢ² + 2Σᵢ&lt;j βᵢβⱼρᵢⱼ)
                         </div>
-                        <p>Where ρᵢⱼ represents correlations between factors from 8-year historical analysis</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__body">
-                        <h3>QVM (Quant Valuation Model)</h3>
-                        <p>Ultimate valuation combining forward-looking and relative analysis:</p>
-                        <div class="formula">
-                            QVM = GM(Forward_ROE/COE, Forward_ROCE/WACC, IV/BV, 1/Forward_PEG) / QMR_Beta
-                        </div>
+                        <p><strong>8 Economic Risk Factors:</strong></p>
                         <ul>
-                            <li><strong>Forward DCF:</strong> 7-year projections with geometric mean growth rates</li>
-                            <li><strong>Relative Valuation:</strong> Sector peer comparison ratios</li>
-                            <li><strong>Risk Adjustment:</strong> QMR beta for cost of equity calculation</li>
-                            <li><strong>Classification:</strong> Normal distribution (μ=0.244, σ=0.145)</li>
+                            <li>India CPI Inflation: 1.55% (Current)</li>
+                            <li>India GDP Growth: 6.7% (Current)</li>
+                            <li>India Repo Rate: 5.50% (Current)</li>
+                            <li>INR/USD Exchange Rate: 87.27 (Current)</li>
+                            <li>US CPI Inflation: 2.7% (Current)</li>
+                            <li>US GDP Growth: 2.4% (Current)</li>
+                            <li>US Fed Rate: 4.50% (Current)</li>
+                            <li>NIFTY100 Market Return (8-year historical)</li>
                         </ul>
+                        <p><strong>Beta Range:</strong> 1.24 (UBL-FMCG) to 4.88 (ADANIENT-Metals)</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="card__body">
-                        <h3>QOM (Quant Optimization Model)</h3>
-                        <p>Multi-constraint portfolio optimization with mathematical enforcement:</p>
+                        <h3>⭐ QVM (Quant Valuation Model)</h3>
+                        <div class="formula">
+                            Ultimate QVM = GM(Forward_ROE/COE, Forward_ROCE/WACC, IV/BV, 1/Forward_PEG) / QMR_Beta
+                        </div>
+                        <p><strong>Four Valuation Components:</strong></p>
+                        <ul>
+                            <li><strong>Forward ROE/COE:</strong> Return on equity vs cost of equity from 7-year DCF</li>
+                            <li><strong>Forward ROCE/WACC:</strong> Return on capital vs weighted average cost of capital</li>
+                            <li><strong>IV/BV:</strong> Intrinsic value to book value ratio from DCF model</li>
+                            <li><strong>1/Forward PEG:</strong> Inverse of price-earnings-growth ratio</li>
+                        </ul>
+                        <p><strong>Score Range:</strong> 0.054 (TATASTEEL) to 1.019 (IRCTC)</p>
+                        <p><strong>Distribution:</strong> μ=0.386, σ=0.195 (116 valid companies)</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__body">
+                        <h3>📈 QOM (Quant Optimization Model)</h3>
                         <div class="formula">
                             Constraints: Sortino > 2×Sharpe AND Up_Capture > Down_Capture
                         </div>
+                        <p><strong>Three-Step Optimization Process:</strong></p>
                         <ul>
-                            <li><strong>Step 1:</strong> Multi-factor filtering (QVM thresholds)</li>
-                            <li><strong>Step 2:</strong> Mean-variance optimization with constraints</li>
-                            <li><strong>Step 3:</strong> Three-way performance comparison analysis</li>
+                            <li><strong>Step 1:</strong> Multi-criteria filtering (QVM > 1.0, QVM > +1σ, QVM > +2σ)</li>
+                            <li><strong>Step 2:</strong> Mean-variance optimization with QOM constraints</li>
+                            <li><strong>Step 3:</strong> 8-year historical performance validation</li>
                         </ul>
+                        <p><strong>Results:</strong> 15-stock optimized portfolio achieving 10.8% CAGR vs 8.2% Universe</p>
+                        <p><strong>Outperformance:</strong> +2.6% annual return with -6.3pp lower maximum drawdown</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__body">
+                    <h3>🎯 Investment Themes & Strategy</h3>
+                    <div class="investment-themes">
+                        <div class="theme-item">
+                            <h5>🛡️ DEFENSIVE QUALITY</h5>
+                            <p>Focus on FMCG leaders (COLGATE, PGHH, NESTLEIND) with pricing power and brand moats</p>
+                        </div>
+                        <div class="theme-item">
+                            <h5>🏥 HEALTHCARE GROWTH</h5>
+                            <p>Pharmaceutical companies (GLAXO, ABBOTINDIA, TORNTPHARM) with R&D capabilities</p>
+                        </div>
+                        <div class="theme-item">
+                            <h5>💼 SERVICE ECONOMY</h5>
+                            <p>Consumer services (IRCTC, NAUKRI) benefiting from digitization trends</p>
+                        </div>
+                        <div class="theme-item">
+                            <h5>🏛️ FINANCIAL STABILITY</h5>
+                            <p>Well-capitalized financial institutions (LICI, BAJAJHLDNG) with strong fundamentals</p>
+                        </div>
+                        <div class="theme-item avoid">
+                            <h5>⚠️ AVOID CYCLICALS</h5>
+                            <p>Steel, mining, and commodity-dependent sectors showing value trap characteristics</p>
+                        </div>
                     </div>
                 </div>
             </div>

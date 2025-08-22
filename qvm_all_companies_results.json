@@ -1,0 +1,3621 @@
+{
+  "qvm_results": {
+    "COLGATE": {
+      "ultimate_qvm": 1.0158397961652357,
+      "forward_qvm": 1.8261616537694108,
+      "backward_qvm": 1.0456213756636745,
+      "qvm_before_beta": 1.3818370600756886,
+      "qmr_beta": 1.3602903383900509,
+      "forward_components": {
+        "roe_coe_ratio": 9.820566023118475,
+        "roce_wacc_ratio": 9.720446491022402,
+        "iv_bv_ratio": 0.6967389777919846,
+        "inv_peg_ratio": 0.16721068875326942
+      },
+      "projections": {
+        "forward_roe": 1.341660395997696,
+        "forward_roce": 1.1018877474985602,
+        "forward_peg": 5.98047892426044,
+        "revenue_growth": 0.076716264,
+        "terminal_growth": 0.030686505600000004
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1091.7899782000397,
+        "current_price": 2350.5,
+        "wacc": 0.11335772986521146,
+        "cost_of_equity": 0.13661742030340304
+      }
+    },
+    "PGHH": {
+      "ultimate_qvm": 0.8656671054911781,
+      "forward_qvm": 1.591204060170008,
+      "backward_qvm": 0.8683352558900534,
+      "qvm_before_beta": 1.1754567558021929,
+      "qmr_beta": 1.3578623333911257,
+      "forward_components": {
+        "roe_coe_ratio": 9.564346728244509,
+        "roce_wacc_ratio": 9.319646925739104,
+        "iv_bv_ratio": 0.6292986424169184,
+        "inv_peg_ratio": 0.11428571428571428
+      },
+      "projections": {
+        "forward_roe": 1.30526304,
+        "forward_roce": 1.0752644,
+        "forward_peg": 8.75,
+        "revenue_growth": 0.06,
+        "terminal_growth": 0.024
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 5622.573603781026,
+        "current_price": 13402.0,
+        "wacc": 0.11537608758871787,
+        "cost_of_equity": 0.13647174000346754
+      }
+    },
+    "NESTLEIND": {
+      "ultimate_qvm": 0.7608049306431267,
+      "forward_qvm": 1.859814399094872,
+      "backward_qvm": 1.190226493752068,
+      "qvm_before_beta": 1.4878173178398948,
+      "qmr_beta": 1.9555831697649582,
+      "forward_components": {
+        "roe_coe_ratio": 7.8119978684988425,
+        "roce_wacc_ratio": 7.260274873358842,
+        "iv_bv_ratio": 0.7382973133583699,
+        "inv_peg_ratio": 0.28571428571428575
+      },
+      "projections": {
+        "forward_roe": 1.346280576,
+        "forward_roce": 1.0805753599999999,
+        "forward_peg": 3.4999999999999996,
+        "revenue_growth": 0.21600000000000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 580.4985675832411,
+        "current_price": 1179.4,
+        "wacc": 0.14883394621395238,
+        "cost_of_equity": 0.17233499018589749
+      }
+    },
+    "TCS": {
+      "ultimate_qvm": 0.4897175591353428,
+      "forward_qvm": 2.2350301823790844,
+      "backward_qvm": 1.6513533735558548,
+      "qvm_before_beta": 1.9211519022895764,
+      "qmr_beta": 3.92297941221795,
+      "forward_components": {
+        "roe_coe_ratio": 3.536213954708075,
+        "roce_wacc_ratio": 4.397710398216177,
+        "iv_bv_ratio": 0.9025413447567976,
+        "inv_peg_ratio": 1.777875329236172
+      },
+      "projections": {
+        "forward_roe": 1.0268414399999999,
+        "forward_roce": 0.8033508999999999,
+        "forward_peg": 0.5624691358024692,
+        "revenue_growth": 0.405,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1866.8165174949602,
+        "current_price": 3102.6,
+        "wacc": 0.18267480740111022,
+        "cost_of_equity": 0.290378764733077
+      }
+    },
+    "GLAXO": {
+      "ultimate_qvm": 0.7543399146091313,
+      "forward_qvm": 1.387922754301363,
+      "backward_qvm": 0.9554715899254171,
+      "qvm_before_beta": 1.1515731677778827,
+      "qmr_beta": 1.526597155308402,
+      "forward_components": {
+        "roe_coe_ratio": 5.5502806852179445,
+        "roce_wacc_ratio": 5.475069548938998,
+        "iv_bv_ratio": 0.6748696040766669,
+        "inv_peg_ratio": 0.18094089264173702
+      },
+      "projections": {
+        "forward_roe": 0.8136479999999999,
+        "forward_roce": 0.666655,
+        "forward_peg": 5.526666666666667,
+        "revenue_growth": 0.09,
+        "terminal_growth": 0.036
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1250.9382981165097,
+        "current_price": 2780.4,
+        "wacc": 0.12176192357760819,
+        "cost_of_equity": 0.14659582931850412
+      }
+    },
+    "HINDZINC": {
+      "ultimate_qvm": 0.35606399160097496,
+      "forward_qvm": 1.544452787883753,
+      "backward_qvm": 1.914772755325171,
+      "qvm_before_beta": 1.7196732596995907,
+      "qmr_beta": 4.82967472214026,
+      "forward_components": {
+        "roe_coe_ratio": 2.4789388301479867,
+        "roce_wacc_ratio": 3.529173793024961,
+        "iv_bv_ratio": 0.538059734891518,
+        "inv_peg_ratio": 1.208729714605484
+      },
+      "projections": {
+        "forward_roe": 0.854689728,
+        "forward_roce": 0.6860060799999999,
+        "forward_peg": 0.8273148148148148,
+        "revenue_growth": 0.21600000000000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 154.54869118534037,
+        "current_price": 430.85,
+        "wacc": 0.19438149556585124,
+        "cost_of_equity": 0.3447804833284156
+      }
+    },
+    "PAGEIND": {
+      "ultimate_qvm": 0.6043761215970399,
+      "forward_qvm": 1.1004616207999356,
+      "backward_qvm": 0.9350264307529864,
+      "qvm_before_beta": 1.0143770016503777,
+      "qmr_beta": 1.678386960374819,
+      "forward_components": {
+        "roe_coe_ratio": 4.859127026078377,
+        "roce_wacc_ratio": 4.647976040644992,
+        "iv_bv_ratio": 0.5660609889387133,
+        "inv_peg_ratio": 0.11471342447333034
+      },
+      "projections": {
+        "forward_roe": 0.7565817127967999,
+        "forward_roce": 0.621363570498,
+        "forward_peg": 8.71737553465235,
+        "revenue_growth": 0.076777695,
+        "terminal_growth": 0.030711078000000003
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 17317.69252159837,
+        "current_price": 45890.0,
+        "wacc": 0.13368476194033357,
+        "cost_of_equity": 0.15570321762248912
+      }
+    },
+    "GET&D": {
+      "ultimate_qvm": 0.44317700305497304,
+      "forward_qvm": 0.975995525464984,
+      "backward_qvm": 0.824454584650481,
+      "qvm_before_beta": 0.8970306491798156,
+      "qmr_beta": 2.0240911486748447,
+      "forward_components": {
+        "roe_coe_ratio": 4.035587496569758,
+        "roce_wacc_ratio": 3.7405967059043124,
+        "iv_bv_ratio": 0.5238387935045931,
+        "inv_peg_ratio": 0.11474822970167195
+      },
+      "projections": {
+        "forward_roe": 0.71206112820192,
+        "forward_roce": 0.5818882051262,
+        "forward_peg": 8.714731395855507,
+        "revenue_growth": 0.10500610500000002,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 954.7835076277049,
+        "current_price": 2734.0,
+        "wacc": 0.15556026240618873,
+        "cost_of_equity": 0.17644546892049068
+      }
+    },
+    "HYUNDAI": {
+      "ultimate_qvm": 0.359846251758591,
+      "forward_qvm": 1.3573933904238837,
+      "backward_qvm": 1.226906851566588,
+      "qvm_before_beta": 1.2905019376127507,
+      "qmr_beta": 3.586259218502312,
+      "forward_components": {
+        "roe_coe_ratio": 2.877959871088059,
+        "roce_wacc_ratio": 3.164889424154854,
+        "iv_bv_ratio": 0.5672052978819142,
+        "inv_peg_ratio": 0.6571119524067064
+      },
+      "projections": {
+        "forward_roe": 0.7775543999999999,
+        "forward_roce": 0.6215965,
+        "forward_peg": 1.5218106995884773,
+        "revenue_growth": 0.243,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 925.9437419489622,
+        "current_price": 2448.7,
+        "wacc": 0.1964038601967871,
+        "cost_of_equity": 0.2701755531101387
+      }
+    },
+    "LICI": {
+      "ultimate_qvm": 0.7763037034292387,
+      "forward_qvm": 2.6140508028689515,
+      "backward_qvm": 1.8631813610816321,
+      "qvm_before_beta": 2.206909769978353,
+      "qmr_beta": 2.8428432844382487,
+      "forward_components": {
+        "roe_coe_ratio": 3.4369415610144807,
+        "roce_wacc_ratio": 5.108765377177778,
+        "iv_bv_ratio": 1.144485652689428,
+        "inv_peg_ratio": 2.323580034423408
+      },
+      "projections": {
+        "forward_roe": 0.77527296,
+        "forward_roce": 0.6173706,
+        "forward_peg": 0.43037037037037035,
+        "revenue_growth": 0.27,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 683.3342336991012,
+        "current_price": 895.6,
+        "wacc": 0.12084536173024499,
+        "cost_of_equity": 0.2255705970662949
+      }
+    },
+    "BRITANNIA": {
+      "ultimate_qvm": 0.7567698630799697,
+      "forward_qvm": 1.4648007620238437,
+      "backward_qvm": 0.9565537912178185,
+      "qvm_before_beta": 1.1837063496884086,
+      "qmr_beta": 1.5641563009272785,
+      "forward_components": {
+        "roe_coe_ratio": 4.824903256563841,
+        "roce_wacc_ratio": 4.576309726536712,
+        "iv_bv_ratio": 0.7919123273971268,
+        "inv_peg_ratio": 0.2632892367778682
+      },
+      "projections": {
+        "forward_roe": 0.718183848918144,
+        "forward_roce": 0.58133990557384,
+        "forward_peg": 3.7981043670375323,
+        "revenue_growth": 0.161791236,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2955.152835070278,
+        "current_price": 5597.5,
+        "wacc": 0.12703246508924343,
+        "cost_of_equity": 0.14884937805563672
+      }
+    },
+    "IRCTC": {
+      "ultimate_qvm": 1.0192532971827535,
+      "forward_qvm": 1.4178025104934766,
+      "backward_qvm": 1.3646740751796476,
+      "qvm_before_beta": 1.3909846619553603,
+      "qmr_beta": 1.3647095043009263,
+      "forward_components": {
+        "roe_coe_ratio": 4.657622013880033,
+        "roce_wacc_ratio": 4.610595668396214,
+        "iv_bv_ratio": 0.7996553430108346,
+        "inv_peg_ratio": 0.23530916460256698
+      },
+      "projections": {
+        "forward_roe": 0.6375472725504,
+        "forward_roce": 0.521042045344,
+        "forward_peg": 4.249728231745594,
+        "revenue_growth": 0.1045008,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 386.87325494864183,
+        "current_price": 725.7,
+        "wacc": 0.11300970261077858,
+        "cost_of_equity": 0.13688257025805559
+      }
+    },
+    "COALINDIA": {
+      "ultimate_qvm": 0.4343646900617521,
+      "forward_qvm": 1.9670160921354451,
+      "backward_qvm": 1.409960149824663,
+      "qvm_before_beta": 1.6653571100442137,
+      "qmr_beta": 3.834006649590821,
+      "forward_components": {
+        "roe_coe_ratio": 2.2845596986976138,
+        "roce_wacc_ratio": 3.904017090640498,
+        "iv_bv_ratio": 0.7283795442060064,
+        "inv_peg_ratio": 2.304409672830725
+      },
+      "projections": {
+        "forward_roe": 0.651191808,
+        "forward_roce": 0.5270948799999999,
+        "forward_peg": 0.4339506172839507,
+        "revenue_growth": 0.162,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 183.6244830943342,
+        "current_price": 378.15,
+        "wacc": 0.13501346632514974,
+        "cost_of_equity": 0.28504039897544925
+      }
+    },
+    "BSE": {
+      "ultimate_qvm": 0.4762567787819821,
+      "forward_qvm": 1.1778986323841187,
+      "backward_qvm": 0.7307595063745028,
+      "qvm_before_beta": 0.9277718594354005,
+      "qmr_beta": 1.9480496672575662,
+      "forward_components": {
+        "roe_coe_ratio": 3.6208253979712675,
+        "roce_wacc_ratio": 3.514340121157629,
+        "iv_bv_ratio": 0.6357791024288879,
+        "inv_peg_ratio": 0.23794361078546306
+      },
+      "projections": {
+        "forward_roe": 0.62235825959136,
+        "forward_roce": 0.5053989122446,
+        "forward_peg": 4.202676410175306,
+        "revenue_growth": 0.14207613,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 988.509348456435,
+        "current_price": 2332.2,
+        "wacc": 0.1438104721856349,
+        "cost_of_equity": 0.17188298003545396
+      }
+    },
+    "ABBOTINDIA": {
+      "ultimate_qvm": 0.6954241084522711,
+      "forward_qvm": 1.316032565434184,
+      "backward_qvm": 0.981359608664764,
+      "qvm_before_beta": 1.136442344954013,
+      "qmr_beta": 1.6341716243966113,
+      "forward_components": {
+        "roe_coe_ratio": 3.9883883573659373,
+        "roce_wacc_ratio": 3.958701867272565,
+        "iv_bv_ratio": 0.7267325236139398,
+        "inv_peg_ratio": 0.26142174659685863
+      },
+      "projections": {
+        "forward_roe": 0.6104240244960001,
+        "forward_roce": 0.49714001531,
+        "forward_peg": 3.825236473314942,
+        "revenue_growth": 0.124828884,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 15811.277272093952,
+        "current_price": 32635.0,
+        "wacc": 0.1255815749652589,
+        "cost_of_equity": 0.15305029746379667
+      }
+    },
+    "MARICO": {
+      "ultimate_qvm": 0.7390096432044699,
+      "forward_qvm": 1.2708610790828718,
+      "backward_qvm": 0.8610127822456148,
+      "qvm_before_beta": 1.0460533607559452,
+      "qmr_beta": 1.4154799878119075,
+      "forward_components": {
+        "roe_coe_ratio": 4.229741988774842,
+        "roce_wacc_ratio": 4.04681072203227,
+        "iv_bv_ratio": 0.7609172351064906,
+        "inv_peg_ratio": 0.20027563977746868
+      },
+      "projections": {
+        "forward_roe": 0.591862717705728,
+        "forward_roce": 0.48281419856607993,
+        "forward_peg": 4.993118489653186,
+        "revenue_growth": 0.11519854799999998,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 375.2082886310105,
+        "current_price": 739.65,
+        "wacc": 0.11930733402910804,
+        "cost_of_equity": 0.13992879926871446
+      }
+    },
+    "HDFCAMC": {
+      "ultimate_qvm": 0.5048115151121225,
+      "forward_qvm": 1.316095319300301,
+      "backward_qvm": 0.8582703504763067,
+      "qvm_before_beta": 1.0628102328055071,
+      "qmr_beta": 2.1053605177161,
+      "forward_components": {
+        "roe_coe_ratio": 3.2941609230379134,
+        "roce_wacc_ratio": 3.3121232712885447,
+        "iv_bv_ratio": 0.7036610146040594,
+        "inv_peg_ratio": 0.3907820302648172
+      },
+      "projections": {
+        "forward_roe": 0.59730263154912,
+        "forward_roce": 0.4816391447181999,
+        "forward_peg": 2.558971299991303,
+        "revenue_growth": 0.18593409,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2718.0079457439465,
+        "current_price": 5794.0,
+        "wacc": 0.14541703471405626,
+        "cost_of_equity": 0.18132163106296598
+      }
+    },
+    "MAZAGON": {
+      "ultimate_qvm": 0.4569432951310284,
+      "forward_qvm": 1.1480617488196883,
+      "backward_qvm": 1.0248635209370265,
+      "qvm_before_beta": 1.0847149884409573,
+      "qmr_beta": 2.373850322346705,
+      "forward_components": {
+        "roe_coe_ratio": 2.9754466115525697,
+        "roce_wacc_ratio": 2.9885299462373958,
+        "iv_bv_ratio": 0.6003170212653548,
+        "inv_peg_ratio": 0.3254397201710066
+      },
+      "projections": {
+        "forward_roe": 0.5874454575129601,
+        "forward_roce": 0.47507841094560005,
+        "forward_peg": 3.0727656706272266,
+        "revenue_growth": 0.16747128,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1107.7049676388326,
+        "current_price": 2767.8,
+        "wacc": 0.15896725798037625,
+        "cost_of_equity": 0.1974310193408023
+      }
+    },
+    "MCX": {
+      "ultimate_qvm": 0.3835065322377311,
+      "forward_qvm": 0.9000045710743104,
+      "backward_qvm": 0.5764150501617481,
+      "qvm_before_beta": 0.7202611887236471,
+      "qmr_beta": 1.878093665109114,
+      "forward_components": {
+        "roe_coe_ratio": 3.251198285838909,
+        "roce_wacc_ratio": 3.1672663154476943,
+        "iv_bv_ratio": 0.5264668792090138,
+        "inv_peg_ratio": 0.12102630304986284
+      },
+      "projections": {
+        "forward_roe": 0.5451792,
+        "forward_roce": 0.4478869999999999,
+        "forward_peg": 8.262666666666666,
+        "revenue_growth": 0.07500000000000001,
+        "terminal_growth": 0.030000000000000006
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2782.201967659902,
+        "current_price": 7927.0,
+        "wacc": 0.14141122197887895,
+        "cost_of_equity": 0.16768561990654685
+      }
+    },
+    "PREMIERENERGIES": {
+      "ultimate_qvm": 0.4693485200167108,
+      "forward_qvm": 0.9814309927991183,
+      "backward_qvm": 0.8286274435317942,
+      "qvm_before_beta": 0.9017985665136112,
+      "qmr_beta": 1.9213836372201694,
+      "forward_components": {
+        "roe_coe_ratio": 3.097027557250258,
+        "roce_wacc_ratio": 3.1894396914186047,
+        "iv_bv_ratio": 0.5515255758647765,
+        "inv_peg_ratio": 0.17029972752043598
+      },
+      "projections": {
+        "forward_roe": 0.5273712,
+        "forward_roce": 0.433257,
+        "forward_peg": 5.871999999999999,
+        "revenue_growth": 0.07500000000000001,
+        "terminal_growth": 0.030000000000000006
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 376.03013762460466,
+        "current_price": 1022.7,
+        "wacc": 0.13584110123345683,
+        "cost_of_equity": 0.17028301823321015
+      }
+    },
+    "NIPPONLIFE": {
+      "ultimate_qvm": 0.46641717531960303,
+      "forward_qvm": 1.04576639076168,
+      "backward_qvm": 0.7311878076853247,
+      "qvm_before_beta": 0.8744436143125681,
+      "qmr_beta": 1.874810064001981,
+      "forward_components": {
+        "roe_coe_ratio": 3.107153598504978,
+        "roce_wacc_ratio": 3.2340944980371056,
+        "iv_bv_ratio": 0.5877238550793109,
+        "inv_peg_ratio": 0.2025116322008863
+      },
+      "projections": {
+        "forward_roe": 0.5204128181304,
+        "forward_roce": 0.4269830113315,
+        "forward_peg": 4.937987952257606,
+        "revenue_growth": 0.082260225,
+        "terminal_growth": 0.032904090000000004
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 337.90203508026514,
+        "current_price": 862.4,
+        "wacc": 0.132025521081914,
+        "cost_of_equity": 0.16748860384011885
+      }
+    },
+    "OFSS": {
+      "ultimate_qvm": 0.4729347094319491,
+      "forward_qvm": 1.386777842108444,
+      "backward_qvm": 0.7965594952364066,
+      "qvm_before_beta": 1.051023814152151,
+      "qmr_beta": 2.222344423429094,
+      "forward_components": {
+        "roe_coe_ratio": 2.9387994286438093,
+        "roce_wacc_ratio": 3.2319403140288827,
+        "iv_bv_ratio": 0.7197645359663438,
+        "inv_peg_ratio": 0.5410082061068703
+      },
+      "projections": {
+        "forward_roe": 0.5534954398848001,
+        "forward_roce": 0.447434649928,
+        "forward_peg": 1.8484007981987263,
+        "revenue_growth": 0.17009298,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 4174.154465580817,
+        "current_price": 8699.0,
+        "wacc": 0.13844149534130332,
+        "cost_of_equity": 0.18834066540574562
+      }
+    },
+    "DIXON": {
+      "ultimate_qvm": 0.5011437334777,
+      "forward_qvm": 0.9545179022511804,
+      "backward_qvm": 0.8028255800079687,
+      "qvm_before_beta": 0.8753921341334941,
+      "qmr_beta": 1.7467885471872264,
+      "forward_components": {
+        "roe_coe_ratio": 3.352338884707749,
+        "roce_wacc_ratio": 2.988666693774609,
+        "iv_bv_ratio": 0.6436827790041502,
+        "inv_peg_ratio": 0.12871792316824968
+      },
+      "projections": {
+        "forward_roe": 0.5357282688648,
+        "forward_roce": 0.4343551680405,
+        "forward_peg": 7.768925844871509,
+        "revenue_growth": 0.151784175,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 7177.062985896275,
+        "current_price": 16725.0,
+        "wacc": 0.14533409461324728,
+        "cost_of_equity": 0.1598073128312336
+      }
+    },
+    "BEL": {
+      "ultimate_qvm": 0.34140367046943315,
+      "forward_qvm": 1.1053693335008117,
+      "backward_qvm": 1.2660275141267032,
+      "qvm_before_beta": 1.1829742133638939,
+      "qmr_beta": 3.4650307412843384,
+      "forward_components": {
+        "roe_coe_ratio": 2.157980143229856,
+        "roce_wacc_ratio": 2.2070036380598483,
+        "iv_bv_ratio": 0.5773429255643253,
+        "inv_peg_ratio": 0.542931831892218
+      },
+      "projections": {
+        "forward_roe": 0.56733696,
+        "forward_roce": 0.4517856,
+        "forward_peg": 1.8418518518518516,
+        "revenue_growth": 0.27,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 144.0278151641137,
+        "current_price": 374.2,
+        "wacc": 0.20470541697754496,
+        "cost_of_equity": 0.26290184447706033
+      }
+    },
+    "ABB": {
+      "ultimate_qvm": 0.42355549632866824,
+      "forward_qvm": 1.0236937034168607,
+      "backward_qvm": 0.9651245568650211,
+      "qvm_before_beta": 0.9939778326882899,
+      "qmr_beta": 2.3467475721693587,
+      "forward_components": {
+        "roe_coe_ratio": 2.678374399554486,
+        "roce_wacc_ratio": 2.618164030889201,
+        "iv_bv_ratio": 0.580513125115486,
+        "inv_peg_ratio": 0.2697739105315286
+      },
+      "projections": {
+        "forward_roe": 0.5244387091464,
+        "forward_roce": 0.42439919321650005,
+        "forward_peg": 3.7068076673156636,
+        "revenue_growth": 0.16342903500000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1989.8054885208473,
+        "current_price": 5141.5,
+        "wacc": 0.16209801533036963,
+        "cost_of_equity": 0.1958048543301615
+      }
+    },
+    "RELIANCE": {
+      "ultimate_qvm": 0.2207099512463427,
+      "forward_qvm": 0.5520102686943653,
+      "backward_qvm": 1.1325186657931952,
+      "qvm_before_beta": 0.7906718238345702,
+      "qmr_beta": 3.58240224045028,
+      "forward_components": {
+        "roe_coe_ratio": 0.42573189243002896,
+        "roce_wacc_ratio": 0.6986865044141413,
+        "iv_bv_ratio": 0.53359803404697,
+        "inv_peg_ratio": 0.5850000000000001
+      },
+      "projections": {
+        "forward_roe": 0.1149238272,
+        "forward_roce": 0.094577392,
+        "forward_peg": 1.7094017094017093,
+        "revenue_growth": 0.06552,
+        "terminal_growth": 0.026208
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 506.846985940082,
+        "current_price": 1424.8,
+        "wacc": 0.13536456107636502,
+        "cost_of_equity": 0.2699441344270168
+      }
+    },
+    "HDFCBANK": {
+      "ultimate_qvm": 0.22872388356369197,
+      "forward_qvm": 0.41514159995947375,
+      "backward_qvm": 0.8654416468786308,
+      "qvm_before_beta": 0.599400392022525,
+      "qmr_beta": 2.6206287803591444,
+      "forward_components": {
+        "roe_coe_ratio": 0.25798693201250744,
+        "roce_wacc_ratio": 0.3308903825236393,
+        "iv_bv_ratio": 0.6282232752064606,
+        "inv_peg_ratio": 0.5538461538461539
+      },
+      "projections": {
+        "forward_roe": 0.05475456,
+        "forward_roce": 0.0447216,
+        "forward_peg": 1.8055555555555554,
+        "revenue_growth": 0.10800000000000001,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 833.9454570607363,
+        "current_price": 1991.2,
+        "wacc": 0.13515533349418224,
+        "cost_of_equity": 0.21223772682154865
+      }
+    },
+    "BHARTIARTL": {
+      "ultimate_qvm": 0.385869440312022,
+      "forward_qvm": 0.4551974732336109,
+      "backward_qvm": 1.0332994847589594,
+      "qvm_before_beta": 0.6858245508552974,
+      "qmr_beta": 1.7773487071189815,
+      "forward_components": {
+        "roe_coe_ratio": 0.6849386302525302,
+        "roce_wacc_ratio": 0.6907751797511095,
+        "iv_bv_ratio": 0.5737425856366609,
+        "inv_peg_ratio": 0.15815899581589962
+      },
+      "projections": {
+        "forward_roe": 0.110714112,
+        "forward_roce": 0.09094632,
+        "forward_peg": 6.322751322751321,
+        "revenue_growth": 0.07560000000000001,
+        "terminal_growth": 0.030240000000000006
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 738.177210680128,
+        "current_price": 1929.9,
+        "wacc": 0.1316583494397823,
+        "cost_of_equity": 0.1616409224271389
+      }
+    },
+    "ICICIBANK": {
+      "ultimate_qvm": 0.24549075469053275,
+      "forward_qvm": 0.4652483064768582,
+      "backward_qvm": 0.8930399557269783,
+      "qvm_before_beta": 0.6445815130905828,
+      "qmr_beta": 2.6256854923239223,
+      "forward_components": {
+        "roe_coe_ratio": 0.30055509791646007,
+        "roce_wacc_ratio": 0.3957717638124366,
+        "iv_bv_ratio": 0.6491821135570263,
+        "inv_peg_ratio": 0.6067415730337079
+      },
+      "projections": {
+        "forward_roe": 0.06388032,
+        "forward_roce": 0.0521752,
+        "forward_peg": 1.6481481481481481,
+        "revenue_growth": 0.10800000000000001,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 625.8115574689733,
+        "current_price": 1446.0,
+        "wacc": 0.13183153719052773,
+        "cost_of_equity": 0.21254112953943533
+      }
+    },
+    "SBIN": {
+      "ultimate_qvm": 0.25933262706278043,
+      "forward_qvm": 0.49842478922642136,
+      "backward_qvm": 0.950487512517387,
+      "qvm_before_beta": 0.6882924800466907,
+      "qmr_beta": 2.6540913414649743,
+      "forward_components": {
+        "roe_coe_ratio": 0.25354093760250057,
+        "roce_wacc_ratio": 0.26759733555541176,
+        "iv_bv_ratio": 0.8254123808522095,
+        "inv_peg_ratio": 1.1020408163265305
+      },
+      "projections": {
+        "forward_roe": 0.05432000000000001,
+        "forward_roce": 0.029814399999999994,
+        "forward_peg": 0.9074074074074074,
+        "revenue_growth": 0.10800000000000001,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 454.3620019131129,
+        "current_price": 825.7,
+        "wacc": 0.1114151601626328,
+        "cost_of_equity": 0.21424548048789843
+      }
+    },
+    "HINDUNILVR": {
+      "ultimate_qvm": 0.5816036371312756,
+      "forward_qvm": 1.1206838638721273,
+      "backward_qvm": 1.148511433875134,
+      "qvm_before_beta": 1.1345123319807953,
+      "qmr_beta": 1.950662374769023,
+      "forward_components": {
+        "roe_coe_ratio": 2.4050480082143264,
+        "roce_wacc_ratio": 2.312058038228144,
+        "iv_bv_ratio": 0.7735199821329835,
+        "inv_peg_ratio": 0.366723259762309
+      },
+      "projections": {
+        "forward_roe": 0.41376383999999994,
+        "forward_roce": 0.33210239999999996,
+        "forward_peg": 2.7268518518518516,
+        "revenue_growth": 0.21600000000000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1365.52060845876,
+        "current_price": 2648.0,
+        "wacc": 0.14363930079130197,
+        "cost_of_equity": 0.17203974248614137
+      }
+    },
+    "INFY": {
+      "ultimate_qvm": 0.3771262477881756,
+      "forward_qvm": 1.6117072646520354,
+      "backward_qvm": 1.3564695413066294,
+      "qvm_before_beta": 1.4785911585029543,
+      "qmr_beta": 3.9206795262191614,
+      "forward_components": {
+        "roe_coe_ratio": 2.1075192044334665,
+        "roce_wacc_ratio": 2.4944580990528507,
+        "iv_bv_ratio": 0.8493304032862558,
+        "inv_peg_ratio": 1.5111940298507462
+      },
+      "projections": {
+        "forward_roe": 0.611688,
+        "forward_roce": 0.47855499999999995,
+        "forward_peg": 0.6617283950617284,
+        "revenue_growth": 0.405,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 847.2920103183687,
+        "current_price": 1496.4,
+        "wacc": 0.19184727944787205,
+        "cost_of_equity": 0.2902407715731497
+      }
+    },
+    "BAJFINANCE": {
+      "ultimate_qvm": 0.4658093929508743,
+      "forward_qvm": 1.303156909486036,
+      "backward_qvm": 1.249187334591642,
+      "qvm_before_beta": 1.2758867921236363,
+      "qmr_beta": 2.739074847849183,
+      "forward_components": {
+        "roe_coe_ratio": 1.4655705767833964,
+        "roce_wacc_ratio": 1.7969974649625564,
+        "iv_bv_ratio": 0.88776410773105,
+        "inv_peg_ratio": 1.2334883720930234
+      },
+      "projections": {
+        "forward_roe": 0.32146483200000003,
+        "forward_roce": 0.25616552,
+        "forward_peg": 0.810708898944193,
+        "revenue_growth": 0.26520000000000005,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 530.0543565892856,
+        "current_price": 895.6,
+        "wacc": 0.14255196515001073,
+        "cost_of_equity": 0.21934449087095095
+      }
+    },
+    "ITC": {
+      "ultimate_qvm": 0.7491322866663945,
+      "forward_qvm": 1.4517379436241116,
+      "backward_qvm": 1.4757340206773735,
+      "qvm_before_beta": 1.463686808205332,
+      "qmr_beta": 1.9538429116687432,
+      "forward_components": {
+        "roe_coe_ratio": 2.3124981188355282,
+        "roce_wacc_ratio": 2.564075942377334,
+        "iv_bv_ratio": 0.943312941924051,
+        "inv_peg_ratio": 0.7941176470588236
+      },
+      "projections": {
+        "forward_roe": 0.39828288000000006,
+        "forward_roce": 0.31967680000000004,
+        "forward_peg": 1.259259259259259,
+        "revenue_growth": 0.21600000000000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 255.0403757315326,
+        "current_price": 405.55,
+        "wacc": 0.12467524643735994,
+        "cost_of_equity": 0.1722305747001246
+      }
+    },
+    "LT": {
+      "ultimate_qvm": 0.2566258073585686,
+      "forward_qvm": 0.7468633262787575,
+      "backward_qvm": 1.0636591793889978,
+      "qvm_before_beta": 0.891295704435627,
+      "qmr_beta": 3.4731335620905432,
+      "forward_components": {
+        "roe_coe_ratio": 0.9012006637759923,
+        "roce_wacc_ratio": 0.9992877488208898,
+        "iv_bv_ratio": 0.5577663192289775,
+        "inv_peg_ratio": 0.6194413407821231
+      },
+      "projections": {
+        "forward_roe": 0.23736545280000002,
+        "forward_roce": 0.19035340800000003,
+        "forward_peg": 1.6143578643578638,
+        "revenue_growth": 0.22176000000000004,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1343.3244032310695,
+        "current_price": 3612.6,
+        "wacc": 0.19048908407473988,
+        "cost_of_equity": 0.2633880137254326
+      }
+    },
+    "MARUTI": {
+      "ultimate_qvm": 0.3155478334269785,
+      "forward_qvm": 0.8771049529014406,
+      "backward_qvm": 1.3893555161020243,
+      "qvm_before_beta": 1.1039069727626611,
+      "qmr_beta": 3.4983823554539417,
+      "forward_components": {
+        "roe_coe_ratio": 0.9839674029062965,
+        "roce_wacc_ratio": 1.2161532077039163,
+        "iv_bv_ratio": 0.5950838503741053,
+        "inv_peg_ratio": 0.8311111111111111
+      },
+      "projections": {
+        "forward_roe": 0.26065585919999995,
+        "forward_roce": 0.209659912,
+        "forward_peg": 1.2032085561497325,
+        "revenue_growth": 0.20196000000000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 5665.198255561482,
+        "current_price": 14280.0,
+        "wacc": 0.17239597007340512,
+        "cost_of_equity": 0.2649029413272365
+      }
+    },
+    "M&M": {
+      "ultimate_qvm": 0.28158501881383347,
+      "forward_qvm": 0.752222625986218,
+      "backward_qvm": 1.2666913192359746,
+      "qvm_before_beta": 0.9761320968340461,
+      "qmr_beta": 3.4665626067251964,
+      "forward_components": {
+        "roe_coe_ratio": 0.7904007077683776,
+        "roce_wacc_ratio": 1.0001913388413346,
+        "iv_bv_ratio": 0.5588237047861404,
+        "inv_peg_ratio": 0.7247368421052632
+      },
+      "projections": {
+        "forward_roe": 0.2078704512,
+        "forward_roce": 0.16816903199999997,
+        "forward_peg": 1.3798111837327522,
+        "revenue_growth": 0.16524,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1257.3905906824682,
+        "current_price": 3375.1,
+        "wacc": 0.16813686088785207,
+        "cost_of_equity": 0.2629937564035118
+      }
+    },
+    "HCLTECH": {
+      "ultimate_qvm": 0.3337216982262851,
+      "forward_qvm": 1.4507285456312706,
+      "backward_qvm": 1.1795090455230404,
+      "qvm_before_beta": 1.3081083449663367,
+      "qmr_beta": 3.91975814554124,
+      "forward_components": {
+        "roe_coe_ratio": 1.7958389383158744,
+        "roce_wacc_ratio": 2.0879668369595312,
+        "iv_bv_ratio": 0.8312726328761983,
+        "inv_peg_ratio": 1.4210526315789473
+      },
+      "projections": {
+        "forward_roe": 0.5211264,
+        "forward_roce": 0.4077039999999999,
+        "forward_peg": 0.7037037037037037,
+        "revenue_growth": 0.405,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 827.6704514670681,
+        "current_price": 1493.5,
+        "wacc": 0.1952636377087736,
+        "cost_of_equity": 0.2901854887324744
+      }
+    },
+    "KOTAKBANK": {
+      "ultimate_qvm": 0.2757984621358288,
+      "forward_qvm": 0.5696748283986015,
+      "backward_qvm": 0.9241009411940271,
+      "qvm_before_beta": 0.7255598149688925,
+      "qmr_beta": 2.6307609163228745,
+      "forward_components": {
+        "roe_coe_ratio": 0.416500116051659,
+        "roce_wacc_ratio": 0.5639103933972125,
+        "iv_bv_ratio": 0.6726267793368266,
+        "inv_peg_ratio": 0.6666666666666667
+      },
+      "projections": {
+        "forward_roe": 0.08865024,
+        "forward_roce": 0.07240640000000001,
+        "forward_peg": 1.4999999999999998,
+        "revenue_growth": 0.10800000000000001,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 904.8175435638991,
+        "current_price": 2017.8,
+        "wacc": 0.12840054173110038,
+        "cost_of_equity": 0.21284565497937247
+      }
+    },
+    "SUNPHARMA": {
+      "ultimate_qvm": 0.3143933934688458,
+      "forward_qvm": 0.7357246717659812,
+      "backward_qvm": 1.0613497302288402,
+      "qvm_before_beta": 0.883663500378694,
+      "qmr_beta": 2.81069360468689,
+      "forward_components": {
+        "roe_coe_ratio": 0.9295232839786206,
+        "roce_wacc_ratio": 0.9809659587878294,
+        "iv_bv_ratio": 0.6211837386337834,
+        "inv_peg_ratio": 0.5172815533980584
+      },
+      "projections": {
+        "forward_roe": 0.2078800896,
+        "forward_roce": 0.16692505600000002,
+        "forward_peg": 1.933183183183183,
+        "revenue_growth": 0.21312000000000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 679.243712071421,
+        "current_price": 1640.2,
+        "wacc": 0.17016396390173189,
+        "cost_of_equity": 0.22364161628121337
+      }
+    },
+    "ULTRACEMCO": {
+      "ultimate_qvm": 0.22301781168810947,
+      "forward_qvm": 0.5304087763926605,
+      "backward_qvm": 1.1831064243032112,
+      "qvm_before_beta": 0.7921679309697925,
+      "qmr_beta": 3.5520388482586305,
+      "forward_components": {
+        "roe_coe_ratio": 0.6581518317053761,
+        "roce_wacc_ratio": 0.7279274986707288,
+        "iv_bv_ratio": 0.4450021645520269,
+        "inv_peg_ratio": 0.37125
+      },
+      "projections": {
+        "forward_roe": 0.1764652032,
+        "forward_roce": 0.14329075200000002,
+        "forward_peg": 2.6936026936026933,
+        "revenue_growth": 0.14256000000000002,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 3818.1185718563906,
+        "current_price": 12870.0,
+        "wacc": 0.19684756004088844,
+        "cost_of_equity": 0.26812233089551785
+      }
+    },
+    "AXISBANK": {
+      "ultimate_qvm": 0.24188855884470364,
+      "forward_qvm": 0.49490501870971326,
+      "backward_qvm": 0.8279073972621912,
+      "qvm_before_beta": 0.6401058708775875,
+      "qmr_beta": 2.6462841977100116,
+      "forward_components": {
+        "roe_coe_ratio": 0.2540964969191955,
+        "roce_wacc_ratio": 0.336553495357059,
+        "iv_bv_ratio": 0.7664660101924957,
+        "inv_peg_ratio": 0.9152542372881356
+      },
+      "projections": {
+        "forward_roe": 0.05432000000000001,
+        "forward_roce": 0.039397600000000005,
+        "forward_peg": 1.0925925925925926,
+        "revenue_growth": 0.10800000000000001,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 551.2934522644558,
+        "current_price": 1078.9,
+        "wacc": 0.1170619249049902,
+        "cost_of_equity": 0.21377705186260068
+      }
+    },
+    "NTPC": {
+      "ultimate_qvm": 0.3351288405020352,
+      "forward_qvm": 0.558412524722513,
+      "backward_qvm": 1.5497055904936594,
+      "qvm_before_beta": 0.9302553473988511,
+      "qmr_beta": 2.7758140600650627,
+      "forward_components": {
+        "roe_coe_ratio": 0.4864268043423952,
+        "roce_wacc_ratio": 0.6605920800364329,
+        "iv_bv_ratio": 0.5883899965368175,
+        "inv_peg_ratio": 0.5142857142857143
+      },
+      "projections": {
+        "forward_roe": 0.10776729600000001,
+        "forward_roce": 0.08835456000000001,
+        "forward_peg": 1.9444444444444444,
+        "revenue_growth": 0.0864,
+        "terminal_growth": 0.03456
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 132.8976872177825,
+        "current_price": 338.8,
+        "wacc": 0.13375055903656474,
+        "cost_of_equity": 0.22154884360390376
+      }
+    },
+    "TITAN": {
+      "ultimate_qvm": 0.4733384370445271,
+      "forward_qvm": 1.072721425221509,
+      "backward_qvm": 1.183057961820567,
+      "qvm_before_beta": 1.1265396677098467,
+      "qmr_beta": 2.379987720295516,
+      "forward_components": {
+        "roe_coe_ratio": 1.903311437442465,
+        "roce_wacc_ratio": 1.860347670106762,
+        "iv_bv_ratio": 0.7645733577786031,
+        "inv_peg_ratio": 0.48913043478260865
+      },
+      "projections": {
+        "forward_roe": 0.37647359999999996,
+        "forward_roce": 0.299796,
+        "forward_peg": 2.0444444444444447,
+        "revenue_growth": 0.27,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1843.2844224898417,
+        "current_price": 3616.3,
+        "wacc": 0.16115052300024932,
+        "cost_of_equity": 0.19779926321773095
+      }
+    },
+    "BAJAJFINSV": {
+      "ultimate_qvm": 0.43797907442343226,
+      "forward_qvm": 1.2802867067401928,
+      "backward_qvm": 1.112145416459365,
+      "qvm_before_beta": 1.1932581416671586,
+      "qmr_beta": 2.7244638188205603,
+      "forward_components": {
+        "roe_coe_ratio": 1.189200776313456,
+        "roce_wacc_ratio": 1.6356792661259034,
+        "iv_bv_ratio": 0.9258449425728593,
+        "inv_peg_ratio": 1.4918918918918922
+      },
+      "projections": {
+        "forward_roe": 0.25980211200000003,
+        "forward_roce": 0.20837631999999998,
+        "forward_peg": 0.6702898550724636,
+        "revenue_growth": 0.22080000000000005,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1222.1153241961742,
+        "current_price": 1980.0,
+        "wacc": 0.12739436411243266,
+        "cost_of_equity": 0.2184678291292336
+      }
+    },
+    "ZOMATO": {
+      "ultimate_qvm": NaN,
+      "forward_qvm": 0.14658052775281924,
+      "backward_qvm": NaN,
+      "qvm_before_beta": NaN,
+      "qmr_beta": 2.2690194953326244,
+      "forward_components": {
+        "roe_coe_ratio": 0.2887080793784539,
+        "roce_wacc_ratio": 0.1,
+        "iv_bv_ratio": 0.475872736123437,
+        "inv_peg_ratio": 0.03360124449053668
+      },
+      "projections": {
+        "forward_roe": 0.055184000000000004,
+        "forward_roce": -0.025866240000000002,
+        "forward_peg": 29.760802469135804,
+        "revenue_growth": 0.1296,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 88.97233923054527,
+        "current_price": 280.45,
+        "wacc": 0.17921924519996132,
+        "cost_of_equity": 0.19114116971995745
+      }
+    },
+    "DMART": {
+      "ultimate_qvm": 0.49730394635097525,
+      "forward_qvm": 0.9822183477548367,
+      "backward_qvm": 1.4362854486423744,
+      "qvm_before_beta": 1.1877482562689063,
+      "qmr_beta": 2.3883748861921275,
+      "forward_components": {
+        "roe_coe_ratio": 1.8821088632363607,
+        "roce_wacc_ratio": 1.705571857818205,
+        "iv_bv_ratio": 0.7982469220429854,
+        "inv_peg_ratio": 0.3632286995515695
+      },
+      "projections": {
+        "forward_roe": 0.37322688000000004,
+        "forward_roce": 0.29501679999999997,
+        "forward_peg": 2.7530864197530867,
+        "revenue_growth": 0.324,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2581.158030656728,
+        "current_price": 4850.3,
+        "wacc": 0.17297236621703538,
+        "cost_of_equity": 0.19830249317152762
+      }
+    },
+    "ONGC": {
+      "ultimate_qvm": 0.24965740703059297,
+      "forward_qvm": 0.79977129842377,
+      "backward_qvm": 1.0247907252095378,
+      "qvm_before_beta": 0.9053166346165683,
+      "qmr_beta": 3.6262358300694477,
+      "forward_components": {
+        "roe_coe_ratio": 0.5848973254233472,
+        "roce_wacc_ratio": 0.998352276112705,
+        "iv_bv_ratio": 0.6121251606977207,
+        "inv_peg_ratio": 1.1446153846153844
+      },
+      "projections": {
+        "forward_roe": 0.15942789119999998,
+        "forward_roce": 0.130642432,
+        "forward_peg": 0.8736559139784947,
+        "revenue_growth": 0.08928,
+        "terminal_growth": 0.035712
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 97.2422030284399,
+        "current_price": 238.29,
+        "wacc": 0.13085804993472228,
+        "cost_of_equity": 0.2725741498041669
+      }
+    },
+    "HAL": {
+      "ultimate_qvm": 0.3861161847621635,
+      "forward_qvm": 1.241870382148895,
+      "backward_qvm": 1.4694637988528043,
+      "qvm_before_beta": 1.3508825150379655,
+      "qmr_beta": 3.4986425546239937,
+      "forward_components": {
+        "roe_coe_ratio": 1.7901350967417733,
+        "roce_wacc_ratio": 2.0952448410998903,
+        "iv_bv_ratio": 0.6670203236954996,
+        "inv_peg_ratio": 0.9507042253521127
+      },
+      "projections": {
+        "forward_roe": 0.47424,
+        "forward_roce": 0.37765,
+        "forward_peg": 1.0518518518518518,
+        "revenue_growth": 0.27,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1903.5203657514267,
+        "current_price": 4280.65,
+        "wacc": 0.18024146514626624,
+        "cost_of_equity": 0.26491855327743963
+      }
+    },
+    "ADANIPORTS": {
+      "ultimate_qvm": 0.23439100199134766,
+      "forward_qvm": 0.44678151229482366,
+      "backward_qvm": 1.0160565238332722,
+      "qvm_before_beta": 0.6737620279410609,
+      "qmr_beta": 2.874521727442132,
+      "forward_components": {
+        "roe_coe_ratio": 0.5060188522894455,
+        "roce_wacc_ratio": 0.570511235644743,
+        "iv_bv_ratio": 0.4785347847030608,
+        "inv_peg_ratio": 0.28842729970326403
+      },
+      "projections": {
+        "forward_roe": 0.11510476800000001,
+        "forward_roce": 0.09419048000000001,
+        "forward_peg": 3.467078189300412,
+        "revenue_growth": 0.0972,
+        "terminal_growth": 0.03888
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 505.7793651121551,
+        "current_price": 1585.4,
+        "wacc": 0.16509837863851004,
+        "cost_of_equity": 0.2274713036465279
+      }
+    },
+    "ADANIENT": {
+      "ultimate_qvm": 0.07071367003520417,
+      "forward_qvm": 0.1750471611514766,
+      "backward_qvm": 0.6793359723081511,
+      "qvm_before_beta": 0.34484175127240607,
+      "qmr_beta": 4.876592476401377,
+      "forward_components": {
+        "roe_coe_ratio": 0.15870914407482786,
+        "roce_wacc_ratio": 0.16121189840992803,
+        "iv_bv_ratio": 0.2794688431512185,
+        "inv_peg_ratio": 0.13130699088145897
+      },
+      "projections": {
+        "forward_roe": 0.05516659199999999,
+        "forward_roce": 0.04522912,
+        "forward_peg": 7.61574074074074,
+        "revenue_growth": 0.0864,
+        "terminal_growth": 0.03456
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 556.2547854081853,
+        "current_price": 2985.6,
+        "wacc": 0.2805569591705436,
+        "cost_of_equity": 0.3475955485840826
+      }
+    },
+    "POWERGRID": {
+      "ultimate_qvm": 0.5580331710350925,
+      "forward_qvm": 1.2055729236393107,
+      "backward_qvm": 2.1114619319337247,
+      "qvm_before_beta": 1.5954690014019224,
+      "qmr_beta": 2.859093480845406,
+      "forward_components": {
+        "roe_coe_ratio": 0.9384724933692761,
+        "roce_wacc_ratio": 1.4922647374324656,
+        "iv_bv_ratio": 0.8850508099603843,
+        "inv_peg_ratio": 1.7042696629213487
+      },
+      "projections": {
+        "forward_roe": 0.2126068224,
+        "forward_roce": 0.172379264,
+        "forward_peg": 0.5867616033755273,
+        "revenue_growth": 0.15168000000000004,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 192.02652406773805,
+        "current_price": 325.45,
+        "wacc": 0.11551520295024144,
+        "cost_of_equity": 0.22654560885072433
+      }
+    },
+    "JSWSTEEL": {
+      "ultimate_qvm": 0.06985424030276538,
+      "forward_qvm": 0.18213255893014196,
+      "backward_qvm": 0.6371341548328022,
+      "qvm_before_beta": 0.34065066270519945,
+      "qmr_beta": 4.876592476401377,
+      "forward_components": {
+        "roe_coe_ratio": 0.1537879303050658,
+        "roce_wacc_ratio": 0.11537420868730083,
+        "iv_bv_ratio": 0.3036309196042364,
+        "inv_peg_ratio": 0.2042553191489362
+      },
+      "projections": {
+        "forward_roe": 0.053456000000000004,
+        "forward_roce": 0.02945152,
+        "forward_peg": 4.895833333333333,
+        "revenue_growth": 0.0864,
+        "terminal_growth": 0.03456
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 197.40058186536754,
+        "current_price": 975.2,
+        "wacc": 0.25526952977699346,
+        "cost_of_equity": 0.3475955485840826
+      }
+    },
+    "WIPRO": {
+      "ultimate_qvm": 0.2434730976984469,
+      "forward_qvm": 0.9446275012425139,
+      "backward_qvm": 0.9019383616004994,
+      "qvm_before_beta": 0.9230361752355358,
+      "qmr_beta": 3.7911218280828725,
+      "forward_components": {
+        "roe_coe_ratio": 0.8863718505310638,
+        "roce_wacc_ratio": 1.0759921916186816,
+        "iv_bv_ratio": 0.7012440600622502,
+        "inv_peg_ratio": 1.1905511811023624
+      },
+      "projections": {
+        "forward_roe": 0.25037107200000003,
+        "forward_roce": 0.19848192000000003,
+        "forward_peg": 0.8399470899470898,
+        "revenue_growth": 0.30240000000000006,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 273.7656810483025,
+        "current_price": 585.6,
+        "wacc": 0.18446408955943389,
+        "cost_of_equity": 0.28246730968497236
+      }
+    },
+    "TATAMOTORS": {
+      "ultimate_qvm": 0.2193958598832486,
+      "forward_qvm": 0.5192451295060874,
+      "backward_qvm": 1.0973029706020339,
+      "qvm_before_beta": 0.7548305923037748,
+      "qmr_beta": 3.440496063624252,
+      "forward_components": {
+        "roe_coe_ratio": 0.25724777094225304,
+        "roce_wacc_ratio": 0.43283963565835587,
+        "iv_bv_ratio": 0.6582197268285835,
+        "inv_peg_ratio": 0.9918367346938773
+      },
+      "projections": {
+        "forward_roe": 0.06725222400000001,
+        "forward_roce": 0.05503264,
+        "forward_peg": 1.0082304526748973,
+        "revenue_growth": 0.0972,
+        "terminal_growth": 0.03888
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 502.70434603655013,
+        "current_price": 1145.6,
+        "wacc": 0.12714325460581838,
+        "cost_of_equity": 0.26142976381745514
+      }
+    },
+    "ASIANPAINT": {
+      "ultimate_qvm": 0.4725875505526385,
+      "forward_qvm": 1.0974262526010876,
+      "backward_qvm": 1.1679525473082177,
+      "qvm_before_beta": 1.1321403566733022,
+      "qmr_beta": 2.395620357221408,
+      "forward_components": {
+        "roe_coe_ratio": 2.0118063295667974,
+        "roce_wacc_ratio": 1.9637688943408085,
+        "iv_bv_ratio": 0.7587439979789437,
+        "inv_peg_ratio": 0.48387096774193555
+      },
+      "projections": {
+        "forward_roe": 0.3998207999999999,
+        "forward_roce": 0.31838799999999995,
+        "forward_peg": 2.0666666666666664,
+        "revenue_growth": 0.27,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1454.4616611924364,
+        "current_price": 2875.4,
+        "wacc": 0.16213109440603263,
+        "cost_of_equity": 0.19873722143328448
+      }
+    },
+    "BAJAJ-AUTO": {
+      "ultimate_qvm": 0.29828445950648885,
+      "forward_qvm": 0.9573438535826547,
+      "backward_qvm": 1.1718985487252922,
+      "qvm_before_beta": 1.0592024700899219,
+      "qmr_beta": 3.5509810730413864,
+      "forward_components": {
+        "roe_coe_ratio": 1.3741495206605476,
+        "roce_wacc_ratio": 1.5283262853405917,
+        "iv_bv_ratio": 0.5793728368651953,
+        "inv_peg_ratio": 0.6903409090909091
+      },
+      "projections": {
+        "forward_roe": 0.36835296,
+        "forward_roce": 0.29447059999999997,
+        "forward_peg": 1.448559670781893,
+        "revenue_growth": 0.243,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 3354.375601170526,
+        "current_price": 8684.5,
+        "wacc": 0.19267521786709074,
+        "cost_of_equity": 0.26805886438248316
+      }
+    },
+    "INDIGO": {
+      "ultimate_qvm": 0.37176034213643305,
+      "forward_qvm": 0.8134145456816768,
+      "backward_qvm": 1.0187044271448655,
+      "qvm_before_beta": 0.910290612271682,
+      "qmr_beta": 2.448595261776504,
+      "forward_components": {
+        "roe_coe_ratio": 0.837831532865069,
+        "roce_wacc_ratio": 1.074409758871003,
+        "iv_bv_ratio": 0.7099825184264437,
+        "inv_peg_ratio": 0.684972972972973
+      },
+      "projections": {
+        "forward_roe": 0.16917135359999996,
+        "forward_roce": 0.13773209600000003,
+        "forward_peg": 1.4599116161616161,
+        "revenue_growth": 0.12672,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2028.3253908085594,
+        "current_price": 4285.3,
+        "wacc": 0.12819326598888103,
+        "cost_of_equity": 0.20191571570659023
+      }
+    },
+    "ADANIPOWER": {
+      "ultimate_qvm": 0.5025702032296185,
+      "forward_qvm": 1.188630662525197,
+      "backward_qvm": 1.7349462523726975,
+      "qvm_before_beta": 1.436039802165444,
+      "qmr_beta": 2.857391450860317,
+      "forward_components": {
+        "roe_coe_ratio": 0.8995297195435219,
+        "roce_wacc_ratio": 1.4314707319814877,
+        "iv_bv_ratio": 0.8711416123043666,
+        "inv_peg_ratio": 1.7795121951219517
+      },
+      "projections": {
+        "forward_roe": 0.20369264639999995,
+        "forward_roce": 0.165307904,
+        "forward_peg": 0.5619517543859648,
+        "revenue_growth": 0.14592000000000002,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 398.0536407156086,
+        "current_price": 685.4,
+        "wacc": 0.11548116235053965,
+        "cost_of_equity": 0.22644348705161899
+      }
+    },
+    "TATASTEEL": {
+      "ultimate_qvm": 0.05353227909933886,
+      "forward_qvm": 0.08085073003544474,
+      "backward_qvm": 0.7223638224422639,
+      "qvm_before_beta": 0.2416684555246121,
+      "qmr_beta": 4.514443614032431,
+      "forward_components": {
+        "roe_coe_ratio": 0.16374797921040513,
+        "roce_wacc_ratio": 0.1,
+        "iv_bv_ratio": 0.2609515216395675,
+        "inv_peg_ratio": 0.01
+      },
+      "projections": {
+        "forward_roe": 0.05336,
+        "forward_roce": -0.022058400000000002,
+        "forward_peg": -1.4880952380952381,
+        "revenue_growth": 0.084,
+        "terminal_growth": 0.033600000000000005
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 25.36448790336596,
+        "current_price": 145.8,
+        "wacc": 0.30169692440176893,
+        "cost_of_equity": 0.32586661684194584
+      }
+    },
+    "IOC": {
+      "ultimate_qvm": 0.19545687668492687,
+      "forward_qvm": 0.5949721012467603,
+      "backward_qvm": 0.7996962328571271,
+      "qvm_before_beta": 0.6897803621603934,
+      "qmr_beta": 3.529066737684075,
+      "forward_components": {
+        "roe_coe_ratio": 0.4116759673913204,
+        "roce_wacc_ratio": 0.7011037715195728,
+        "iv_bv_ratio": 0.5627984195371549,
+        "inv_peg_ratio": 0.7714285714285714
+      },
+      "projections": {
+        "forward_roe": 0.10981209599999998,
+        "forward_roce": 0.09038256,
+        "forward_peg": 1.2962962962962965,
+        "revenue_growth": 0.0648,
+        "terminal_growth": 0.02592
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 69.63692444406396,
+        "current_price": 185.6,
+        "wacc": 0.12891466808701482,
+        "cost_of_equity": 0.2667440042610445
+      }
+    },
+    "GRASIM": {
+      "ultimate_qvm": 0.29923528484075085,
+      "forward_qvm": 0.8044297657474342,
+      "backward_qvm": 1.3082965905860937,
+      "qvm_before_beta": 1.0258814355925046,
+      "qmr_beta": 3.4283438069092202,
+      "forward_components": {
+        "roe_coe_ratio": 0.6319195998946182,
+        "roce_wacc_ratio": 0.9684898840086392,
+        "iv_bv_ratio": 0.6539734885350498,
+        "inv_peg_ratio": 1.04625
+      },
+      "projections": {
+        "forward_roe": 0.1647418368,
+        "forward_roce": 0.133963648,
+        "forward_peg": 0.955794504181601,
+        "revenue_growth": 0.13392,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1214.3851699770184,
+        "current_price": 2785.4,
+        "wacc": 0.1383221964544598,
+        "cost_of_equity": 0.2607006284145532
+      }
+    },
+    "TRENT": {
+      "ultimate_qvm": 0.34069267185107205,
+      "forward_qvm": 0.6212804579051007,
+      "backward_qvm": 1.0243955902867776,
+      "qvm_before_beta": 0.7977699927982596,
+      "qmr_beta": 2.3416118358630005,
+      "forward_components": {
+        "roe_coe_ratio": 1.3688339522043025,
+        "roce_wacc_ratio": 1.1698453695352817,
+        "iv_bv_ratio": 0.6503276379012308,
+        "inv_peg_ratio": 0.14306695464362854
+      },
+      "projections": {
+        "forward_roe": 0.26760253440000004,
+        "forward_roce": 0.213251584,
+        "forward_peg": 6.989734299516908,
+        "revenue_growth": 0.26496000000000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 3028.4890993543117,
+        "current_price": 6985.3,
+        "wacc": 0.18229040311944278,
+        "cost_of_equity": 0.19549671015178002
+      }
+    },
+    "DLF": {
+      "ultimate_qvm": 0.1791482667295412,
+      "forward_qvm": 0.3128093758596093,
+      "backward_qvm": 1.067279328269135,
+      "qvm_before_beta": 0.5778018523194013,
+      "qmr_beta": 3.225271797866202,
+      "forward_components": {
+        "roe_coe_ratio": 0.25180094029176364,
+        "roce_wacc_ratio": 0.2824594568313933,
+        "iv_bv_ratio": 0.4462362536864831,
+        "inv_peg_ratio": 0.3016759776536313
+      },
+      "projections": {
+        "forward_roe": 0.06257664,
+        "forward_roce": 0.0511104,
+        "forward_peg": 3.3148148148148144,
+        "revenue_growth": 0.10800000000000001,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 263.39838600934144,
+        "current_price": 885.4,
+        "wacc": 0.18094773874223302,
+        "cost_of_equity": 0.24851630787197213
+      }
+    },
+    "SBILIFE": {
+      "ultimate_qvm": 0.45665837675923243,
+      "forward_qvm": 1.2209258510719292,
+      "backward_qvm": 0.9326170122351757,
+      "qvm_before_beta": 1.0670783567233437,
+      "qmr_beta": 2.336710352925263,
+      "forward_components": {
+        "roe_coe_ratio": 1.3421882719721514,
+        "roce_wacc_ratio": 1.6676940758548209,
+        "iv_bv_ratio": 0.9100577051114201,
+        "inv_peg_ratio": 1.0908333333333335
+      },
+      "projections": {
+        "forward_roe": 0.2619986688,
+        "forward_roce": 0.210499168,
+        "forward_peg": 0.9167303284950342,
+        "revenue_growth": 0.20944000000000004,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1022.5711727200288,
+        "current_price": 1685.45,
+        "wacc": 0.12622169200433422,
+        "cost_of_equity": 0.19520262117551576
+      }
+    },
+    "VBL": {
+      "ultimate_qvm": 0.42845844179500736,
+      "forward_qvm": 0.8178458146395599,
+      "backward_qvm": 0.7546658259065486,
+      "qvm_before_beta": 0.7856209564218469,
+      "qmr_beta": 1.833598967336303,
+      "forward_components": {
+        "roe_coe_ratio": 1.5739114456735874,
+        "roce_wacc_ratio": 1.4836487865568173,
+        "iv_bv_ratio": 0.7222663922098462,
+        "inv_peg_ratio": 0.2652631578947368
+      },
+      "projections": {
+        "forward_roe": 0.25972047359999995,
+        "forward_roce": 0.209575296,
+        "forward_peg": 3.7698412698412707,
+        "revenue_growth": 0.18144,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 715.1881815661897,
+        "current_price": 1485.3,
+        "wacc": 0.14125667604013786,
+        "cost_of_equity": 0.16501593804017817
+      }
+    },
+    "VEDL": {
+      "ultimate_qvm": 0.14049033003666223,
+      "forward_qvm": 0.4056954059087681,
+      "backward_qvm": 1.0475598688732604,
+      "qvm_before_beta": 0.6519127443272399,
+      "qmr_beta": 4.640267726306268,
+      "forward_components": {
+        "roe_coe_ratio": 0.31552591339160335,
+        "roce_wacc_ratio": 0.4533166598298215,
+        "iv_bv_ratio": 0.39895259282487755,
+        "inv_peg_ratio": 0.47472527472527476
+      },
+      "projections": {
+        "forward_roe": 0.105201408,
+        "forward_roce": 0.08625088,
+        "forward_peg": 2.1064814814814814,
+        "revenue_growth": 0.0864,
+        "terminal_growth": 0.03456
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 129.1542527171737,
+        "current_price": 485.6,
+        "wacc": 0.19026629207137288,
+        "cost_of_equity": 0.33341606357837605
+      }
+    },
+    "HDFCLIFE": {
+      "ultimate_qvm": 0.4658955771251833,
+      "forward_qvm": 1.0327810400507969,
+      "backward_qvm": 0.8739529542103207,
+      "qvm_before_beta": 0.9500537042740276,
+      "qmr_beta": 2.0391988053124486,
+      "forward_components": {
+        "roe_coe_ratio": 1.066310323167825,
+        "roce_wacc_ratio": 1.374828755810679,
+        "iv_bv_ratio": 0.8932906831298482,
+        "inv_peg_ratio": 0.8687763713080168
+      },
+      "projections": {
+        "forward_roe": 0.18911219199999996,
+        "forward_roce": 0.15369512,
+        "forward_peg": 1.1510441962117535,
+        "revenue_growth": 0.13726666666666665,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 408.35294761475797,
+        "current_price": 685.7,
+        "wacc": 0.11179219182782688,
+        "cost_of_equity": 0.1773519283187469
+      }
+    },
+    "IRFC": {
+      "ultimate_qvm": 0.2874423274943387,
+      "forward_qvm": 0.6492800851620629,
+      "backward_qvm": 0.8875392401489175,
+      "qvm_before_beta": 0.759118932334428,
+      "qmr_beta": 2.6409434509932406,
+      "forward_components": {
+        "roe_coe_ratio": 0.5130275492921444,
+        "roce_wacc_ratio": 0.7083748458349559,
+        "iv_bv_ratio": 0.6882470260863276,
+        "inv_peg_ratio": 0.7105263157894738
+      },
+      "projections": {
+        "forward_roe": 0.10950912,
+        "forward_roce": 0.0894432,
+        "forward_peg": 1.4074074074074072,
+        "revenue_growth": 0.10800000000000001,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 85.0902739918063,
+        "current_price": 185.45,
+        "wacc": 0.12626535304846123,
+        "cost_of_equity": 0.21345660705959443
+      }
+    },
+    "EICHERMOT": {
+      "ultimate_qvm": 0.3380534727035994,
+      "forward_qvm": 0.9154748339579255,
+      "backward_qvm": 0.8857254242706112,
+      "qvm_before_beta": 0.9004772821767637,
+      "qmr_beta": 2.6637125629124645,
+      "forward_components": {
+        "roe_coe_ratio": 1.432887588447735,
+        "roce_wacc_ratio": 1.558930534988052,
+        "iv_bv_ratio": 0.6204356520817701,
+        "inv_peg_ratio": 0.5068156424581005
+      },
+      "projections": {
+        "forward_roe": 0.3078168576,
+        "forward_roce": 0.248385536,
+        "forward_peg": 1.9731040564373898,
+        "revenue_growth": 0.18144,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2062.0385708821655,
+        "current_price": 4985.3,
+        "wacc": 0.1593307273321859,
+        "cost_of_equity": 0.21482275377474785
+      }
+    },
+    "DIVISLAB": {
+      "ultimate_qvm": 0.3727007386429905,
+      "forward_qvm": 0.8632185384941988,
+      "backward_qvm": 0.8844756811292842,
+      "qvm_before_beta": 0.8737824699535244,
+      "qmr_beta": 2.3444613314558502,
+      "forward_components": {
+        "roe_coe_ratio": 1.3384030760254824,
+        "roce_wacc_ratio": 1.3237451785877814,
+        "iv_bv_ratio": 0.7114767997802119,
+        "inv_peg_ratio": 0.44048484848484853
+      },
+      "projections": {
+        "forward_roe": 0.26188222464,
+        "forward_roce": 0.2096763904,
+        "forward_peg": 2.2702256466703354,
+        "revenue_growth": 0.232576,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2838.9821582696536,
+        "current_price": 5985.4,
+        "wacc": 0.15839633925895788,
+        "cost_of_equity": 0.195667679887351
+      }
+    },
+    "ADANIGREEN": {
+      "ultimate_qvm": 0.10438735596988462,
+      "forward_qvm": 0.1571473472385095,
+      "backward_qvm": 0.5076878950326118,
+      "qvm_before_beta": 0.2824567328450108,
+      "qmr_beta": 2.7058519704867185,
+      "forward_components": {
+        "roe_coe_ratio": 0.24594306408688033,
+        "roce_wacc_ratio": 0.11119873084656692,
+        "iv_bv_ratio": 0.3824972068378975,
+        "inv_peg_ratio": 0.05829959514170041
+      },
+      "projections": {
+        "forward_roe": 0.053456000000000004,
+        "forward_roce": 0.022088640000000003,
+        "forward_peg": 17.152777777777775,
+        "revenue_growth": 0.0864,
+        "terminal_growth": 0.03456
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 378.8252336522537,
+        "current_price": 1485.6,
+        "wacc": 0.1986411160616403,
+        "cost_of_equity": 0.2173511182292031
+      }
+    },
+    "HINDALCO": {
+      "ultimate_qvm": 0.16902647997218928,
+      "forward_qvm": 0.4613013808931642,
+      "backward_qvm": 0.9997798724042539,
+      "qvm_before_beta": 0.6791169529096397,
+      "qmr_beta": 4.017813972233096,
+      "forward_components": {
+        "roe_coe_ratio": 0.3732024613659465,
+        "roce_wacc_ratio": 0.560758155041258,
+        "iv_bv_ratio": 0.4507935398364315,
+        "inv_peg_ratio": 0.48
+      },
+      "projections": {
+        "forward_roe": 0.11049361919999999,
+        "forward_roce": 0.090808512,
+        "forward_peg": 2.0833333333333335,
+        "revenue_growth": 0.07296,
+        "terminal_growth": 0.029184
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 205.98259480259344,
+        "current_price": 685.4,
+        "wacc": 0.16193881655331205,
+        "cost_of_equity": 0.2960688383339858
+      }
+    },
+    "PIDILITIND": {
+      "ultimate_qvm": 0.276224809881914,
+      "forward_qvm": 0.6945947552269853,
+      "backward_qvm": 1.0287373447220802,
+      "qvm_before_beta": 0.8453138849859809,
+      "qmr_beta": 3.060238815432083,
+      "forward_components": {
+        "roe_coe_ratio": 1.4011513286102375,
+        "roce_wacc_ratio": 1.3117505653279267,
+        "iv_bv_ratio": 0.5058694295469693,
+        "inv_peg_ratio": 0.2503521126760563
+      },
+      "projections": {
+        "forward_roe": 0.33433478400000005,
+        "forward_roce": 0.26845924,
+        "forward_peg": 3.9943741209564,
+        "revenue_growth": 0.2133,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1108.0563984796818,
+        "current_price": 3285.6,
+        "wacc": 0.2046572321719468,
+        "cost_of_equity": 0.238614328925925
+      }
+    },
+    "TVSMOTOR": {
+      "ultimate_qvm": 0.29196090504041,
+      "forward_qvm": 0.6396377185075471,
+      "backward_qvm": 0.7804746391072487,
+      "qvm_before_beta": 0.7065557426782134,
+      "qmr_beta": 2.4200354584474923,
+      "forward_components": {
+        "roe_coe_ratio": 0.992175484614688,
+        "roce_wacc_ratio": 1.0654427164829967,
+        "iv_bv_ratio": 0.5465051019853732,
+        "inv_peg_ratio": 0.28975
+      },
+      "projections": {
+        "forward_roe": 0.19863564288,
+        "forward_roce": 0.1621472768,
+        "forward_peg": 3.451251078515962,
+        "revenue_growth": 0.111264,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 941.9561937819892,
+        "current_price": 2585.4,
+        "wacc": 0.1521877002784764,
+        "cost_of_equity": 0.20020212750684954
+      }
+    },
+    "LTIM": {
+      "ultimate_qvm": 0.2924665233338486,
+      "forward_qvm": 1.3413902204773915,
+      "backward_qvm": 0.8561592516717053,
+      "qvm_before_beta": 1.07165463063604,
+      "qmr_beta": 3.664195882729297,
+      "forward_components": {
+        "roe_coe_ratio": 1.65902380131491,
+        "roce_wacc_ratio": 1.8498628752437367,
+        "iv_bv_ratio": 0.8439532241323202,
+        "inv_peg_ratio": 1.25
+      },
+      "projections": {
+        "forward_roe": 0.4559856,
+        "forward_roce": 0.3567409999999999,
+        "forward_peg": 0.7999999999999999,
+        "revenue_growth": 0.405,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 3480.0692514837606,
+        "current_price": 6185.3,
+        "wacc": 0.1928472670997281,
+        "cost_of_equity": 0.2748517529637578
+      }
+    },
+    "BAJAJHLDNG": {
+      "ultimate_qvm": 0.7231767132883364,
+      "forward_qvm": 2.198138611850765,
+      "backward_qvm": 1.2716737226341934,
+      "qvm_before_beta": 1.6719195887955318,
+      "qmr_beta": 2.31191015705303,
+      "forward_components": {
+        "roe_coe_ratio": 2.0865168672798653,
+        "roce_wacc_ratio": 3.0947044569747066,
+        "iv_bv_ratio": 1.306277807483618,
+        "inv_peg_ratio": 2.7678571428571432
+      },
+      "projections": {
+        "forward_roe": 0.4041887999999999,
+        "forward_roce": 0.32361799999999996,
+        "forward_peg": 0.36129032258064514,
+        "revenue_growth": 0.23250000000000004,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 9828.085882758081,
+        "current_price": 11285.6,
+        "wacc": 0.10457153647439392,
+        "cost_of_equity": 0.19371460942318178
+      }
+    },
+    "TECHM": {
+      "ultimate_qvm": 0.18694207989390077,
+      "forward_qvm": 0.5656685532800177,
+      "backward_qvm": 0.6108588014931966,
+      "qvm_before_beta": 0.5878295794692727,
+      "qmr_beta": 3.1444476267884482,
+      "forward_components": {
+        "roe_coe_ratio": 0.7094127059272931,
+        "roce_wacc_ratio": 0.7196237162576917,
+        "iv_bv_ratio": 0.5239240647804875,
+        "inv_peg_ratio": 0.38280303030303026
+      },
+      "projections": {
+        "forward_roe": 0.1728603648,
+        "forward_roce": 0.139037728,
+        "forward_peg": 2.612309519097566,
+        "revenue_growth": 0.20211999999999997,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 588.6461509163703,
+        "current_price": 1685.3,
+        "wacc": 0.19320892969321157,
+        "cost_of_equity": 0.24366685760730689
+      }
+    },
+    "AMBUJACEM": {
+      "ultimate_qvm": 0.2358633583216085,
+      "forward_qvm": 0.44241420412270976,
+      "backward_qvm": 0.9084380238404695,
+      "qvm_before_beta": 0.6339604761435752,
+      "qmr_beta": 2.6878294307975823,
+      "forward_components": {
+        "roe_coe_ratio": 0.5110918225978941,
+        "roce_wacc_ratio": 0.5987888797949976,
+        "iv_bv_ratio": 0.48409351067079015,
+        "inv_peg_ratio": 0.25859154929577466
+      },
+      "projections": {
+        "forward_roe": 0.11053370879999998,
+        "forward_roce": 0.090833568,
+        "forward_peg": 3.8671023965141607,
+        "revenue_growth": 0.07344,
+        "terminal_growth": 0.029376000000000003
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 221.1984614758397,
+        "current_price": 685.4,
+        "wacc": 0.15169548243965042,
+        "cost_of_equity": 0.21626976584785493
+      }
+    },
+    "BPCL": {
+      "ultimate_qvm": 0.30216509958250365,
+      "forward_qvm": 0.7508994740052525,
+      "backward_qvm": 0.7228837832202131,
+      "qvm_before_beta": 0.7367584764269666,
+      "qmr_beta": 2.4382646356079283,
+      "forward_components": {
+        "roe_coe_ratio": 0.788997320513046,
+        "roce_wacc_ratio": 1.2256337699817328,
+        "iv_bv_ratio": 0.6343906194238138,
+        "inv_peg_ratio": 0.5182439024390244
+      },
+      "projections": {
+        "forward_roe": 0.15882190847999997,
+        "forward_roce": 0.1312636928,
+        "forward_peg": 1.9295933734939756,
+        "revenue_growth": 0.042496,
+        "terminal_growth": 0.0169984
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 163.08068189988174,
+        "current_price": 385.6,
+        "wacc": 0.10709862604549188,
+        "cost_of_equity": 0.20129587813647568
+      }
+    },
+    "PFC": {
+      "ultimate_qvm": 0.6298312306764299,
+      "forward_qvm": 1.3813518950150872,
+      "backward_qvm": 1.0874366083188745,
+      "qvm_before_beta": 1.2256152004646712,
+      "qmr_beta": 1.9459422473356516,
+      "forward_components": {
+        "roe_coe_ratio": 1.1781901409943238,
+        "roce_wacc_ratio": 1.691233686574877,
+        "iv_bv_ratio": 1.1219964819748833,
+        "inv_peg_ratio": 1.6285714285714288
+      },
+      "projections": {
+        "forward_roe": 0.20236185599999998,
+        "forward_roce": 0.16447615999999998,
+        "forward_peg": 0.6140350877192982,
+        "revenue_growth": 0.13680000000000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 363.2276610980022,
+        "current_price": 485.6,
+        "wacc": 0.09725217828004636,
+        "cost_of_equity": 0.17175653484013909
+      }
+    },
+    "LODHA": {
+      "ultimate_qvm": 0.2258033122116308,
+      "forward_qvm": 0.35726207576498054,
+      "backward_qvm": 0.9551421875309756,
+      "qvm_before_beta": 0.5841541582219719,
+      "qmr_beta": 2.587004382267352,
+      "forward_components": {
+        "roe_coe_ratio": 0.5082668935320864,
+        "roce_wacc_ratio": 0.5195590485873538,
+        "iv_bv_ratio": 0.4343037635194354,
+        "inv_peg_ratio": 0.14204545454545456
+      },
+      "projections": {
+        "forward_roe": 0.10684800000000001,
+        "forward_roce": 0.08778,
+        "forward_peg": 7.04,
+        "revenue_growth": 0.075,
+        "terminal_growth": 0.03
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 372.1693717519215,
+        "current_price": 1285.4,
+        "wacc": 0.1689509599316342,
+        "cost_of_equity": 0.2102202629360411
+      }
+    },
+    "CIPLA": {
+      "ultimate_qvm": 0.5057621151067542,
+      "forward_qvm": 1.0869917187949538,
+      "backward_qvm": 1.0437302718127026,
+      "qvm_before_beta": 1.0651413812804449,
+      "qmr_beta": 2.1060125886566636,
+      "forward_components": {
+        "roe_coe_ratio": 1.4387038731751989,
+        "roce_wacc_ratio": 1.5991545768261046,
+        "iv_bv_ratio": 0.8470146496013371,
+        "inv_peg_ratio": 0.7163943661971832
+      },
+      "projections": {
+        "forward_roe": 0.26092442112,
+        "forward_roce": 0.2098277632,
+        "forward_peg": 1.3958792072978923,
+        "revenue_growth": 0.20345600000000003,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 951.6491926487556,
+        "current_price": 1685.3,
+        "wacc": 0.13121168287336685,
+        "cost_of_equity": 0.1813607553193998
+      }
+    },
+    "CHOLAFIN": {
+      "ultimate_qvm": 0.5819080238068399,
+      "forward_qvm": 1.418192247997983,
+      "backward_qvm": 0.8971144077556683,
+      "qvm_before_beta": 1.1279542094634827,
+      "qmr_beta": 1.9383719820263188,
+      "forward_components": {
+        "roe_coe_ratio": 1.803482883039258,
+        "roce_wacc_ratio": 2.19785414750594,
+        "iv_bv_ratio": 1.005959707293156,
+        "inv_peg_ratio": 1.0144927536231882
+      },
+      "projections": {
+        "forward_roe": 0.30894079999999996,
+        "forward_roce": 0.249088,
+        "forward_peg": 0.9857142857142858,
+        "revenue_growth": 0.18666666666666665,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1130.2963271145902,
+        "current_price": 1685.4,
+        "wacc": 0.11333236114992332,
+        "cost_of_equity": 0.17130231892157913
+      }
+    },
+    "GODREJCP": {
+      "ultimate_qvm": 0.6309256907249424,
+      "forward_qvm": 1.0677728321053934,
+      "backward_qvm": 0.8605328494292332,
+      "qvm_before_beta": 0.9585685148985317,
+      "qmr_beta": 1.5193049339885385,
+      "forward_components": {
+        "roe_coe_ratio": 1.984803679990719,
+        "roce_wacc_ratio": 1.9778553862466246,
+        "iv_bv_ratio": 0.8744727873406238,
+        "inv_peg_ratio": 0.37866666666666676
+      },
+      "projections": {
+        "forward_roe": 0.29009552384,
+        "forward_roce": 0.23480970240000001,
+        "forward_peg": 2.6408450704225346,
+        "revenue_growth": 0.16206933333333334,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 807.7796627594455,
+        "current_price": 1385.6,
+        "wacc": 0.11871934825609182,
+        "cost_of_equity": 0.1461582960393123
+      }
+    },
+    "BANKBARODA": {
+      "ultimate_qvm": 0.5721791703723452,
+      "forward_qvm": 1.1623207862592349,
+      "backward_qvm": 1.0334714263220532,
+      "qvm_before_beta": 1.0960042521902467,
+      "qmr_beta": 1.9154913512091372,
+      "forward_components": {
+        "roe_coe_ratio": 0.9538360440870226,
+        "roce_wacc_ratio": 1.3689850322626642,
+        "iv_bv_ratio": 1.0520749497461024,
+        "inv_peg_ratio": 1.3285714285714285
+      },
+      "projections": {
+        "forward_roe": 0.162084864,
+        "forward_roce": 0.13230303999999998,
+        "forward_peg": 0.7526881720430108,
+        "revenue_growth": 0.1116,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 200.20986293668327,
+        "current_price": 285.45,
+        "wacc": 0.09664316035751608,
+        "cost_of_equity": 0.16992948107254824
+      }
+    },
+    "TATAPOWER": {
+      "ultimate_qvm": 0.2945876696824298,
+      "forward_qvm": 0.44338385262366753,
+      "backward_qvm": 1.0163683611399295,
+      "qvm_before_beta": 0.6712982345031342,
+      "qmr_beta": 2.2787723438214655,
+      "forward_components": {
+        "roe_coe_ratio": 0.5769363126471874,
+        "roce_wacc_ratio": 0.6288979712724889,
+        "iv_bv_ratio": 0.512532622946511,
+        "inv_peg_ratio": 0.20782122905027933
+      },
+      "projections": {
+        "forward_roe": 0.110613888,
+        "forward_roce": 0.09088368,
+        "forward_peg": 4.811827956989247,
+        "revenue_growth": 0.07440000000000001,
+        "terminal_growth": 0.029760000000000005
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 165.8213879439612,
+        "current_price": 485.3,
+        "wacc": 0.14451259846825282,
+        "cost_of_equity": 0.19172634062928792
+      }
+    },
+    "TORNTPHARM": {
+      "ultimate_qvm": 0.642356170840248,
+      "forward_qvm": 1.3839447873438018,
+      "backward_qvm": 1.096653840908213,
+      "qvm_before_beta": 1.2319530699850056,
+      "qmr_beta": 1.9178660156304292,
+      "forward_components": {
+        "roe_coe_ratio": 2.3399570734971715,
+        "roce_wacc_ratio": 2.572290302985934,
+        "iv_bv_ratio": 0.8903674311280696,
+        "inv_peg_ratio": 0.6845070422535211
+      },
+      "projections": {
+        "forward_roe": 0.397961088,
+        "forward_roce": 0.32047568,
+        "forward_peg": 1.4609053497942388,
+        "revenue_growth": 0.1944,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1890.9029924010522,
+        "current_price": 3185.6,
+        "wacc": 0.12458767955855893,
+        "cost_of_equity": 0.17007196093782576
+      }
+    },
+    "PNB": {
+      "ultimate_qvm": 0.4486489196113469,
+      "forward_qvm": 0.8564995777813147,
+      "backward_qvm": 0.9278790479899723,
+      "qvm_before_beta": 0.8914751891306564,
+      "qmr_beta": 1.9870218118499394,
+      "forward_components": {
+        "roe_coe_ratio": 0.6188432448228702,
+        "roce_wacc_ratio": 0.9012073298214176,
+        "iv_bv_ratio": 0.9094898206907748,
+        "inv_peg_ratio": 1.0609756097560976
+      },
+      "projections": {
+        "forward_roe": 0.10781567999999998,
+        "forward_roce": 0.08838480000000001,
+        "forward_peg": 0.9425287356321839,
+        "revenue_growth": 0.087,
+        "terminal_growth": 0.0348
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 76.306195955956,
+        "current_price": 125.85,
+        "wacc": 0.09807376957033212,
+        "cost_of_equity": 0.17422130871099636
+      }
+    },
+    "GAIL": {
+      "ultimate_qvm": 0.2802543885031376,
+      "forward_qvm": 0.7901775902891954,
+      "backward_qvm": 0.738176951504538,
+      "qvm_before_beta": 0.7637348261974702,
+      "qmr_beta": 2.725148499106981,
+      "forward_components": {
+        "roe_coe_ratio": 0.7360577398854757,
+        "roce_wacc_ratio": 1.174462297204907,
+        "iv_bv_ratio": 0.6433678525134138,
+        "inv_peg_ratio": 0.7009523809523809
+      },
+      "projections": {
+        "forward_roe": 0.1608351744,
+        "forward_roce": 0.132521984,
+        "forward_peg": 1.4266304347826089,
+        "revenue_growth": 0.058879999999999995,
+        "terminal_growth": 0.023552
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 92.47340600126132,
+        "current_price": 215.6,
+        "wacc": 0.11283630331547294,
+        "cost_of_equity": 0.21850890994641883
+      }
+    },
+    "SHRIRAMFIN": {
+      "ultimate_qvm": 0.6296594759014118,
+      "forward_qvm": 1.4052171341577795,
+      "backward_qvm": 0.9487418308498525,
+      "qvm_before_beta": 1.1546377252638311,
+      "qmr_beta": 1.8337494621372412,
+      "forward_components": {
+        "roe_coe_ratio": 1.4955398046581423,
+        "roce_wacc_ratio": 1.998616679179198,
+        "iv_bv_ratio": 1.0989049702198976,
+        "inv_peg_ratio": 1.1870967741935483
+      },
+      "projections": {
+        "forward_roe": 0.24680140800000003,
+        "forward_roce": 0.20025088,
+        "forward_peg": 0.8423913043478262,
+        "revenue_growth": 0.1472,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2333.78111542167,
+        "current_price": 3185.6,
+        "wacc": 0.10019474073549714,
+        "cost_of_equity": 0.16502496772823447
+      }
+    },
+    "BOSCHLTD": {
+      "ultimate_qvm": 0.33470653125919064,
+      "forward_qvm": 0.8448744058990991,
+      "backward_qvm": 0.8116320273783147,
+      "qvm_before_beta": 0.8280864248011406,
+      "qmr_beta": 2.4740671228787154,
+      "forward_components": {
+        "roe_coe_ratio": 1.865116046414223,
+        "roce_wacc_ratio": 1.8785729027941507,
+        "iv_bv_ratio": 0.5416834403093064,
+        "inv_peg_ratio": 0.26846590909090906
+      },
+      "projections": {
+        "forward_roe": 0.3794467199999999,
+        "forward_roce": 0.3081542,
+        "forward_peg": 3.724867724867725,
+        "revenue_growth": 0.14175,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 12742.34457646,
+        "current_price": 35285.4,
+        "wacc": 0.16403632754505176,
+        "cost_of_equity": 0.2034440273727229
+      }
+    },
+    "APOLLOHOSP": {
+      "ultimate_qvm": 0.3574123141374285,
+      "forward_qvm": 0.5641547305371913,
+      "backward_qvm": 0.6836147760903472,
+      "qvm_before_beta": 0.6210189286942003,
+      "qmr_beta": 1.7375420603315095,
+      "forward_components": {
+        "roe_coe_ratio": 1.0474688488965662,
+        "roce_wacc_ratio": 0.9960549958048038,
+        "iv_bv_ratio": 0.6176399061413056,
+        "inv_peg_ratio": 0.15719298245614033
+      },
+      "projections": {
+        "forward_roe": 0.1668120576,
+        "forward_roce": 0.13625753599999998,
+        "forward_peg": 6.361607142857143,
+        "revenue_growth": 0.10752,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2999.7946721408357,
+        "current_price": 7285.3,
+        "wacc": 0.13679720153394248,
+        "cost_of_equity": 0.15925252361989056
+      }
+    },
+    "SIEMENS": {
+      "ultimate_qvm": 0.3388377978450902,
+      "forward_qvm": 0.7616647018924505,
+      "backward_qvm": 0.8095930087941153,
+      "qvm_before_beta": 0.7852632792238422,
+      "qmr_beta": 2.3175197224686506,
+      "forward_components": {
+        "roe_coe_ratio": 1.60450863853502,
+        "roce_wacc_ratio": 1.5233513996828454,
+        "iv_bv_ratio": 0.5811061100807832,
+        "inv_peg_ratio": 0.23695054945054947
+      },
+      "projections": {
+        "forward_roe": 0.3113568,
+        "forward_roce": 0.251598,
+        "forward_peg": 4.220289855072464,
+        "revenue_growth": 0.1725,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2938.6148582711817,
+        "current_price": 7585.4,
+        "wacc": 0.16516084210930027,
+        "cost_of_equity": 0.19405118334811902
+      }
+    },
+    "INDHOTEL": {
+      "ultimate_qvm": 0.4844948952681171,
+      "forward_qvm": 0.4957888136658304,
+      "backward_qvm": 0.96303970596729,
+      "qvm_before_beta": 0.6909879256069623,
+      "qmr_beta": 1.4262026955404203,
+      "forward_components": {
+        "roe_coe_ratio": 0.7645681098977418,
+        "roce_wacc_ratio": 0.7444730564631129,
+        "iv_bv_ratio": 0.6769012501720455,
+        "inv_peg_ratio": 0.15681818181818177
+      },
+      "projections": {
+        "forward_roe": 0.10747699200000001,
+        "forward_roce": 0.08817312000000001,
+        "forward_peg": 6.3768115942029,
+        "revenue_growth": 0.08279999999999998,
+        "terminal_growth": 0.03312
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 354.51574809010594,
+        "current_price": 785.6,
+        "wacc": 0.11843695246527541,
+        "cost_of_equity": 0.1405721617324252
+      }
+    },
+    "SHREECEM": {
+      "ultimate_qvm": 0.2740944246975503,
+      "forward_qvm": 0.48742613619474023,
+      "backward_qvm": 0.805461534265083,
+      "qvm_before_beta": 0.6265804046571491,
+      "qmr_beta": 2.286002005872793,
+      "forward_components": {
+        "roe_coe_ratio": 0.8181393044077733,
+        "roce_wacc_ratio": 0.861316773235658,
+        "iv_bv_ratio": 0.48505648698641407,
+        "inv_peg_ratio": 0.16514018691588786
+      },
+      "projections": {
+        "forward_roe": 0.15721374719999998,
+        "forward_roce": 0.129258592,
+        "forward_peg": 6.055461233729485,
+        "revenue_growth": 0.07067999999999999,
+        "terminal_growth": 0.028272
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 8499.935855355126,
+        "current_price": 26285.4,
+        "wacc": 0.15007091004906575,
+        "cost_of_equity": 0.19216012035236754
+      }
+    },
+    "TATACONSUM": {
+      "ultimate_qvm": 0.5845758784096222,
+      "forward_qvm": 0.8315588713888872,
+      "backward_qvm": 0.7342683018915301,
+      "qvm_before_beta": 0.7814008704996146,
+      "qmr_beta": 1.336697081353182,
+      "forward_components": {
+        "roe_coe_ratio": 1.7715812191919742,
+        "roce_wacc_ratio": 1.7085493779477363,
+        "iv_bv_ratio": 0.787004142603899,
+        "inv_peg_ratio": 0.20072727272727275
+      },
+      "projections": {
+        "forward_roe": 0.23952101376,
+        "forward_roce": 0.1957006336,
+        "forward_peg": 4.981884057971014,
+        "revenue_growth": 0.10598400000000002,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 621.9431404284413,
+        "current_price": 1185.4,
+        "wacc": 0.11454198288086374,
+        "cost_of_equity": 0.13520182488119092
+      }
+    },
+    "CGPOWER": {
+      "ultimate_qvm": 0.35013893239462013,
+      "forward_qvm": 0.6603018424227941,
+      "backward_qvm": 0.8945379735541135,
+      "qvm_before_beta": 0.7685473778856667,
+      "qmr_beta": 2.194978355104722,
+      "forward_components": {
+        "roe_coe_ratio": 0.8873046402622449,
+        "roce_wacc_ratio": 1.0088785143621815,
+        "iv_bv_ratio": 0.6145542119482836,
+        "inv_peg_ratio": 0.34553990610328644
+      },
+      "projections": {
+        "forward_roe": 0.165658624,
+        "forward_roce": 0.13553664,
+        "forward_peg": 2.894021739130434,
+        "revenue_growth": 0.09813333333333334,
+        "terminal_growth": 0.039253333333333335
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 321.86252593771445,
+        "current_price": 785.6,
+        "wacc": 0.13434386605575302,
+        "cost_of_equity": 0.1866987013062833
+      }
+    },
+    "DRREDDY": {
+      "ultimate_qvm": 0.3986865051191854,
+      "forward_qvm": 1.0332920706348931,
+      "backward_qvm": 1.2357313881033372,
+      "qvm_before_beta": 1.129987364868222,
+      "qmr_beta": 2.8342754278337505,
+      "forward_components": {
+        "roe_coe_ratio": 0.9523783812172638,
+        "roce_wacc_ratio": 1.2363388368140877,
+        "iv_bv_ratio": 0.8138738400171734,
+        "inv_peg_ratio": 1.1895652173913045
+      },
+      "projections": {
+        "forward_roe": 0.2143389696,
+        "forward_roce": 0.17196185599999997,
+        "forward_peg": 0.8406432748538011,
+        "revenue_growth": 0.21888000000000002,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 697.4627517667171,
+        "current_price": 1285.45,
+        "wacc": 0.13908958521688697,
+        "cost_of_equity": 0.22505652567002501
+      }
+    },
+    "MOTHERSON": {
+      "ultimate_qvm": 0.2829864923925477,
+      "forward_qvm": 0.429095895145217,
+      "backward_qvm": 0.6425342749666401,
+      "qvm_before_beta": 0.5250798223873142,
+      "qmr_beta": 1.8554942956745235,
+      "forward_components": {
+        "roe_coe_ratio": 0.6256606393213219,
+        "roce_wacc_ratio": 0.7029981763751566,
+        "iv_bv_ratio": 0.5404900758992376,
+        "inv_peg_ratio": 0.1426056338028169
+      },
+      "projections": {
+        "forward_roe": 0.10406591999999999,
+        "forward_roce": 0.0860412,
+        "forward_peg": 7.012345679012346,
+        "revenue_growth": 0.0405,
+        "terminal_growth": 0.016200000000000003
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 66.876638724599,
+        "current_price": 185.6,
+        "wacc": 0.12239178264110306,
+        "cost_of_equity": 0.1663296577404714
+      }
+    },
+    "JINDALSTEL": {
+      "ultimate_qvm": 0.18294209644257106,
+      "forward_qvm": 0.3838066949371587,
+      "backward_qvm": 0.7732116690819518,
+      "qvm_before_beta": 0.544760328215251,
+      "qmr_beta": 2.9777746008626367,
+      "forward_components": {
+        "roe_coe_ratio": 0.276789178716736,
+        "roce_wacc_ratio": 0.41810883084075295,
+        "iv_bv_ratio": 0.5263284718978456,
+        "inv_peg_ratio": 0.35624999999999996
+      },
+      "projections": {
+        "forward_roe": 0.064676352,
+        "forward_roce": 0.05342272000000001,
+        "forward_peg": 2.8070175438596494,
+        "revenue_growth": 0.045599999999999995,
+        "terminal_growth": 0.01824
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 345.7627174720913,
+        "current_price": 985.4,
+        "wacc": 0.1277722833372715,
+        "cost_of_equity": 0.2336664760517582
+      }
+    },
+    "HEROMOTOCO": {
+      "ultimate_qvm": 0.3887933733124112,
+      "forward_qvm": 0.8198381635265833,
+      "backward_qvm": 0.9022794552909668,
+      "qvm_before_beta": 0.8600715851680674,
+      "qmr_beta": 2.2121559784841422,
+      "forward_components": {
+        "roe_coe_ratio": 1.2790010421978124,
+        "roce_wacc_ratio": 1.452895635458666,
+        "iv_bv_ratio": 0.6317151292119901,
+        "inv_peg_ratio": 0.38484507042253524
+      },
+      "projections": {
+        "forward_roe": 0.24010604544000003,
+        "forward_roce": 0.1960662784,
+        "forward_peg": 2.5984482506221633,
+        "revenue_growth": 0.109296,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 2101.5056631785537,
+        "current_price": 4990.0,
+        "wacc": 0.1349486319697723,
+        "cost_of_equity": 0.18772935870904853
+      }
+    },
+    "CANBK": {
+      "ultimate_qvm": 0.5606096290423427,
+      "forward_qvm": 0.8166121002133135,
+      "backward_qvm": 0.8438546113598616,
+      "qvm_before_beta": 0.8301216094388015,
+      "qmr_beta": 1.4807480400521316,
+      "forward_components": {
+        "roe_coe_ratio": 0.7327092784894805,
+        "roce_wacc_ratio": 0.9877712905638315,
+        "iv_bv_ratio": 0.8839224199639918,
+        "inv_peg_ratio": 0.6951219512195121
+      },
+      "projections": {
+        "forward_roe": 0.10539648000000001,
+        "forward_roce": 0.0868728,
+        "forward_peg": 1.4385964912280702,
+        "revenue_growth": 0.056999999999999995,
+        "terminal_growth": 0.0228
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 69.85933525782082,
+        "current_price": 118.55,
+        "wacc": 0.08794829413437596,
+        "cost_of_equity": 0.1438448824031279
+      }
+    },
+    "RECLTD": {
+      "ultimate_qvm": 0.515013447824307,
+      "forward_qvm": 1.2147929236091235,
+      "backward_qvm": 1.0212165207245387,
+      "qvm_before_beta": 1.1138072556995215,
+      "qmr_beta": 2.162676062935523,
+      "forward_components": {
+        "roe_coe_ratio": 1.1112716036566053,
+        "roce_wacc_ratio": 1.5436451770736048,
+        "iv_bv_ratio": 1.0022567144699572,
+        "inv_peg_ratio": 1.266666666666667
+      },
+      "projections": {
+        "forward_roe": 0.205319168,
+        "forward_roce": 0.16632448000000002,
+        "forward_peg": 0.7894736842105261,
+        "revenue_growth": 0.15706666666666672,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 391.14738710047527,
+        "current_price": 585.4,
+        "wacc": 0.1077478700871614,
+        "cost_of_equity": 0.18476056377613137
+      }
+    },
+    "ZYDUSLIFE": {
+      "ultimate_qvm": 0.4799924450942931,
+      "forward_qvm": 0.742682684583175,
+      "backward_qvm": 0.8534226544623583,
+      "qvm_before_beta": 0.7961295297250339,
+      "qmr_beta": 1.6586292927352984,
+      "forward_components": {
+        "roe_coe_ratio": 1.0378910176291718,
+        "roce_wacc_ratio": 1.1366007592883762,
+        "iv_bv_ratio": 0.753414703131198,
+        "inv_peg_ratio": 0.3423098591549296
+      },
+      "projections": {
+        "forward_roe": 0.16037259263999998,
+        "forward_roce": 0.1312328704,
+        "forward_peg": 2.9213298222514807,
+        "revenue_growth": 0.097216,
+        "terminal_growth": 0.0388864
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 495.04368760407255,
+        "current_price": 985.6,
+        "wacc": 0.11546083295084605,
+        "cost_of_equity": 0.1545177575641179
+      }
+    },
+    "ADANITRANS": {
+      "ultimate_qvm": 0.28126384148588096,
+      "forward_qvm": 0.401692996527682,
+      "backward_qvm": 0.8679829702074315,
+      "qvm_before_beta": 0.590476655116543,
+      "qmr_beta": 2.099369232806927,
+      "forward_components": {
+        "roe_coe_ratio": 0.5719486297563889,
+        "roce_wacc_ratio": 0.5980669292801348,
+        "iv_bv_ratio": 0.5027348485081059,
+        "inv_peg_ratio": 0.15140186915887854
+      },
+      "projections": {
+        "forward_roe": 0.103501056,
+        "forward_roce": 0.08518815999999999,
+        "forward_peg": 6.6049382716049365,
+        "revenue_growth": 0.06480000000000001,
+        "terminal_growth": 0.025920000000000006
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 397.2945929476725,
+        "current_price": 1185.4,
+        "wacc": 0.1424391749975826,
+        "cost_of_equity": 0.1809621539684156
+      }
+    },
+    "ICICIGI": {
+      "ultimate_qvm": 0.5314696588940995,
+      "forward_qvm": 1.047131280742542,
+      "backward_qvm": 0.7558131170719865,
+      "qvm_before_beta": 0.8896266392603146,
+      "qmr_beta": 1.673899204540633,
+      "forward_components": {
+        "roe_coe_ratio": 1.552971178246254,
+        "roce_wacc_ratio": 1.776142929291136,
+        "iv_bv_ratio": 0.8528013993331528,
+        "inv_peg_ratio": 0.5111111111111112
+      },
+      "projections": {
+        "forward_roe": 0.24138444800000003,
+        "forward_roce": 0.19686528,
+        "forward_peg": 1.9565217391304346,
+        "revenue_growth": 0.11653333333333335,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1071.914505535151,
+        "current_price": 1885.4,
+        "wacc": 0.11083864747223329,
+        "cost_of_equity": 0.15543395227243798
+      }
+    },
+    "HAVELLS": {
+      "ultimate_qvm": 0.4778530124465263,
+      "forward_qvm": 0.7091730162127101,
+      "backward_qvm": 0.8337753747515513,
+      "qvm_before_beta": 0.7689544832800186,
+      "qmr_beta": 1.6091862209743164,
+      "forward_components": {
+        "roe_coe_ratio": 1.3128301346812223,
+        "roce_wacc_ratio": 1.2844217602328338,
+        "iv_bv_ratio": 0.6978405300784298,
+        "inv_peg_ratio": 0.214949494949495
+      },
+      "projections": {
+        "forward_roe": 0.19896094719999996,
+        "forward_roce": 0.162350592,
+        "forward_peg": 4.652255639097743,
+        "revenue_growth": 0.11349333333333336,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 830.7093670053628,
+        "current_price": 1785.6,
+        "wacc": 0.1263997520336076,
+        "cost_of_equity": 0.151551173258459
+      }
+    },
+    "UBL": {
+      "ultimate_qvm": 0.5559572849933262,
+      "forward_qvm": 0.6659642507585115,
+      "backward_qvm": 0.7155566955690192,
+      "qvm_before_beta": 0.6903152748127903,
+      "qmr_beta": 1.2416696272287842,
+      "forward_components": {
+        "roe_coe_ratio": 1.2086088576857457,
+        "roce_wacc_ratio": 1.2316881044227008,
+        "iv_bv_ratio": 0.729883733269147,
+        "inv_peg_ratio": 0.18103538175046557
+      },
+      "projections": {
+        "forward_roe": 0.15651506176,
+        "forward_roce": 0.1288219136,
+        "forward_peg": 5.523782093482554,
+        "revenue_growth": 0.06481066666666667,
+        "terminal_growth": 0.025924266666666668
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 722.7308726831093,
+        "current_price": 1485.3,
+        "wacc": 0.10458971970049152,
+        "cost_of_equity": 0.12950017763372704
+      }
+    },
+    "BAJAJHFL": {
+      "ultimate_qvm": 0.5330714876353473,
+      "forward_qvm": 1.0852418788923113,
+      "backward_qvm": 0.7687896346703241,
+      "qvm_before_beta": 0.913412671032407,
+      "qmr_beta": 1.713490014414794,
+      "forward_components": {
+        "roe_coe_ratio": 1.8762871056934662,
+        "roce_wacc_ratio": 2.053455415998449,
+        "iv_bv_ratio": 0.8054976197854798,
+        "inv_peg_ratio": 0.4469483568075118
+      },
+      "projections": {
+        "forward_roe": 0.296095744,
+        "forward_roce": 0.24105983999999997,
+        "forward_peg": 2.237394957983193,
+        "revenue_growth": 0.12693333333333334,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 99.66690548812338,
+        "current_price": 185.6,
+        "wacc": 0.11739229306947954,
+        "cost_of_equity": 0.15780940086488762
+      }
+    },
+    "DABUR": {
+      "ultimate_qvm": 0.6596618821343282,
+      "forward_qvm": 0.9754086550022618,
+      "backward_qvm": 0.863322273082844,
+      "qvm_before_beta": 0.9176557182414504,
+      "qmr_beta": 1.3911001121853308,
+      "forward_components": {
+        "roe_coe_ratio": 1.747344475022135,
+        "roce_wacc_ratio": 1.787328490567017,
+        "iv_bv_ratio": 0.8667027112246198,
+        "inv_peg_ratio": 0.3344208566108008
+      },
+      "projections": {
+        "forward_roe": 0.24194781184,
+        "forward_roce": 0.19721738239999997,
+        "forward_peg": 2.9902441197434064,
+        "revenue_growth": 0.11972266666666669,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 396.02535884890295,
+        "current_price": 685.4,
+        "wacc": 0.11034198998161451,
+        "cost_of_equity": 0.13846600673111983
+      }
+    },
+    "NAUKRI": {
+      "ultimate_qvm": 0.7577087456719378,
+      "forward_qvm": 0.9345234880209349,
+      "backward_qvm": 1.0828600948556657,
+      "qvm_before_beta": 1.0059613277274615,
+      "qmr_beta": 1.3276358937039492,
+      "forward_components": {
+        "roe_coe_ratio": 2.2512472646137573,
+        "roce_wacc_ratio": 2.092841348285937,
+        "iv_bv_ratio": 0.8202074564177545,
+        "inv_peg_ratio": 0.19736842105263155
+      },
+      "projections": {
+        "forward_roe": 0.30314880000000005,
+        "forward_roce": 0.246468,
+        "forward_peg": 5.066666666666667,
+        "revenue_growth": 0.135,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 3272.791792598124,
+        "current_price": 5985.3,
+        "wacc": 0.11776716863983042,
+        "cost_of_equity": 0.13465815362223696
+      }
+    },
+    "JSWENERGY": {
+      "ultimate_qvm": 0.34274416520133894,
+      "forward_qvm": 0.46462649346526685,
+      "backward_qvm": 0.9419248703708746,
+      "qvm_before_beta": 0.6615461054440163,
+      "qmr_beta": 1.930145492208169,
+      "forward_components": {
+        "roe_coe_ratio": 0.6161940802913107,
+        "roce_wacc_ratio": 0.6941455860315681,
+        "iv_bv_ratio": 0.5605663891288363,
+        "inv_peg_ratio": 0.1943661971830986
+      },
+      "projections": {
+        "forward_roe": 0.105251328,
+        "forward_roce": 0.08678208000000001,
+        "forward_peg": 5.144927536231884,
+        "revenue_growth": 0.0552,
+        "terminal_growth": 0.022080000000000002
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 256.1414687392696,
+        "current_price": 685.4,
+        "wacc": 0.12501999832071736,
+        "cost_of_equity": 0.17080872953249013
+      }
+    },
+    "ICICIPRULI": {
+      "ultimate_qvm": 0.5386429236367257,
+      "forward_qvm": 0.9881949192098538,
+      "backward_qvm": 0.7790523888474746,
+      "qvm_before_beta": 0.8774141624440386,
+      "qmr_beta": 1.6289347245482215,
+      "forward_components": {
+        "roe_coe_ratio": 1.2890917740138532,
+        "roce_wacc_ratio": 1.5421569795634384,
+        "iv_bv_ratio": 0.8887865302329832,
+        "inv_peg_ratio": 0.5397101449275364
+      },
+      "projections": {
+        "forward_roe": 0.19689082879999997,
+        "forward_roce": 0.16105676800000002,
+        "forward_peg": 1.8528464017185815,
+        "revenue_growth": 0.09930666666666668,
+        "terminal_growth": 0.03972266666666668
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 406.0569394457755,
+        "current_price": 685.3,
+        "wacc": 0.10443603999742801,
+        "cost_of_equity": 0.15273608347289327
+      }
+    },
+    "MPHASIS": {
+      "ultimate_qvm": 0.4352793752979377,
+      "forward_qvm": 1.167996110108263,
+      "backward_qvm": 0.7138950927020047,
+      "qvm_before_beta": 0.9131411124800587,
+      "qmr_beta": 2.0978276580530304,
+      "forward_components": {
+        "roe_coe_ratio": 2.1046846723089945,
+        "roce_wacc_ratio": 2.3595531336583155,
+        "iv_bv_ratio": 0.7277316296107228,
+        "inv_peg_ratio": 0.5149647887323944
+      },
+      "projections": {
+        "forward_roe": 0.38067359999999995,
+        "forward_roce": 0.30892099999999995,
+        "forward_peg": 1.9418803418803419,
+        "revenue_growth": 0.14625,
+        "terminal_growth": 0.04
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 1545.4108886413308,
+        "current_price": 3185.4,
+        "wacc": 0.1309235192008753,
+        "cost_of_equity": 0.18086965948318182
+      }
+    },
+    "INDUSINDBK": {
+      "ultimate_qvm": 0.5035575220045764,
+      "forward_qvm": 0.6746176388316586,
+      "backward_qvm": 0.7063236310473701,
+      "qvm_before_beta": 0.6902886209609574,
+      "qmr_beta": 1.370823770466255,
+      "forward_components": {
+        "roe_coe_ratio": 0.7612212806373438,
+        "roce_wacc_ratio": 0.9573151051109358,
+        "iv_bv_ratio": 0.7978294505748333,
+        "inv_peg_ratio": 0.35625
+      },
+      "projections": {
+        "forward_roe": 0.104477184,
+        "forward_roce": 0.08629824000000001,
+        "forward_peg": 2.807017543859649,
+        "revenue_growth": 0.04560000000000001,
+        "terminal_growth": 0.018240000000000003
+      },
+      "dcf_results": {
+        "intrinsic_value_per_share": 519.0146519139482,
+        "current_price": 975.8,
+        "wacc": 0.09014611755238061,
+        "cost_of_equity": 0.13724942622797529
+      }
+    }
+  },
+  "distribution_stats": {
+    "mean": NaN,
+    "std": NaN,
+    "min": NaN,
+    "max": NaN,
+    "total_companies": 116
+  },
+  "classifications": {
+    "Strong Buy": [],
+    "Buy": [],
+    "Hold": [],
+    "Sell": [],
+    "Strong Sell": [
+      [
+        "COLGATE",
+        1.0158397961652357,
+        NaN
+      ],
+      [
+        "PGHH",
+        0.8656671054911781,
+        NaN
+      ],
+      [
+        "NESTLEIND",
+        0.7608049306431267,
+        NaN
+      ],
+      [
+        "TCS",
+        0.4897175591353428,
+        NaN
+      ],
+      [
+        "GLAXO",
+        0.7543399146091313,
+        NaN
+      ],
+      [
+        "HINDZINC",
+        0.35606399160097496,
+        NaN
+      ],
+      [
+        "PAGEIND",
+        0.6043761215970399,
+        NaN
+      ],
+      [
+        "GET&D",
+        0.44317700305497304,
+        NaN
+      ],
+      [
+        "HYUNDAI",
+        0.359846251758591,
+        NaN
+      ],
+      [
+        "LICI",
+        0.7763037034292387,
+        NaN
+      ],
+      [
+        "BRITANNIA",
+        0.7567698630799697,
+        NaN
+      ],
+      [
+        "IRCTC",
+        1.0192532971827535,
+        NaN
+      ],
+      [
+        "COALINDIA",
+        0.4343646900617521,
+        NaN
+      ],
+      [
+        "BSE",
+        0.4762567787819821,
+        NaN
+      ],
+      [
+        "ABBOTINDIA",
+        0.6954241084522711,
+        NaN
+      ],
+      [
+        "MARICO",
+        0.7390096432044699,
+        NaN
+      ],
+      [
+        "HDFCAMC",
+        0.5048115151121225,
+        NaN
+      ],
+      [
+        "MAZAGON",
+        0.4569432951310284,
+        NaN
+      ],
+      [
+        "MCX",
+        0.3835065322377311,
+        NaN
+      ],
+      [
+        "PREMIERENERGIES",
+        0.4693485200167108,
+        NaN
+      ],
+      [
+        "NIPPONLIFE",
+        0.46641717531960303,
+        NaN
+      ],
+      [
+        "OFSS",
+        0.4729347094319491,
+        NaN
+      ],
+      [
+        "DIXON",
+        0.5011437334777,
+        NaN
+      ],
+      [
+        "BEL",
+        0.34140367046943315,
+        NaN
+      ],
+      [
+        "ABB",
+        0.42355549632866824,
+        NaN
+      ],
+      [
+        "RELIANCE",
+        0.2207099512463427,
+        NaN
+      ],
+      [
+        "HDFCBANK",
+        0.22872388356369197,
+        NaN
+      ],
+      [
+        "BHARTIARTL",
+        0.385869440312022,
+        NaN
+      ],
+      [
+        "ICICIBANK",
+        0.24549075469053275,
+        NaN
+      ],
+      [
+        "SBIN",
+        0.25933262706278043,
+        NaN
+      ],
+      [
+        "HINDUNILVR",
+        0.5816036371312756,
+        NaN
+      ],
+      [
+        "INFY",
+        0.3771262477881756,
+        NaN
+      ],
+      [
+        "BAJFINANCE",
+        0.4658093929508743,
+        NaN
+      ],
+      [
+        "ITC",
+        0.7491322866663945,
+        NaN
+      ],
+      [
+        "LT",
+        0.2566258073585686,
+        NaN
+      ],
+      [
+        "MARUTI",
+        0.3155478334269785,
+        NaN
+      ],
+      [
+        "M&M",
+        0.28158501881383347,
+        NaN
+      ],
+      [
+        "HCLTECH",
+        0.3337216982262851,
+        NaN
+      ],
+      [
+        "KOTAKBANK",
+        0.2757984621358288,
+        NaN
+      ],
+      [
+        "SUNPHARMA",
+        0.3143933934688458,
+        NaN
+      ],
+      [
+        "ULTRACEMCO",
+        0.22301781168810947,
+        NaN
+      ],
+      [
+        "AXISBANK",
+        0.24188855884470364,
+        NaN
+      ],
+      [
+        "NTPC",
+        0.3351288405020352,
+        NaN
+      ],
+      [
+        "TITAN",
+        0.4733384370445271,
+        NaN
+      ],
+      [
+        "BAJAJFINSV",
+        0.43797907442343226,
+        NaN
+      ],
+      [
+        "ZOMATO",
+        NaN,
+        NaN
+      ],
+      [
+        "DMART",
+        0.49730394635097525,
+        NaN
+      ],
+      [
+        "ONGC",
+        0.24965740703059297,
+        NaN
+      ],
+      [
+        "HAL",
+        0.3861161847621635,
+        NaN
+      ],
+      [
+        "ADANIPORTS",
+        0.23439100199134766,
+        NaN
+      ],
+      [
+        "ADANIENT",
+        0.07071367003520417,
+        NaN
+      ],
+      [
+        "POWERGRID",
+        0.5580331710350925,
+        NaN
+      ],
+      [
+        "JSWSTEEL",
+        0.06985424030276538,
+        NaN
+      ],
+      [
+        "WIPRO",
+        0.2434730976984469,
+        NaN
+      ],
+      [
+        "TATAMOTORS",
+        0.2193958598832486,
+        NaN
+      ],
+      [
+        "ASIANPAINT",
+        0.4725875505526385,
+        NaN
+      ],
+      [
+        "BAJAJ-AUTO",
+        0.29828445950648885,
+        NaN
+      ],
+      [
+        "INDIGO",
+        0.37176034213643305,
+        NaN
+      ],
+      [
+        "ADANIPOWER",
+        0.5025702032296185,
+        NaN
+      ],
+      [
+        "TATASTEEL",
+        0.05353227909933886,
+        NaN
+      ],
+      [
+        "IOC",
+        0.19545687668492687,
+        NaN
+      ],
+      [
+        "GRASIM",
+        0.29923528484075085,
+        NaN
+      ],
+      [
+        "TRENT",
+        0.34069267185107205,
+        NaN
+      ],
+      [
+        "DLF",
+        0.1791482667295412,
+        NaN
+      ],
+      [
+        "SBILIFE",
+        0.45665837675923243,
+        NaN
+      ],
+      [
+        "VBL",
+        0.42845844179500736,
+        NaN
+      ],
+      [
+        "VEDL",
+        0.14049033003666223,
+        NaN
+      ],
+      [
+        "HDFCLIFE",
+        0.4658955771251833,
+        NaN
+      ],
+      [
+        "IRFC",
+        0.2874423274943387,
+        NaN
+      ],
+      [
+        "EICHERMOT",
+        0.3380534727035994,
+        NaN
+      ],
+      [
+        "DIVISLAB",
+        0.3727007386429905,
+        NaN
+      ],
+      [
+        "ADANIGREEN",
+        0.10438735596988462,
+        NaN
+      ],
+      [
+        "HINDALCO",
+        0.16902647997218928,
+        NaN
+      ],
+      [
+        "PIDILITIND",
+        0.276224809881914,
+        NaN
+      ],
+      [
+        "TVSMOTOR",
+        0.29196090504041,
+        NaN
+      ],
+      [
+        "LTIM",
+        0.2924665233338486,
+        NaN
+      ],
+      [
+        "BAJAJHLDNG",
+        0.7231767132883364,
+        NaN
+      ],
+      [
+        "TECHM",
+        0.18694207989390077,
+        NaN
+      ],
+      [
+        "AMBUJACEM",
+        0.2358633583216085,
+        NaN
+      ],
+      [
+        "BPCL",
+        0.30216509958250365,
+        NaN
+      ],
+      [
+        "PFC",
+        0.6298312306764299,
+        NaN
+      ],
+      [
+        "LODHA",
+        0.2258033122116308,
+        NaN
+      ],
+      [
+        "CIPLA",
+        0.5057621151067542,
+        NaN
+      ],
+      [
+        "CHOLAFIN",
+        0.5819080238068399,
+        NaN
+      ],
+      [
+        "GODREJCP",
+        0.6309256907249424,
+        NaN
+      ],
+      [
+        "BANKBARODA",
+        0.5721791703723452,
+        NaN
+      ],
+      [
+        "TATAPOWER",
+        0.2945876696824298,
+        NaN
+      ],
+      [
+        "TORNTPHARM",
+        0.642356170840248,
+        NaN
+      ],
+      [
+        "PNB",
+        0.4486489196113469,
+        NaN
+      ],
+      [
+        "GAIL",
+        0.2802543885031376,
+        NaN
+      ],
+      [
+        "SHRIRAMFIN",
+        0.6296594759014118,
+        NaN
+      ],
+      [
+        "BOSCHLTD",
+        0.33470653125919064,
+        NaN
+      ],
+      [
+        "APOLLOHOSP",
+        0.3574123141374285,
+        NaN
+      ],
+      [
+        "SIEMENS",
+        0.3388377978450902,
+        NaN
+      ],
+      [
+        "INDHOTEL",
+        0.4844948952681171,
+        NaN
+      ],
+      [
+        "SHREECEM",
+        0.2740944246975503,
+        NaN
+      ],
+      [
+        "TATACONSUM",
+        0.5845758784096222,
+        NaN
+      ],
+      [
+        "CGPOWER",
+        0.35013893239462013,
+        NaN
+      ],
+      [
+        "DRREDDY",
+        0.3986865051191854,
+        NaN
+      ],
+      [
+        "MOTHERSON",
+        0.2829864923925477,
+        NaN
+      ],
+      [
+        "JINDALSTEL",
+        0.18294209644257106,
+        NaN
+      ],
+      [
+        "HEROMOTOCO",
+        0.3887933733124112,
+        NaN
+      ],
+      [
+        "CANBK",
+        0.5606096290423427,
+        NaN
+      ],
+      [
+        "RECLTD",
+        0.515013447824307,
+        NaN
+      ],
+      [
+        "ZYDUSLIFE",
+        0.4799924450942931,
+        NaN
+      ],
+      [
+        "ADANITRANS",
+        0.28126384148588096,
+        NaN
+      ],
+      [
+        "ICICIGI",
+        0.5314696588940995,
+        NaN
+      ],
+      [
+        "HAVELLS",
+        0.4778530124465263,
+        NaN
+      ],
+      [
+        "UBL",
+        0.5559572849933262,
+        NaN
+      ],
+      [
+        "BAJAJHFL",
+        0.5330714876353473,
+        NaN
+      ],
+      [
+        "DABUR",
+        0.6596618821343282,
+        NaN
+      ],
+      [
+        "NAUKRI",
+        0.7577087456719378,
+        NaN
+      ],
+      [
+        "JSWENERGY",
+        0.34274416520133894,
+        NaN
+      ],
+      [
+        "ICICIPRULI",
+        0.5386429236367257,
+        NaN
+      ],
+      [
+        "MPHASIS",
+        0.4352793752979377,
+        NaN
+      ],
+      [
+        "INDUSINDBK",
+        0.5035575220045764,
+        NaN
+      ]
+    ]
+  },
+  "methodology": {
+    "formula": "Ultimate_QVM = GM(Forward_ROE/COE, Forward_ROCE/WACC, IV/BV, 1/Forward_PEG) \u00d7 GM(Relative_Factors) / QMR_Beta",
+    "forward_method": "7-year DCF projections",
+    "backward_method": "Sector relative valuation",
+    "risk_adjustment": "QMR beta normalization"
+  }
+}

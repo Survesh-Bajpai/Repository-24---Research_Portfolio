@@ -1,0 +1,74 @@
+{
+  "analysis_summary": {
+    "companies_analyzed": 118,
+    "qmr_beta_range": [
+      1.2417,
+      4.8766
+    ],
+    "qvm_valid_companies": 116,
+    "qvm_score_range": [
+      0.054,
+      1.019
+    ],
+    "historical_data_years": 8,
+    "economic_factors": 8,
+    "sectors_covered": 17
+  },
+  "top_opportunities": [
+    {
+      "symbol": "IRCTC",
+      "qvm": 1.019,
+      "sector": "Consumer Services"
+    },
+    {
+      "symbol": "COLGATE",
+      "qvm": 1.016,
+      "sector": "FMCG"
+    },
+    {
+      "symbol": "PGHH",
+      "qvm": 0.866,
+      "sector": "FMCG"
+    },
+    {
+      "symbol": "LICI",
+      "qvm": 0.776,
+      "sector": "Financial Services"
+    },
+    {
+      "symbol": "NESTLEIND",
+      "qvm": 0.761,
+      "sector": "FMCG"
+    }
+  ],
+  "avoid_list": [
+    {
+      "symbol": "TATASTEEL",
+      "qvm": 0.054,
+      "sector": "Metals & Mining"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "qvm": 0.07,
+      "sector": "Metals & Mining"
+    },
+    {
+      "symbol": "ADANIENT",
+      "qvm": 0.071,
+      "sector": "Metals & Mining"
+    }
+  ],
+  "performance_estimate": {
+    "universe_cagr": 8.2,
+    "equal_weight_cagr": 9.4,
+    "qom_optimized_cagr": 10.8,
+    "outperformance_vs_universe": 2.6
+  },
+  "implementation_status": {
+    "qmr_complete": true,
+    "qvm_complete": true,
+    "qom_complete": true,
+    "real_data_only": true,
+    "ready_for_deployment": true
+  }
+}

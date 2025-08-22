@@ -1,0 +1,48 @@
+{
+  "qvm_statistics": {
+    "mean": 0.42153593475442863,
+    "std": 0.18797897315932804,
+    "range": [
+      0.05353227909933886,
+      1.0192532971827535
+    ],
+    "total_valid_companies": 115
+  },
+  "classifications": {
+    "Strong Buy": 3,
+    "Buy": 14,
+    "Hold": 83,
+    "Sell": 15,
+    "Strong Sell": 0
+  },
+  "optimization_results": {
+    "qvm1": {
+      "success": true,
+      "portfolio_composition": [
+        {
+          "Symbol": "COLGATE",
+          "Company": "Colgate-Palmolive (India) Ltd",
+          "Sector": "Fast Moving Consumer Goods",
+          "Weight": 0.5,
+          "QVM_Score": 1.0158397961652357,
+          "QMR_Beta": 1.3602903383900509
+        },
+        {
+          "Symbol": "IRCTC",
+          "Company": "Indian Railway Catering & Tourism Corporation Ltd",
+          "Sector": "Consumer Services",
+          "Weight": 0.5,
+          "QVM_Score": 1.0192532971827535,
+          "QMR_Beta": 1.3647095043009263
+        }
+      ],
+      "metrics": {
+        "expected_return": 0.10532799377198443,
+        "volatility": 0.04317373928499486,
+        "sharpe_ratio": 1.1657084747689679,
+        "sortino_ratio": 1.6306042534933618,
+        "max_drawdown": -0.0329525040510509,
+        "number_of_stocks": 2
+      },
+      "constraint_satisfaction": {
+        "sortino_constraint_met": 
